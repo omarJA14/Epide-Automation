@@ -1,9 +1,9 @@
 package Keywords.commun;
 
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import java.text.SimpleDateFormat
-import java.time.Duration
 
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
@@ -13,12 +13,10 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.model.FailureHandling as FH
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.model.FailureHandling as FH
 import com.kms.katalon.core.testdata.TestDataFactory
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
@@ -86,32 +84,32 @@ class UtilsEpide {
 	}
 
 	@Keyword
-    def verifyTitles(List actual, List expected, List forbidden) {
+	def verifyTitles(List actual, List expected, List forbidden) {
 
-        List<String> errors = []
+		List<String> errors = []
 
-        expected.each { title ->
-            WebUI.comment("Vérification présence : " + title)
-            if (actual.any { it == title }) {
-                WebUI.comment("Présent comme prévu : $title")
-            } else {
-                WebUI.comment("Manquant : $title")
-                errors << "Le titre '$title' devait être présent mais ne l'est pas."
-            }
-        }
+		expected.each { title ->
+			WebUI.comment("Vérification présence : " + title)
+			if (actual.any { it == title }) {
+				WebUI.comment("Présent comme prévu : $title")
+			} else {
+				WebUI.comment("Manquant : $title")
+				errors << "Le titre '$title' devait être présent mais ne l'est pas."
+			}
+		}
 
-        forbidden.each { title ->
-            WebUI.comment("Vérification absence : " + title)
-            if (actual.any { it == title }) {
-                WebUI.comment("Présent alors qu'il ne devrait pas : $title")
-                errors << "Le titre '$title' ne devait pas être présent mais il l'est."
-            } else {
-                WebUI.comment("Correctement absent : $title")
-            }
-        }
+		forbidden.each { title ->
+			WebUI.comment("Vérification absence : " + title)
+			if (actual.any { it == title }) {
+				WebUI.comment("Présent alors qu'il ne devrait pas : $title")
+				errors << "Le titre '$title' ne devait pas être présent mais il l'est."
+			} else {
+				WebUI.comment("Correctement absent : $title")
+			}
+		}
 
-        assert errors.isEmpty() : errors.join("\n")
-    }
+		assert errors.isEmpty() : errors.join("\n")
+	}
 
 
 	@Keyword
@@ -133,14 +131,14 @@ class UtilsEpide {
 			WebUI.comment("L’élément ${label} n’est pas visible, comme prévu.")
 		}
 	}
-	
+
 	@Keyword
 	def searchJeuneInRub(String prenom) {
 		TestObject champPrenomjeune = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes')
 		clearAndSetText(champPrenomjeune, prenom)
 		WebUI.sendKeys(champPrenomjeune, Keys.chord(Keys.ENTER))
 	}
-	
+
 	@Keyword
 	def searchJeuneInRubAndClick(String prenom) {
 		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Jeunes'))
@@ -325,28 +323,28 @@ class UtilsEpide {
 
 	@Keyword
 	def selectAddressInDialog(String addressToSelect, int timeout = 10) {
-	
+
 		TestObject dialogTO = new TestObject("dialogContainer")
 		dialogTO.addProperty("xpath", ConditionType.EQUALS, "//mat-dialog-container[contains(@class,'mat-dialog-container')]")
-	
+
 		boolean dialogVisible = WebUI.waitForElementVisible(dialogTO, timeout, FH.OPTIONAL)
 		assert dialogVisible : "Le dialogue d'adresse n'est pas visible."
 		WebUI.comment("Dialogue d'adresse visible.")
-	
+
 		// Conversion en minuscules pour insensibilité à la casse
 		String addressLower = addressToSelect.toLowerCase()
-	
+
 		TestObject addressTO = new TestObject("addressToSelect")
 		String xpath = "//mat-dialog-container[contains(@class,'mat-dialog-container')]//div[contains(@class,'bloc-address') and contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '" + addressLower + "')]"
 		addressTO.addProperty("xpath", ConditionType.EQUALS, xpath)
-	
+
 		boolean addressVisible = WebUI.waitForElementVisible(addressTO, timeout, FH.OPTIONAL)
 		assert addressVisible : "L'adresse '${addressToSelect}' n'est pas présente dans le dialogue."
 		WebUI.comment("Adresse '${addressToSelect}' présente dans le dialogue.")
-	
+
 		WebUI.click(addressTO)
 		WebUI.comment("Adresse '${addressToSelect}' sélectionnée.")
-	
+
 		TestObject closeButton = new TestObject("closeButton")
 		closeButton.addProperty("xpath", ConditionType.EQUALS, "//mat-dialog-container[contains(@class,'mat-dialog-container')]//mat-icon[text()='close']")
 		if (WebUI.waitForElementVisible(closeButton, 2, FH.OPTIONAL)) {
@@ -354,9 +352,9 @@ class UtilsEpide {
 			WebUI.comment("Dialogue fermé.")
 		}
 	}
-	
-	
-	
+
+
+
 	@Keyword
 	def saveCloseAndCheckConfirmation() {
 		waitAndClick(findTestObject('Object Repository/Demande_Transfert/button_EnregistrerFermer'))
@@ -1240,16 +1238,16 @@ class UtilsEpide {
 
 		WebUI.delay(1)
 	}
-	
+
 	@Keyword
 	def verifyButtonDisappears(TestObject button, int timeout = 10) {
-	
+
 		String label = button.getObjectId() ?: "bouton"
-	
+
 		WebUI.comment("Vérification : disparition de ${label} après action…")
-	
+
 		boolean disappeared = WebUI.waitForElementNotPresent(button, timeout, FailureHandling.OPTIONAL)
-	
+
 		if (disappeared) {
 			WebUI.comment("${label} a correctement disparu.")
 		} else {
@@ -1264,7 +1262,7 @@ class UtilsEpide {
 	) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebDriverWait wait = new WebDriverWait(driver, 10)
-		
+
 
 		WebElement select = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(selectXPath)))
 
