@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test41004,Edge Chromium 143.0.3650.66,,,09-12-2025 08:38:35,09-12-2025 08:40:09,"1m - 34,561s",FAILED
+,,,,,,,
+Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel,Edge Chromium 143.0.3650.66,,,09-12-2025 08:38:36,09-12-2025 08:40:09,"1m - 33,414s",FAILED
+"data_entr_inf = findTestData(""entretien_inf"")",Edge Chromium 143.0.3650.66,,,09-12-2025 08:38:36,09-12-2025 08:38:36,"0,040s",PASSED
+totalRows = data_entr_inf.getRowNumbers(),Edge Chromium 143.0.3650.66,,,09-12-2025 08:38:36,09-12-2025 08:38:36,"0,050s",PASSED
+"Keywords.commun.UtilsEpide.Access_epide(""INF-Bordeaux"")",Edge Chromium 143.0.3650.66,,,09-12-2025 08:38:36,09-12-2025 08:40:07,"1m - 30,960s",FAILED
+Start listener action : afterTestCase,Edge Chromium 143.0.3650.66,,,09-12-2025 08:40:07,09-12-2025 08:40:09,"1,828s",PASSED

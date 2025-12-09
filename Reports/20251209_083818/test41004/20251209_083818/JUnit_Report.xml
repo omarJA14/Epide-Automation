@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test41004" time="94.414" tests="1" failures="1" errors="0">
+   <testsuite name="test41004" tests="1" failures="1" errors="0" time="94.414" skipped="0" timestamp="2025-12-09T07:38:35.381Z" hostname="A689947 - DESKTOP-MD4HFPD" id="Test Suites/test41004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818"/>
+         <property name="logFiles" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818\\console0.log, C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818\\1765266007409.png, C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818\\1765266007652.png, C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818\\C:/Users/A689947/Katalon Studio/EPIDE-Automation/Screenshots/Fail_Test Cases_Candidature_41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF cr\u00E9e un entretien individuel_1765266008036.png"/>
+         <property name="hostName" value="A689947 - DESKTOP-MD4HFPD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Edge Chromium 143.0.3650.66"/>
+         <property name="userFullName" value="Omar Jaddour"/>
+         <property name="hostAddress" value="192.168.254.186"/>
+         <property name="sessionId" value="bd00ccc0113ffac48eb5135ff79c4b72"/>
+         <property name="projectName" value="EPIDE-Automation"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel" time="93.414" classname="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)&#xa;	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:9)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1765265898379.run(TempTestSuite1765265898379.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' located by 'internal:role=link[name=&quot; Accueil&quot;i]' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 25 more&#xa;"/>
+         <system-out><![CDATA[09-12-2025T08:38:36 - [TEST_CASE][FAILED] - Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel: Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765265898379.run(TempTestSuite1765265898379.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' located by 'internal:role=link[name=" Accueil"i]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 25 more
+
+
+09-12-2025T08:38:36 - [TEST_STEP][PASSED] - data_entr_inf = findTestData("entretien_inf"): null
+
+09-12-2025T08:38:36 - [TEST_STEP][PASSED] - totalRows = data_entr_inf.getRowNumbers(): null
+
+09-12-2025T08:38:36 - [TEST_STEP][FAILED] - Keywords.commun.UtilsEpide.Access_epide("INF-Bordeaux"): Unable to verify object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' located by 'internal:role=link[name=" Accueil"i]' not found
+
+09-12-2025T08:38:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-12-2025T08:38:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2025T08:38:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-12-2025T08:38:42 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2025T08:38:46 - [MESSAGE][PASSED] - Navigate to 'https://preprod.name.epide.fr/ui' successfully
+
+09-12-2025T08:38:46 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body ? document.body.innerText : '';' successfully
+
+09-12-2025T08:38:47 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is visible
+
+09-12-2025T08:38:47 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is NOT clickable
+
+09-12-2025T08:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is clicked on
+
+09-12-2025T08:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is present
+
+09-12-2025T08:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is clicked on
+
+09-12-2025T08:39:14 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Epide_Username' is visible
+
+09-12-2025T08:39:15 - [MESSAGE][PASSED] - Text 'inf.Bordeaux@epidead.onmicrosoft.com' is set on object 'Object Repository/AuthentificationEpide/Epide_Username'
+
+09-12-2025T08:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is visible
+
+09-12-2025T08:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is NOT clickable
+
+09-12-2025T08:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is clicked on
+
+09-12-2025T08:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Epide_Passwd' is visible
+
+09-12-2025T08:39:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AuthentificationEpide/Epide_Passwd'
+
+09-12-2025T08:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_SeConnecter' is visible
+
+09-12-2025T08:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_SeConnecter' is NOT clickable
+
+09-12-2025T08:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_SeConnecter' is clicked on
+
+09-12-2025T08:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Text_ResterConnecter' is present
+
+09-12-2025T08:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is visible
+
+09-12-2025T08:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is NOT clickable
+
+09-12-2025T08:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is clicked on
+
+09-12-2025T08:40:07 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' located by 'internal:role=link[name=" Accueil"i]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' located by 'internal:role=link[name=" Accueil"i]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765265898379.run(TempTestSuite1765265898379.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818\\1765266007409.png]]
+
+09-12-2025T08:40:07 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765265898379.run(TempTestSuite1765265898379.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' located by 'internal:role=link[name=" Accueil"i]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 25 more
+)
+[[ATTACHMENT|C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818\\1765266007652.png]]
+
+09-12-2025T08:40:07 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' located by 'internal:role=link[name=" Accueil"i]' not found
+
+09-12-2025T08:40:07 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+09-12-2025T08:40:07 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED"): null
+
+09-12-2025T08:40:08 - [TEST_STEP][PASSED] - path = getProjectDir() + "/Screenshots/Fail_" + getTestCaseId().replaceAll("/", "_") + "_" + System.currentTimeMillis() + ".png": null
+
+09-12-2025T08:40:08 - [TEST_STEP][PASSED] - try: null
+
+09-12-2025T08:40:08 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+09-12-2025T08:40:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_083818\\test41004\\20251209_083818\\C:/Users/A689947/Katalon Studio/EPIDE-Automation/Screenshots/Fail_Test Cases_Candidature_41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF cr\u00E9e un entretien individuel_1765266008036.png]]
+
+09-12-2025T08:40:09 - [TEST_STEP][PASSED] - println("Screenshot pris : " + path): null
+
+09-12-2025T08:40:09 - [TEST_STEP][PASSED] - try: null
+
+09-12-2025T08:40:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2025T08:40:09 - [MESSAGE][PASSED] - Browser is closed
+
+09-12-2025T08:40:09 - [TEST_STEP][PASSED] - println("Navigateur fermé suite à l'échec du Test Case"): null]]></system-out>
+         <system-err><![CDATA[09-12-2025T08:38:36 - [TEST_CASE][FAILED] - Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel: Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765265898379.run(TempTestSuite1765265898379.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' located by 'internal:role=link[name=" Accueil"i]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 25 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-12-2025T08:38:35 - [TEST_SUITE][FAILED] - test41004: null]]></system-out>
+      <system-err><![CDATA[09-12-2025T08:38:35 - [TEST_SUITE][FAILED] - test41004: null]]></system-err>
+   </testsuite>
+</testsuites>

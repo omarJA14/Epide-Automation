@@ -1,0 +1,80 @@
+2025-12-09 08:42:45.010 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\A689947\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-12-09 08:42:45.030 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\A689947\Katalon Studio\EPIDE-Automation\Include\config\log.properties
+2025-12-09 08:42:47.229 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test41004
+2025-12-09 08:42:47.409 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Omar Jaddour
+2025-12-09 08:42:47.411 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = EPIDE-Automation
+2025-12-09 08:42:47.413 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = A689947 - DESKTOP-MD4HFPD
+2025-12-09 08:42:47.415 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-09 08:42:47.417 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.254.186
+2025-12-09 08:42:47.419 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-12-09 08:42:48.556 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-09 08:42:48.557 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-09 08:42:48.945 DEBUG n agent INF crée un entretien individuel - 1: data_entr_inf = findTestData("entretien_inf")
+2025-12-09 08:42:49.031 DEBUG n agent INF crée un entretien individuel - 2: totalRows = data_entr_inf.getRowNumbers()
+2025-12-09 08:42:49.147 DEBUG n agent INF crée un entretien individuel - 3: Keywords.commun.UtilsEpide.Access_epide("INF-Bordeaux")
+2025-12-09 08:42:50.417 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-12-09 08:42:50.629 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+déc. 09, 2025 8:42:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVERTISSEMENT: Unable to find CDP implementation matching 143
+déc. 09, 2025 8:42:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+AVERTISSEMENT: Unable to find version of CDP to use for 143.0.3650.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-09 08:42:56.074 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0bfe6c8c26d33620dfd4e05d4ea73fb3
+2025-12-09 08:42:56.077 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 143.0.3650.66
+2025-12-09 08:42:56.079 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-09 08:42:56.081 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-09 08:42:56.099 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+Pop-up 'Rester connecté' est trouvé
+Access Epide OK pour le profil : INF-Bordeaux
+2025-12-09 08:43:12.565 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.Access_epide is PASSED
+2025-12-09 08:43:12.575 DEBUG n agent INF crée un entretien individuel - 4: Commentaire_Social = "//*[@id='field_namEiCommentaireSocial']"
+2025-12-09 08:43:12.589 DEBUG n agent INF crée un entretien individuel - 5: Commentaire_Medical = "//*[@id='field_namEiCommentaireMedical1']"
+2025-12-09 08:43:12.596 DEBUG n agent INF crée un entretien individuel - 6: for ([i = 1, i <= totalRows, (i++)])
+2025-12-09 08:43:12.608 DEBUG n agent INF crée un entretien individuel - 1: prenom = data_entr_inf.getValue("Prénom du jeune", i)
+2025-12-09 08:43:12.616 DEBUG n agent INF crée un entretien individuel - 2: date_entretien = data_entr_inf.getValue("Date de l'entretien", i)
+2025-12-09 08:43:12.627 DEBUG n agent INF crée un entretien individuel - 3: objet_entretien = data_entr_inf.getValue("Objet de l'entretien", i)
+2025-12-09 08:43:12.656 DEBUG n agent INF crée un entretien individuel - 4: comm_gen = data_entr_inf.getValue("Commentaire général", i)
+2025-12-09 08:43:12.672 DEBUG n agent INF crée un entretien individuel - 5: comm_medical = data_entr_inf.getValue("Commentaire médical (accès réservé au professionnel de santé)", i)
+2025-12-09 08:43:12.687 DEBUG n agent INF crée un entretien individuel - 6: date_rv_prochain = data_entr_inf.getValue("Date du prochain RDV", i)
+2025-12-09 08:43:12.707 DEBUG n agent INF crée un entretien individuel - 7: Keywords.commun.UtilsEpide.searchJeuneAndClick(prenom)
+2025-12-09 08:43:19.255 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.searchJeuneAndClick is PASSED
+2025-12-09 08:43:19.259 DEBUG n agent INF crée un entretien individuel - 8: Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels"))
+2025-12-09 08:43:22.911 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+2025-12-09 08:43:22.917 DEBUG n agent INF crée un entretien individuel - 9: Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/button_Creer"))
+2025-12-09 08:43:25.720 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+2025-12-09 08:43:25.729 DEBUG n agent INF crée un entretien individuel - 10: Keywords.commun.UtilsEpide.verifyElementInPage(Commentaire_Medical, true, "Commentaire_Medical")
+2025-12-09 08:43:25.874 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ No signature of method: Keywords.commun.UtilsEpide.verifyElementInPage() is applicable for argument types: (String, Boolean, String) values: [//*[@id='field_namEiCommentaireMedical1'], true, Commentaire_Medical]
+Possible solutions: verifyElementInPage(java.lang.String, boolean), verifyElementInPage(java.lang.String, boolean, int)
+2025-12-09 08:43:25.904 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Keywords.commun.UtilsEpide.verifyElementInPage() is applicable for argument types: (String, Boolean, String) values: [//*[@id='field_namEiCommentaireMedical1'], true, Commentaire_Medical]
+Possible solutions: verifyElementInPage(java.lang.String, boolean), verifyElementInPage(java.lang.String, boolean, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:102)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765266122005.run(TempTestSuite1765266122005.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Keywords.commun.UtilsEpide.verifyElementInPage() is applicable for argument types: (String, Boolean, String) values: [//*[@id='field_namEiCommentaireMedical1'], true, Commentaire_Medical]
+Possible solutions: verifyElementInPage(java.lang.String, boolean), verifyElementInPage(java.lang.String, boolean, int)
+
+2025-12-09 08:43:25.946 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Keywords.commun.UtilsEpide.verifyElementInPage() is applicable for argument types: (String, Boolean, String) values: [//*[@id='field_namEiCommentaireMedical1'], true, Commentaire_Medical]
+Possible solutions: verifyElementInPage(java.lang.String, boolean), verifyElementInPage(java.lang.String, boolean, int)
+
+2025-12-09 08:43:26.062 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-09 08:43:27.019 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-09 08:43:27.019 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test41004
+2025-12-09 08:43:27.019 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

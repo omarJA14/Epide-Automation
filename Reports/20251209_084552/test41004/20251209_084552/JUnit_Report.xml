@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test41004" time="43.254" tests="1" failures="0" errors="1">
+   <testsuite name="test41004" tests="1" failures="0" errors="1" time="43.254" skipped="0" timestamp="2025-12-09T07:46:07.064Z" hostname="A689947 - DESKTOP-MD4HFPD" id="Test Suites/test41004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_084552\\test41004\\20251209_084552"/>
+         <property name="logFiles" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_084552\\test41004\\20251209_084552\\console0.log, C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_084552\\test41004\\20251209_084552\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_084552\\test41004\\20251209_084552\\C:/Users/A689947/Katalon Studio/EPIDE-Automation/Screenshots/Fail_Test Cases_Candidature_41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF cr\u00E9e un entretien individuel_1765266408512.png"/>
+         <property name="hostName" value="A689947 - DESKTOP-MD4HFPD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Edge Chromium 143.0.3650.66"/>
+         <property name="userFullName" value="Omar Jaddour"/>
+         <property name="hostAddress" value="192.168.254.186"/>
+         <property name="sessionId" value="6dc6a464b3e46b186d2cf6d3d73839aa"/>
+         <property name="projectName" value="EPIDE-Automation"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel" time="42.3" classname="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel" status="ERROR">
+         <error type="ERROR" message="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:27)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1765266352948.run(TempTestSuite1765266352948.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false&#xa;	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:116)&#xa;	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	... 17 more&#xa;"/>
+         <system-out><![CDATA[09-12-2025T08:46:08 - [TEST_CASE][ERROR] - Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel: Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765266352948.run(TempTestSuite1765266352948.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:116)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 17 more
+
+
+09-12-2025T08:46:08 - [TEST_STEP][PASSED] - data_entr_inf = findTestData("entretien_inf"): null
+
+09-12-2025T08:46:08 - [TEST_STEP][PASSED] - totalRows = data_entr_inf.getRowNumbers(): null
+
+09-12-2025T08:46:08 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.Access_epide("INF-Bordeaux"): Keywords.commun.UtilsEpide.Access_epide is PASSED
+
+09-12-2025T08:46:09 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-12-2025T08:46:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2025T08:46:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-12-2025T08:46:14 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2025T08:46:15 - [MESSAGE][PASSED] - Navigate to 'https://preprod.name.epide.fr/ui' successfully
+
+09-12-2025T08:46:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body ? document.body.innerText : '';' successfully
+
+09-12-2025T08:46:16 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is visible
+
+09-12-2025T08:46:17 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is NOT clickable
+
+09-12-2025T08:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is clicked on
+
+09-12-2025T08:46:20 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is present
+
+09-12-2025T08:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is clicked on
+
+09-12-2025T08:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Epide_Username' is visible
+
+09-12-2025T08:46:23 - [MESSAGE][PASSED] - Text 'inf.Bordeaux@epidead.onmicrosoft.com' is set on object 'Object Repository/AuthentificationEpide/Epide_Username'
+
+09-12-2025T08:46:23 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is visible
+
+09-12-2025T08:46:23 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is NOT clickable
+
+09-12-2025T08:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is clicked on
+
+09-12-2025T08:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Epide_Passwd' is visible
+
+09-12-2025T08:46:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AuthentificationEpide/Epide_Passwd'
+
+09-12-2025T08:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_SeConnecter' is visible
+
+09-12-2025T08:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_SeConnecter' is NOT clickable
+
+09-12-2025T08:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_SeConnecter' is clicked on
+
+09-12-2025T08:46:25 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Text_ResterConnecter' is present
+
+09-12-2025T08:46:26 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is visible
+
+09-12-2025T08:46:26 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is NOT clickable
+
+09-12-2025T08:46:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is clicked on
+
+09-12-2025T08:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present
+
+09-12-2025T08:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/PageAccess/List_NAMe' is present
+
+09-12-2025T08:46:31 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.Access_epide is PASSED
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - Commentaire_Social = "//*[@id='field_namEiCommentaireSocial']": null
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - Commentaire_Medical = "//*[@id='field_namEiCommentaireMedical1']": null
+
+09-12-2025T08:46:31 - [TEST_STEP][FAILED] - for ([i = 1, i <= totalRows, (i++)]): Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:116)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765266352948.run(TempTestSuite1765266352948.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - prenom = data_entr_inf.getValue("Prénom du jeune", i): null
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - date_entretien = data_entr_inf.getValue("Date de l'entretien", i): null
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - objet_entretien = data_entr_inf.getValue("Objet de l'entretien", i): null
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - comm_gen = data_entr_inf.getValue("Commentaire général", i): null
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - comm_medical = data_entr_inf.getValue("Commentaire médical (accès réservé au professionnel de santé)", i): null
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - date_rv_prochain = data_entr_inf.getValue("Date du prochain RDV", i): null
+
+09-12-2025T08:46:31 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.searchJeuneAndClick(prenom): Keywords.commun.UtilsEpide.searchJeuneAndClick is PASSED
+
+09-12-2025T08:46:32 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/Rub_Jeunes' is visible
+
+09-12-2025T08:46:32 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/Rub_Jeunes' is NOT clickable
+
+09-12-2025T08:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Commission_Admission/Rub_Jeunes' is clicked on
+
+09-12-2025T08:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes' is visible
+
+09-12-2025T08:46:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes' is cleared
+
+09-12-2025T08:46:36 - [MESSAGE][PASSED] - Text 'TRATKatalonPrenom13' is set on object 'Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes'
+
+09-12-2025T08:46:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes'
+
+09-12-2025T08:46:37 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i' is visible
+
+09-12-2025T08:46:37 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i' is NOT clickable
+
+09-12-2025T08:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i' is clicked on
+
+09-12-2025T08:46:37 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.searchJeuneAndClick is PASSED
+
+09-12-2025T08:46:37 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+09-12-2025T08:46:39 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels' is visible
+
+09-12-2025T08:46:40 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels' is NOT clickable
+
+09-12-2025T08:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels' is clicked on
+
+09-12-2025T08:46:40 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+09-12-2025T08:46:40 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/button_Creer")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+09-12-2025T08:46:41 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/button_Creer' is visible
+
+09-12-2025T08:46:42 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/button_Creer' is NOT clickable
+
+09-12-2025T08:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ComunCI/Page_Simplicit/button_Creer' is clicked on
+
+09-12-2025T08:46:42 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+09-12-2025T08:46:42 - [TEST_STEP][FAILED] - Keywords.commun.UtilsEpide.verifyElementInPage(Commentaire_Medical, true, "Commentaire_Medical"): Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:116)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765266352948.run(TempTestSuite1765266352948.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+09-12-2025T08:46:48 - [MESSAGE][WARNING] - Web element with id: 'dynamicElement' located by 'By.xpath: //*[@id='field_namEiCommentaireMedical1']' not found
+
+09-12-2025T08:46:48 - [MESSAGE][INFO] - Vérification visibilité : Commentaire_Medical
+
+09-12-2025T08:46:48 - [MESSAGE][FAILED] - java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+
+09-12-2025T08:46:48 - [MESSAGE][FAILED] - Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:116)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765266352948.run(TempTestSuite1765266352948.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+09-12-2025T08:46:48 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+09-12-2025T08:46:48 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED"): null
+
+09-12-2025T08:46:48 - [TEST_STEP][PASSED] - path = getProjectDir() + "/Screenshots/Fail_" + getTestCaseId().replaceAll("/", "_") + "_" + System.currentTimeMillis() + ".png": null
+
+09-12-2025T08:46:48 - [TEST_STEP][PASSED] - try: null
+
+09-12-2025T08:46:48 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+09-12-2025T08:46:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_084552\\test41004\\20251209_084552\\C:/Users/A689947/Katalon Studio/EPIDE-Automation/Screenshots/Fail_Test Cases_Candidature_41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF cr\u00E9e un entretien individuel_1765266408512.png]]
+
+09-12-2025T08:46:49 - [TEST_STEP][PASSED] - println("Screenshot pris : " + path): null
+
+09-12-2025T08:46:49 - [TEST_STEP][PASSED] - try: null
+
+09-12-2025T08:46:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2025T08:46:50 - [MESSAGE][PASSED] - Browser is closed
+
+09-12-2025T08:46:50 - [TEST_STEP][PASSED] - println("Navigateur fermé suite à l'échec du Test Case"): null]]></system-out>
+         <system-err><![CDATA[09-12-2025T08:46:08 - [TEST_CASE][ERROR] - Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel: Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765266352948.run(TempTestSuite1765266352948.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.AssertionError: L’élément Commentaire_Medical devait être VISIBLE mais ne l’est pas.. Expression: visible. Values: visible = false
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:116)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 17 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-12-2025T08:46:07 - [TEST_SUITE][ERROR] - test41004: null]]></system-out>
+      <system-err><![CDATA[09-12-2025T08:46:07 - [TEST_SUITE][ERROR] - test41004: null]]></system-err>
+   </testsuite>
+</testsuites>

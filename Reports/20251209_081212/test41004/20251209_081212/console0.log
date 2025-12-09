@@ -1,0 +1,93 @@
+2025-12-09 08:12:55.464 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\A689947\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-12-09 08:12:55.474 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\A689947\Katalon Studio\EPIDE-Automation\Include\config\log.properties
+2025-12-09 08:12:58.084 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test41004
+2025-12-09 08:12:58.436 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Omar Jaddour
+2025-12-09 08:12:58.439 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = EPIDE-Automation
+2025-12-09 08:12:58.442 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = A689947 - DESKTOP-MD4HFPD
+2025-12-09 08:12:58.445 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-09 08:12:58.447 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.254.186
+2025-12-09 08:12:58.451 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-12-09 08:13:00.070 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-09 08:13:00.070 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-09 08:13:00.547 DEBUG n agent INF crée un entretien individuel - 1: data_entr_inf = findTestData("entretien_inf")
+2025-12-09 08:13:00.666 DEBUG n agent INF crée un entretien individuel - 2: totalRows = data_entr_inf.getRowNumbers()
+2025-12-09 08:13:00.776 DEBUG n agent INF crée un entretien individuel - 3: Keywords.commun.UtilsEpide.Access_epide("INF-Bordeaux")
+2025-12-09 08:13:02.576 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-12-09 08:13:02.844 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+déc. 09, 2025 8:13:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVERTISSEMENT: Unable to find CDP implementation matching 143
+déc. 09, 2025 8:13:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+AVERTISSEMENT: Unable to find version of CDP to use for 143.0.3650.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-09 08:13:08.616 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bd90ec538502f5f96b8e33ac472725c6
+2025-12-09 08:13:08.620 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 143.0.3650.66
+2025-12-09 08:13:08.622 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-09 08:13:08.625 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-09 08:13:08.646 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+Pop-up 'Rester connecté' est trouvé
+Access Epide OK pour le profil : INF-Bordeaux
+2025-12-09 08:13:24.516 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.Access_epide is PASSED
+2025-12-09 08:13:24.523 DEBUG n agent INF crée un entretien individuel - 4: for ([i = 1, i <= totalRows, (i++)])
+2025-12-09 08:13:24.540 DEBUG n agent INF crée un entretien individuel - 1: prenom = data_entr_inf.getValue("Prénom du jeune", i)
+2025-12-09 08:13:24.552 DEBUG n agent INF crée un entretien individuel - 2: date_entretien = data_entr_inf.getValue("Date de l'entretien", i)
+2025-12-09 08:13:24.562 DEBUG n agent INF crée un entretien individuel - 3: objet_entretien = data_entr_inf.getValue("Objet de l'entretien", i)
+2025-12-09 08:13:24.575 DEBUG n agent INF crée un entretien individuel - 4: comm_gen = data_entr_inf.getValue("Commentaire général", i)
+2025-12-09 08:13:24.619 DEBUG n agent INF crée un entretien individuel - 5: comm_medical = data_entr_inf.getValue("Commentaire médical (accès réservé au professionnel de santé)", i)
+2025-12-09 08:13:24.647 DEBUG n agent INF crée un entretien individuel - 6: date_rv_prochain = data_entr_inf.getValue("Date du prochain RDV", i)
+2025-12-09 08:13:24.663 DEBUG n agent INF crée un entretien individuel - 7: Keywords.commun.UtilsEpide.searchJeuneAndClick(prenom)
+2025-12-09 08:13:30.248 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.searchJeuneAndClick is PASSED
+2025-12-09 08:13:30.255 DEBUG n agent INF crée un entretien individuel - 8: Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels"))
+2025-12-09 08:13:34.046 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+2025-12-09 08:13:34.056 DEBUG n agent INF crée un entretien individuel - 9: Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/button_Creer"))
+2025-12-09 08:13:35.824 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+2025-12-09 08:13:35.827 DEBUG n agent INF crée un entretien individuel - 10: Keywords.commun.UtilsEpide.verifyElementInPage("//*[@id='field_namEiCommentaireMedical1']", true)
+2025-12-09 08:13:46.065 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'dynamicElement' located by 'By.xpath: //*[@id='field_namEiCommentaireMedical1']' not found
+2025-12-09 08:13:46.078 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ ERREUR : L'élément devait être présent mais ne l'est pas.
+2025-12-09 08:13:46.082 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.
+2025-12-09 08:13:46.090 DEBUG n agent INF crée un entretien individuel - 11: Keywords.commun.UtilsEpide.verifyElementInPage("//*[@id='field_namEiCommentaireSocial']", false)
+2025-12-09 08:13:56.592 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Object 'dynamicElement' is not visible after 10 second(s)
+2025-12-09 08:13:56.597 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ OK : L'élément n'est pas présent dans cette page.
+2025-12-09 08:13:56.602 DEBUG n agent INF crée un entretien individuel - 12: dateEntretien = findTestObject("Object Repository/ComunCI/Page_Simplicit/input_DateEntretien")
+2025-12-09 08:13:56.669 DEBUG n agent INF crée un entretien individuel - 13: Keywords.commun.UtilsEpide.setDateField(dateEntretien, date_entretien)
+2025-12-09 08:13:59.221 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.setDateField is PASSED
+2025-12-09 08:13:59.224 DEBUG n agent INF crée un entretien individuel - 14: Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_ObjetEntretien"), objet_entretien)
+2025-12-09 08:14:00.533 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+2025-12-09 08:14:00.538 DEBUG n agent INF crée un entretien individuel - 15: Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_CommentaireGeneral"), comm_gen)
+2025-12-09 08:14:01.879 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+2025-12-09 08:14:01.884 DEBUG n agent INF crée un entretien individuel - 16: Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_CommentaireMedical"), comm_medical)
+2025-12-09 08:14:03.297 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+2025-12-09 08:14:03.299 DEBUG n agent INF crée un entretien individuel - 17: dateProchainRV = findTestObject("Object Repository/ComunCI/Page_Simplicit/input_DateProchainRDV")
+2025-12-09 08:14:03.340 DEBUG n agent INF crée un entretien individuel - 18: Keywords.commun.UtilsEpide.setDateField(dateProchainRV, date_rv_prochain)
+2025-12-09 08:14:05.935 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.setDateField is PASSED
+2025-12-09 08:14:05.942 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:117)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765264332926.run(TempTestSuite1765264332926.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Screenshot pris : C:/Users/A689947/Katalon Studio/EPIDE-Automation/Screenshots/Fail_Test Cases_Candidature_41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel_1765264446021.png
+Navigateur fermé suite à l'échec du Test Case
+2025-12-09 08:14:07.236 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-09 08:14:07.344 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-09 08:14:07.344 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test41004
+2025-12-09 08:14:07.344 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -16,7 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-//Access to CRV
-CustomKeywords.'Keywords.commun.UtilsEpide.Access_epide'('CRV')
 
-WebUI.closeBrowser()
+//commit

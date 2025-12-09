@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test41004,Edge Chromium 143.0.3650.66,,,09-12-2025 08:42:47,09-12-2025 08:43:27,"39,654s",ERROR
+,,,,,,,
+Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel,Edge Chromium 143.0.3650.66,,,09-12-2025 08:42:48,09-12-2025 08:43:26,"37,507s",ERROR
+"data_entr_inf = findTestData(""entretien_inf"")",Edge Chromium 143.0.3650.66,,,09-12-2025 08:42:48,09-12-2025 08:42:49,"0,086s",PASSED
+totalRows = data_entr_inf.getRowNumbers(),Edge Chromium 143.0.3650.66,,,09-12-2025 08:42:49,09-12-2025 08:42:49,"0,114s",PASSED
+"Keywords.commun.UtilsEpide.Access_epide(""INF-Bordeaux"")",Edge Chromium 143.0.3650.66,,,09-12-2025 08:42:49,09-12-2025 08:43:12,"23,426s",PASSED
+"Commentaire_Social = ""//*[@id='field_namEiCommentaireSocial']""",Edge Chromium 143.0.3650.66,,,09-12-2025 08:43:12,09-12-2025 08:43:12,"0,010s",PASSED
+"Commentaire_Medical = ""//*[@id='field_namEiCommentaireMedical1']""",Edge Chromium 143.0.3650.66,,,09-12-2025 08:43:12,09-12-2025 08:43:12,"0,005s",PASSED
+"for ([i = 1, i <= totalRows, (i++)])",Edge Chromium 143.0.3650.66,,,09-12-2025 08:43:12,09-12-2025 08:43:25,"13,332s",ERROR
+Start listener action : afterTestCase,Edge Chromium 143.0.3650.66,,,09-12-2025 08:43:26,09-12-2025 08:43:26,"0,024s",PASSED

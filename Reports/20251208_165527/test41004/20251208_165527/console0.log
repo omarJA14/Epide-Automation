@@ -1,0 +1,525 @@
+2025-12-08 16:56:30.185 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\A689947\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2025-12-08 16:56:30.208 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\A689947\Katalon Studio\EPIDE-Automation\Include\config\log.properties
+2025-12-08 16:56:38.033 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test41004
+2025-12-08 16:56:38.863 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Omar Jaddour
+2025-12-08 16:56:38.870 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = EPIDE-Automation
+2025-12-08 16:56:38.877 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = A689947 - DESKTOP-MD4HFPD
+2025-12-08 16:56:38.883 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-08 16:56:38.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.254.186
+2025-12-08 16:56:38.894 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-12-08 16:56:43.331 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-08 16:56:43.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-08 16:56:44.757 DEBUG n agent INF crée un entretien individuel - 1: data_entr_inf = findTestData("entretien_inf")
+2025-12-08 16:56:45.005 DEBUG n agent INF crée un entretien individuel - 2: totalRows = data_entr_inf.getRowNumbers()
+2025-12-08 16:56:45.190 DEBUG n agent INF crée un entretien individuel - 3: Keywords.commun.UtilsEpide.Access_epide("INF-Bordeaux")
+2025-12-08 16:56:48.141 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-12-08 16:56:48.591 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+déc. 08, 2025 4:57:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVERTISSEMENT: Unable to find CDP implementation matching 143
+déc. 08, 2025 4:57:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+AVERTISSEMENT: Unable to find version of CDP to use for 143.0.3650.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-08 16:57:12.132 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8952044b99291f9dae8b2c3ea69589ca
+2025-12-08 16:57:12.151 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 143.0.3650.66
+2025-12-08 16:57:12.160 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-08 16:57:12.174 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-08 16:57:12.243 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+Pop-up 'Rester connecté' est trouvé
+Access Epide OK pour le profil : INF-Bordeaux
+2025-12-08 16:57:54.046 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.Access_epide is PASSED
+2025-12-08 16:57:54.129 DEBUG n agent INF crée un entretien individuel - 4: for ([i = 1, i <= totalRows, (i++)])
+2025-12-08 16:57:54.156 DEBUG n agent INF crée un entretien individuel - 1: prenom = data_entr_inf.getValue("Prénom du jeune", i)
+2025-12-08 16:57:54.174 DEBUG n agent INF crée un entretien individuel - 2: date_entretien = data_entr_inf.getValue("Date de l'entretien", i)
+2025-12-08 16:57:54.205 DEBUG n agent INF crée un entretien individuel - 3: objet_entretien = data_entr_inf.getValue("Objet de l'entretien", i)
+2025-12-08 16:57:54.281 DEBUG n agent INF crée un entretien individuel - 4: comm_gen = data_entr_inf.getValue("Commentaire général", i)
+2025-12-08 16:57:54.332 DEBUG n agent INF crée un entretien individuel - 5: comm_medical = data_entr_inf.getValue("Commentaire médical (accès réservé au professionnel de santé)", i)
+2025-12-08 16:57:54.374 DEBUG n agent INF crée un entretien individuel - 6: date_rv_prochain = data_entr_inf.getValue("Date du prochain RDV", i)
+2025-12-08 16:57:54.449 DEBUG n agent INF crée un entretien individuel - 7: Keywords.commun.UtilsEpide.searchJeuneAndClick(prenom)
+2025-12-08 16:58:14.504 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.searchJeuneAndClick is PASSED
+2025-12-08 16:58:14.576 DEBUG n agent INF crée un entretien individuel - 8: Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels"))
+2025-12-08 16:58:25.509 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+2025-12-08 16:58:25.528 DEBUG n agent INF crée un entretien individuel - 9: Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/button_Creer"))
+2025-12-08 16:58:29.990 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+2025-12-08 16:58:30.021 DEBUG n agent INF crée un entretien individuel - 10: Keywords.commun.UtilsEpide.verifyElementInPage("//*[@id='field_namEiCommentaireMedical1']", true)
+2025-12-08 16:58:40.839 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'dynamicElement' located by 'By.xpath: //*[@id='field_namEiCommentaireMedical1']' not found
+2025-12-08 16:58:40.884 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ ERREUR : L'élément devait être présent mais ne l'est pas.
+2025-12-08 16:58:40.897 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.
+2025-12-08 16:58:40.911 DEBUG n agent INF crée un entretien individuel - 11: Keywords.commun.UtilsEpide.verifyElementInPage("//*[@id='field_namEiCommentaireSocial']", false)
+2025-12-08 16:58:51.838 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Object 'dynamicElement' is not visible after 10 second(s)
+2025-12-08 16:58:51.842 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ OK : L'élément n'est pas présent dans cette page.
+2025-12-08 16:58:51.849 DEBUG n agent INF crée un entretien individuel - 12: dateEntretien = findTestObject("Object Repository/ComunCI/Page_Simplicit/input_DateEntretien")
+2025-12-08 16:58:51.911 DEBUG n agent INF crée un entretien individuel - 13: Keywords.commun.UtilsEpide.setDateField(dateEntretien, date_entretien)
+2025-12-08 16:58:55.475 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.setDateField is PASSED
+2025-12-08 16:58:55.483 DEBUG n agent INF crée un entretien individuel - 14: Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_ObjetEntretien"), objet_entretien)
+2025-12-08 16:58:57.618 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+2025-12-08 16:58:57.625 DEBUG n agent INF crée un entretien individuel - 15: Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_CommentaireGeneral"), comm_gen)
+2025-12-08 16:59:00.375 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+2025-12-08 16:59:00.385 DEBUG n agent INF crée un entretien individuel - 16: Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_CommentaireMedical"), comm_medical)
+2025-12-08 16:59:03.294 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+2025-12-08 16:59:03.308 DEBUG n agent INF crée un entretien individuel - 17: dateProchainRV = findTestObject("Object Repository/ComunCI/Page_Simplicit/input_DateProchainRDV")
+2025-12-08 16:59:03.443 DEBUG n agent INF crée un entretien individuel - 18: Keywords.commun.UtilsEpide.setDateField(dateProchainRV, date_rv_prochain)
+2025-12-08 16:59:07.406 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - Keywords.commun.UtilsEpide.setDateField is PASSED
+2025-12-08 16:59:07.423 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:117)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765209327064.run(TempTestSuite1765209327064.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Screenshot pris : C:/Users/A689947/Katalon Studio/EPIDE-Automation/Screenshots/Fail_Test Cases_Candidature_41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel_1765209547764.png
+Navigateur fermé suite à l'échec du Test Case
+2025-12-08 16:59:14.096 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-08 16:59:14.391 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-08 16:59:14.391 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-08 16:59:14.843 DEBUG n agent INF crée un entretien individuel - 1: data_entr_inf = findTestData("entretien_inf")
+2025-12-08 16:59:14.956 DEBUG n agent INF crée un entretien individuel - 2: totalRows = data_entr_inf.getRowNumbers()
+2025-12-08 16:59:15.075 DEBUG n agent INF crée un entretien individuel - 3: Keywords.commun.UtilsEpide.Access_epide("INF-Bordeaux")
+2025-12-08 16:59:15.453 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-12-08 16:59:15.521 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+déc. 08, 2025 4:59:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVERTISSEMENT: Unable to find CDP implementation matching 143
+déc. 08, 2025 4:59:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+AVERTISSEMENT: Unable to find version of CDP to use for 143.0.3650.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-08 16:59:27.895 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8949d3541dd1fcb9817573e5e0b4395b
+2025-12-08 16:59:27.901 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 143.0.3650.66
+2025-12-08 16:59:27.904 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-08 16:59:27.908 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-08 16:59:27.918 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+Pop-up 'Rester connecté' est trouvé
+déc. 08, 2025 5:00:24 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+AVERTISSEMENT: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+
+déc. 08, 2025 5:00:41 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+AVERTISSEMENT: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+
+2025-12-08 17:00:41.076 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2025-12-08 17:00:41.122 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Keywords.commun.UtilsEpide.waitAndClick(UtilsEpide.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765209327064.run(TempTestSuite1765209327064.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [8949d3541dd1fcb9817573e5e0b4395b, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.66, fedcm:accounts: true, goog:processID: 20548, ms:edgeOptions: {debuggerAddress: localhost:63936}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\A689947\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63936/devtoo..., se:cdpVersion: 143.0.3650.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:17174/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [org.openqa.selenium.remote.RemoteWebElement@601fa420 -> unknown locator]
+Session ID: 8949d3541dd1fcb9817573e5e0b4395b
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$e6EVAyoC.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Keywords.commun.UtilsEpide.waitAndClick(UtilsEpide.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1765183884611.run(Script1765183884611.groovy:9)
+	... 16 more
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:591)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 3 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:348)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:675)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+)
+2025-12-08 17:00:41.152 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ Unable to click on object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co'
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [8949d3541dd1fcb9817573e5e0b4395b, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.66, fedcm:accounts: true, goog:processID: 20548, ms:edgeOptions: {debuggerAddress: localhost:63936}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\A689947\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63936/devtoo..., se:cdpVersion: 143.0.3650.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:17174/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [org.openqa.selenium.remote.RemoteWebElement@601fa420 -> unknown locator]
+Session ID: 8949d3541dd1fcb9817573e5e0b4395b
+2025-12-08 17:00:41.183 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Keywords.commun.UtilsEpide.waitAndClick(UtilsEpide.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765209327064.run(TempTestSuite1765209327064.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [8949d3541dd1fcb9817573e5e0b4395b, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.66, fedcm:accounts: true, goog:processID: 20548, ms:edgeOptions: {debuggerAddress: localhost:63936}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\A689947\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63936/devtoo..., se:cdpVersion: 143.0.3650.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:17174/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [org.openqa.selenium.remote.RemoteWebElement@601fa420 -> unknown locator]
+Session ID: 8949d3541dd1fcb9817573e5e0b4395b
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$e6EVAyoC.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Keywords.commun.UtilsEpide.waitAndClick(UtilsEpide.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Keywords.commun.UtilsEpide.Access_epide(UtilsEpide.groovy:1102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1765183884611.run(Script1765183884611.groovy:9)
+	... 16 more
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:591)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 3 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:348)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:675)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+
+2025-12-08 17:00:41.398 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:3075)
+	at Listener_CloseBrowserOnFailure.afterTestCase(Listener_ClosBrowserOnFailure.groovy:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765209327064.run(TempTestSuite1765209327064.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [8949d3541dd1fcb9817573e5e0b4395b, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.66, fedcm:accounts: true, goog:processID: 20548, ms:edgeOptions: {debuggerAddress: localhost:63936}, msedge: {msedgedriverVersion: 142.0.3595.53 (e9d637e9672e..., userDataDir: C:\Users\A689947\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63936/devtoo..., se:cdpVersion: 143.0.3650.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:17174/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8949d3541dd1fcb9817573e5e0b4395b
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:26)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$woPU5Gvy.getScreenshotAs(Unknown Source)
+	at com.kms.katalon.core.webui.util.FileUtil.takeDefaultScreenshot(FileUtil.java:390)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 24 more
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 3 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1083)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 2 more
+)
+Impossible de prendre le screenshot : Cannot take screenshot
+2025-12-08 17:00:42.838 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2025-12-08 17:00:42.885 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to close browser (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at Listener_CloseBrowserOnFailure.afterTestCase(Listener_ClosBrowserOnFailure.groovy:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765209327064.run(TempTestSuite1765209327064.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:325)
+	at org.openqa.selenium.remote.http.WebSocket.sendText(WebSocket.java:32)
+	at org.openqa.selenium.bidi.Connection.send(Connection.java:157)
+	at org.openqa.selenium.bidi.Connection.clearListeners(Connection.java:252)
+	at org.openqa.selenium.bidi.BiDi.clearListeners(BiDi.java:119)
+	at org.openqa.selenium.bidi.BiDi.close(BiDi.java:39)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:442)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:442)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.quit(CEdgeDriver.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$woPU5Gvy.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:880)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 24 more
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask.tryCompleteWrite(TransportImpl.java:613)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask.run(TransportImpl.java:551)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl.sendText(TransportImpl.java:149)
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendText(WebSocketImpl.java:192)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$1(JdkHttpClient.java:276)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:315)
+	... 43 more
+)
+Impossible de fermer le navigateur : Unable to close browser
+2025-12-08 17:00:43.018 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-08 17:00:43.037 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-08 17:00:43.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel
+2025-12-08 17:00:43.317 DEBUG n agent INF crée un entretien individuel - 1: data_entr_inf = findTestData("entretien_inf")
+2025-12-08 17:00:43.386 DEBUG n agent INF crée un entretien individuel - 2: totalRows = data_entr_inf.getRowNumbers()
+2025-12-08 17:00:43.400 DEBUG n agent INF crée un entretien individuel - 3: Keywords.commun.UtilsEpide.Access_epide("INF-Bordeaux")
+2025-12-08 17:00:43.521 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-12-08 17:00:43.651 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds

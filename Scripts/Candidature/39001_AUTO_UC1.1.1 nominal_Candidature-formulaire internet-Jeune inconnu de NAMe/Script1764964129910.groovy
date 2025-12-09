@@ -4,8 +4,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.testdata.TestDataFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-
-
 def data_createcandidat = TestDataFactory.findTestData("FormulaireInternet/creation_candidat")
 def totalRows = data_createcandidat.getRowNumbers()
 
@@ -63,7 +61,6 @@ for (int i = 1; i <= totalRows; i++) {
 	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndSet'(findTestObject('Object Repository/formulaire_internet_creation_candidat/input_TelephonePortable'), telephone_portable)
 	
 	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndSet'(findTestObject('Object Repository/formulaire_internet_creation_candidat/input_TelephoneFixe'), telephone_fixe)
-//Adresse
 	
 	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndSet'(findTestObject('Object Repository/formulaire_internet_creation_candidat/input_NumeroDeVoie'), numero_voie)
 	

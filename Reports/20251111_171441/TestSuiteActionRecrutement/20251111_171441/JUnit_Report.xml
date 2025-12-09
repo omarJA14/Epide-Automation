@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteActionRecrutement" time="94.265" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuiteActionRecrutement" tests="1" failures="0" errors="0" time="94.265" skipped="0" timestamp="11-11-2025T17:15:28" hostname="A689947 - DESKTOP-MD4HFPD" id="Test Suites/TestSuiteActionRecrutement">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251111_171441\\TestSuiteActionRecrutement\\20251111_171441"/>
+         <property name="logFiles" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251111_171441\\TestSuiteActionRecrutement\\20251111_171441\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="A689947 - DESKTOP-MD4HFPD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.6.223"/>
+         <property name="browser" value="Edge Chromium 142"/>
+         <property name="hostAddress" value="192.168.254.186"/>
+         <property name="sessionId" value="428a326e194cfad7ada67c98e8914067"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=193.56.47.20, proxyServerPort=8080, executionList=&quot;portal.rrf-dev.fr&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Recrutement/ActionRecrutement" time="93.567" classname="Test Cases/Recrutement/ActionRecrutement" status="PASSED">
+         <system-out><![CDATA[11-11-2025T17:15:29 - [TEST_CASE][PASSED] - Test Cases/Recrutement/ActionRecrutement: Test Cases/Recrutement/ActionRecrutement
+
+11-11-2025T17:15:30 - [TEST_STEP][PASSED] - data_actionrecrut = findTestData("action_recrutement"): null
+
+11-11-2025T17:15:30 - [TEST_STEP][PASSED] - totalRows = data_actionrecrut.getRowNumbers(): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - for ([i = 1, i <= totalRows, (i++)]): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - dataheure_actionrecrut = data_actionrecrut.getValue("Date et heure", i): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - typactionrecrutement = data_actionrecrut.getValue("Type d'action de recrutement", i): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - centre_epide = data_actionrecrut.getValue("Centre EPIDE", i): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - rappel_auto = data_actionrecrut.getValue("Rappel automatique", i): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - lieu = data_actionrecrut.getValue("Lieu", i): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - prenomjeune_selec = data_actionrecrut.getValue("Prénom du jeune à sélectionner", i): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - statutpresentabsent = data_actionrecrut.getValue("Présent / Absent", i): null
+
+11-11-2025T17:15:31 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.Access_epide("CRV"): Keywords.commun.UtilsEpide.Access_epide is PASSED
+
+11-11-2025T17:15:33 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+11-11-2025T17:15:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-11-2025T17:15:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-11-2025T17:15:43 - [MESSAGE][PASSED] - Current window maximized
+
+11-11-2025T17:15:46 - [MESSAGE][PASSED] - Navigate to 'https://preprod.name.epide.fr/ui' successfully
+
+11-11-2025T17:15:47 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body ? document.body.innerText : '';' successfully
+
+11-11-2025T17:15:50 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is visible
+
+11-11-2025T17:15:51 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is clickable
+
+11-11-2025T17:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is clicked on
+
+11-11-2025T17:15:58 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is visible
+
+11-11-2025T17:15:59 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is clickable
+
+11-11-2025T17:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is clicked on
+
+11-11-2025T17:16:01 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Epide_Username' is visible
+
+11-11-2025T17:16:03 - [MESSAGE][PASSED] - Text 'crv.Bordeaux@epidead.onmicrosoft.com' is set on object 'Object Repository/AuthentificationEpide/Epide_Username'
+
+11-11-2025T17:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is visible
+
+11-11-2025T17:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is clickable
+
+11-11-2025T17:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is clicked on
+
+11-11-2025T17:16:06 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Epide_Passwd' is visible
+
+11-11-2025T17:16:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AuthentificationEpide/Epide_Passwd'
+
+11-11-2025T17:16:07 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_SeConnecter' is visible
+
+11-11-2025T17:16:08 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_SeConnecter' is clickable
+
+11-11-2025T17:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_SeConnecter' is clicked on
+
+11-11-2025T17:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Text_ResterConnecter' is present
+
+11-11-2025T17:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is visible
+
+11-11-2025T17:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is clickable
+
+11-11-2025T17:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is clicked on
+
+11-11-2025T17:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present
+
+11-11-2025T17:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/PageAccess/List_NAMe' is present
+
+11-11-2025T17:16:18 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.Access_epide is PASSED
+
+11-11-2025T17:16:18 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/Epide_Candidature/Candidatures/Rubrique_GestionDesCandidats")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/Epide_Candidature/Candidatures/Rubrique_GestionDesCandidats' is visible
+
+11-11-2025T17:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/Epide_Candidature/Candidatures/Rubrique_GestionDesCandidats' is clickable
+
+11-11-2025T17:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Epide_Candidature/Candidatures/Rubrique_GestionDesCandidats' is clicked on
+
+11-11-2025T17:16:20 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:20 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/button_AR_ActionsRecrutement")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:20 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_ActionsRecrutement' is visible
+
+11-11-2025T17:16:20 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_ActionsRecrutement' is clickable
+
+11-11-2025T17:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_ActionsRecrutement' is clicked on
+
+11-11-2025T17:16:20 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:21 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Creer_Recrutement")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:22 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Creer_Recrutement' is visible
+
+11-11-2025T17:16:22 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Creer_Recrutement' is clickable
+
+11-11-2025T17:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Creer_Recrutement' is clicked on
+
+11-11-2025T17:16:22 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:22 - [TEST_STEP][PASSED] - dateField = findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/input_AR_DateHeure"): null
+
+11-11-2025T17:16:22 - [TEST_STEP][PASSED] - date_ar = Keywords.commun.UtilsEpide.getDateForm(dataheure_actionrecrut): Keywords.commun.UtilsEpide.getDateForm is PASSED
+
+11-11-2025T17:16:23 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.getDateForm is PASSED
+
+11-11-2025T17:16:23 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndSet(dateField, date_ar): Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+11-11-2025T17:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/input_AR_DateHeure' is visible
+
+11-11-2025T17:16:25 - [MESSAGE][PASSED] - Text '11/11/2025 18:15:00' is set on object 'Object Repository/Recrutement/Page_Action_Recrutement/input_AR_DateHeure'
+
+11-11-2025T17:16:25 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+11-11-2025T17:16:25 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].dispatchEvent(new Event('change'))", Arrays.asList(findWebElement(dateField))): Execute JavaScript 'arguments[0].dispatchEvent(new Event('change'))' successfully
+
+11-11-2025T17:16:26 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Recrutement/Page_Action_Recrutement/input_AR_DateHeure
+
+11-11-2025T17:16:26 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].dispatchEvent(new Event('change'))' successfully
+
+11-11-2025T17:16:26 - [TEST_STEP][PASSED] - sendKeys(dateField, Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Recrutement/Page_Action_Recrutement/input_AR_DateHeure'
+
+11-11-2025T17:16:27 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Recrutement/Page_Action_Recrutement/input_AR_DateHeure'
+
+11-11-2025T17:16:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/List_AR_TypeActionRecrutement"), typactionrecrutement, false): All options with label 'Admission' are selected in object 'Object Repository/Recrutement/Page_Action_Recrutement/List_AR_TypeActionRecrutement' 
+
+11-11-2025T17:16:28 - [MESSAGE][PASSED] - All options with label 'Admission' are selected in object 'Object Repository/Recrutement/Page_Action_Recrutement/List_AR_TypeActionRecrutement' 
+
+11-11-2025T17:16:28 - [TEST_STEP][PASSED] - switch (rappel_auto): null
+
+11-11-2025T17:16:28 - [TEST_STEP][PASSED] - case "Non":: null
+
+11-11-2025T17:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/Radio_AR_Non_RappelAutomatique")): Object: 'Object Repository/Recrutement/Page_Action_Recrutement/Radio_AR_Non_RappelAutomatique' is clicked on
+
+11-11-2025T17:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Page_Action_Recrutement/Radio_AR_Non_RappelAutomatique' is clicked on
+
+11-11-2025T17:16:28 - [TEST_STEP][PASSED] - break: null
+
+11-11-2025T17:16:28 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Enregistrer")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:29 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Enregistrer' is visible
+
+11-11-2025T17:16:29 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Enregistrer' is clickable
+
+11-11-2025T17:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Enregistrer' is clicked on
+
+11-11-2025T17:16:30 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:30 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/button_AR_AssocierJeunes")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_AssocierJeunes' is visible
+
+11-11-2025T17:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_AssocierJeunes' is clickable
+
+11-11-2025T17:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_AssocierJeunes' is clicked on
+
+11-11-2025T17:16:47 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:47 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/input_AR_Selec_Prenom"), prenomjeune_selec): Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+11-11-2025T17:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/input_AR_Selec_Prenom' is visible
+
+11-11-2025T17:16:50 - [MESSAGE][PASSED] - Text 'TRATKatalonPrenom2' is set on object 'Object Repository/Recrutement/Page_Action_Recrutement/input_AR_Selec_Prenom'
+
+11-11-2025T17:16:50 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+11-11-2025T17:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/input_AR_Selec_Prenom"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Recrutement/Page_Action_Recrutement/input_AR_Selec_Prenom'
+
+11-11-2025T17:16:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Recrutement/Page_Action_Recrutement/input_AR_Selec_Prenom'
+
+11-11-2025T17:16:51 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/Checkbox_AR_Jeune")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/Checkbox_AR_Jeune' is visible
+
+11-11-2025T17:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/Checkbox_AR_Jeune' is clickable
+
+11-11-2025T17:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Page_Action_Recrutement/Checkbox_AR_Jeune' is clicked on
+
+11-11-2025T17:16:53 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:53 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Selectionner")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:54 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Selectionner' is visible
+
+11-11-2025T17:16:54 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Selectionner' is clickable
+
+11-11-2025T17:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_Selectionner' is clicked on
+
+11-11-2025T17:16:55 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/List_AR_PresentAbsent"), statutpresentabsent, false): All options with label 'Présent' are selected in object 'Object Repository/Recrutement/Page_Action_Recrutement/List_AR_PresentAbsent' 
+
+11-11-2025T17:16:56 - [MESSAGE][PASSED] - All options with label 'Présent' are selected in object 'Object Repository/Recrutement/Page_Action_Recrutement/List_AR_PresentAbsent' 
+
+11-11-2025T17:16:56 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/button_AR_EnregistrerFermer")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_EnregistrerFermer' is visible
+
+11-11-2025T17:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_EnregistrerFermer' is clickable
+
+11-11-2025T17:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Page_Action_Recrutement/button_AR_EnregistrerFermer' is clicked on
+
+11-11-2025T17:16:58 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+11-11-2025T17:16:58 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Recrutement/Page_Action_Recrutement/Text_AR_EnregistrementModifie"), 30)): null
+
+11-11-2025T17:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Page_Action_Recrutement/Text_AR_EnregistrementModifie' is present
+
+11-11-2025T17:16:59 - [TEST_STEP][PASSED] - println("Pop-up 'Création' est trouvé"): null
+
+11-11-2025T17:16:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-11-2025T17:17:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-11-2025T17:15:28 - [TEST_SUITE][PASSED] - TestSuiteActionRecrutement: Test Cases/Recrutement/ActionRecrutement]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

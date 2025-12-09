@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>EPIDE-Automation</name>
+   <name>Epide-Automation</name>
    <tag></tag>
-   <UUID>e4f4324f-32b4-4b99-9979-dbd65c4196fc</UUID>
+   <UUID>dcaaa69e-047b-4198-902f-7a822ae4c4d8</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>9.7.6</createdVersion>
    <freeLicense>false</freeLicense>
@@ -11,7 +11,7 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>9.7.6</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\A689947\Katalon Studio\Epide_Automation\EPIDE-Automation.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\A689947\git\Epide-Automation\Epide-Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -31,5 +31,5 @@
       </systemFolderList>
    </sourceContent>
    <timeStampInProperties>false</timeStampInProperties>
-   <type>WEBUI</type>
+   <type>GENERIC</type>
 </Project>

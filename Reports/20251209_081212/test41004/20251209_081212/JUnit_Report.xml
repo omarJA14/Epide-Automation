@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test41004" time="68.877" tests="1" failures="1" errors="0">
+   <testsuite name="test41004" tests="1" failures="1" errors="0" time="68.877" skipped="0" timestamp="2025-12-09T07:12:58.361Z" hostname="A689947 - DESKTOP-MD4HFPD" id="Test Suites/test41004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_081212\\test41004\\20251209_081212"/>
+         <property name="logFiles" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_081212\\test41004\\20251209_081212\\console0.log, C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_081212\\test41004\\20251209_081212\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_081212\\test41004\\20251209_081212\\C:/Users/A689947/Katalon Studio/EPIDE-Automation/Screenshots/Fail_Test Cases_Candidature_41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF cr\u00E9e un entretien individuel_1765264446021.png"/>
+         <property name="hostName" value="A689947 - DESKTOP-MD4HFPD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Edge Chromium 143.0.3650.66"/>
+         <property name="userFullName" value="Omar Jaddour"/>
+         <property name="hostAddress" value="192.168.254.186"/>
+         <property name="sessionId" value="bd90ec538502f5f96b8e33ac472725c6"/>
+         <property name="projectName" value="EPIDE-Automation"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel" time="67.167" classname="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)&#xa;	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:117)&#xa;	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1765264332926.run(TempTestSuite1765264332926.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[09-12-2025T08:13:00 - [TEST_CASE][FAILED] - Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel: Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:117)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765264332926.run(TempTestSuite1765264332926.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+09-12-2025T08:13:00 - [TEST_STEP][PASSED] - data_entr_inf = findTestData("entretien_inf"): null
+
+09-12-2025T08:13:00 - [TEST_STEP][PASSED] - totalRows = data_entr_inf.getRowNumbers(): null
+
+09-12-2025T08:13:00 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.Access_epide("INF-Bordeaux"): Keywords.commun.UtilsEpide.Access_epide is PASSED
+
+09-12-2025T08:13:02 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-12-2025T08:13:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2025T08:13:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-12-2025T08:13:08 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2025T08:13:09 - [MESSAGE][PASSED] - Navigate to 'https://preprod.name.epide.fr/ui' successfully
+
+09-12-2025T08:13:10 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body ? document.body.innerText : '';' successfully
+
+09-12-2025T08:13:10 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is visible
+
+09-12-2025T08:13:10 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is NOT clickable
+
+09-12-2025T08:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_signin-with-azuread' is clicked on
+
+09-12-2025T08:13:13 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is present
+
+09-12-2025T08:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide' is clicked on
+
+09-12-2025T08:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Epide_Username' is visible
+
+09-12-2025T08:13:15 - [MESSAGE][PASSED] - Text 'inf.Bordeaux@epidead.onmicrosoft.com' is set on object 'Object Repository/AuthentificationEpide/Epide_Username'
+
+09-12-2025T08:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is visible
+
+09-12-2025T08:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is NOT clickable
+
+09-12-2025T08:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Epide_suivant' is clicked on
+
+09-12-2025T08:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Epide_Passwd' is visible
+
+09-12-2025T08:13:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AuthentificationEpide/Epide_Passwd'
+
+09-12-2025T08:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_SeConnecter' is visible
+
+09-12-2025T08:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_SeConnecter' is NOT clickable
+
+09-12-2025T08:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_SeConnecter' is clicked on
+
+09-12-2025T08:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Text_ResterConnecter' is present
+
+09-12-2025T08:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is visible
+
+09-12-2025T08:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is NOT clickable
+
+09-12-2025T08:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co' is clicked on
+
+09-12-2025T08:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/PageAccess/Button_Accueil' is present
+
+09-12-2025T08:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/AuthentificationEpide/PageAccess/List_NAMe' is present
+
+09-12-2025T08:13:24 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.Access_epide is PASSED
+
+09-12-2025T08:13:24 - [TEST_STEP][FAILED] - for ([i = 1, i <= totalRows, (i++)]): null
+
+09-12-2025T08:13:24 - [TEST_STEP][PASSED] - prenom = data_entr_inf.getValue("Prénom du jeune", i): null
+
+09-12-2025T08:13:24 - [TEST_STEP][PASSED] - date_entretien = data_entr_inf.getValue("Date de l'entretien", i): null
+
+09-12-2025T08:13:24 - [TEST_STEP][PASSED] - objet_entretien = data_entr_inf.getValue("Objet de l'entretien", i): null
+
+09-12-2025T08:13:24 - [TEST_STEP][PASSED] - comm_gen = data_entr_inf.getValue("Commentaire général", i): null
+
+09-12-2025T08:13:24 - [TEST_STEP][PASSED] - comm_medical = data_entr_inf.getValue("Commentaire médical (accès réservé au professionnel de santé)", i): null
+
+09-12-2025T08:13:24 - [TEST_STEP][PASSED] - date_rv_prochain = data_entr_inf.getValue("Date du prochain RDV", i): null
+
+09-12-2025T08:13:24 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.searchJeuneAndClick(prenom): Keywords.commun.UtilsEpide.searchJeuneAndClick is PASSED
+
+09-12-2025T08:13:25 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/Rub_Jeunes' is visible
+
+09-12-2025T08:13:25 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/Rub_Jeunes' is NOT clickable
+
+09-12-2025T08:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Commission_Admission/Rub_Jeunes' is clicked on
+
+09-12-2025T08:13:27 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes' is visible
+
+09-12-2025T08:13:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes' is cleared
+
+09-12-2025T08:13:28 - [MESSAGE][PASSED] - Text 'TRATKatalonPrenom13' is set on object 'Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes'
+
+09-12-2025T08:13:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes'
+
+09-12-2025T08:13:29 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i' is visible
+
+09-12-2025T08:13:29 - [MESSAGE][PASSED] - Object 'Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i' is NOT clickable
+
+09-12-2025T08:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i' is clicked on
+
+09-12-2025T08:13:30 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.searchJeuneAndClick is PASSED
+
+09-12-2025T08:13:30 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+09-12-2025T08:13:32 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels' is visible
+
+09-12-2025T08:13:33 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels' is NOT clickable
+
+09-12-2025T08:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ComunCI/Page_Simplicit/Rub_EntretiensIndividuels' is clicked on
+
+09-12-2025T08:13:34 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+09-12-2025T08:13:34 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndClick(findTestObject("Object Repository/ComunCI/Page_Simplicit/button_Creer")): Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+09-12-2025T08:13:34 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/button_Creer' is visible
+
+09-12-2025T08:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/button_Creer' is NOT clickable
+
+09-12-2025T08:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ComunCI/Page_Simplicit/button_Creer' is clicked on
+
+09-12-2025T08:13:35 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndClick is PASSED
+
+09-12-2025T08:13:35 - [TEST_STEP][FAILED] - Keywords.commun.UtilsEpide.verifyElementInPage("//*[@id='field_namEiCommentaireMedical1']", true): com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.
+
+09-12-2025T08:13:46 - [MESSAGE][WARNING] - Web element with id: 'dynamicElement' located by 'By.xpath: //*[@id='field_namEiCommentaireMedical1']' not found
+
+09-12-2025T08:13:46 - [MESSAGE][FAILED] - ERREUR : L'élément devait être présent mais ne l'est pas.
+
+09-12-2025T08:13:46 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.
+
+09-12-2025T08:13:46 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.verifyElementInPage("//*[@id='field_namEiCommentaireSocial']", false): OK : L'élément n'est pas présent dans cette page.
+
+09-12-2025T08:13:56 - [MESSAGE][WARNING] - Object 'dynamicElement' is not visible after 10 second(s)
+
+09-12-2025T08:13:56 - [MESSAGE][PASSED] - OK : L'élément n'est pas présent dans cette page.
+
+09-12-2025T08:13:56 - [TEST_STEP][PASSED] - dateEntretien = findTestObject("Object Repository/ComunCI/Page_Simplicit/input_DateEntretien"): null
+
+09-12-2025T08:13:56 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.setDateField(dateEntretien, date_entretien): Keywords.commun.UtilsEpide.setDateField is PASSED
+
+09-12-2025T08:13:56 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/input_DateEntretien' is visible
+
+09-12-2025T08:13:58 - [MESSAGE][PASSED] - Text '08/12/2025' is set on object 'Object Repository/ComunCI/Page_Simplicit/input_DateEntretien'
+
+09-12-2025T08:13:58 - [MESSAGE][PASSED] - Found web element by test object Object Repository/ComunCI/Page_Simplicit/input_DateEntretien
+
+09-12-2025T08:13:58 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].dispatchEvent(new Event('change'))' successfully
+
+09-12-2025T08:13:59 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/ComunCI/Page_Simplicit/input_DateEntretien'
+
+09-12-2025T08:13:59 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.setDateField is PASSED
+
+09-12-2025T08:13:59 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_ObjetEntretien"), objet_entretien): Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+09-12-2025T08:13:59 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/input_ObjetEntretien' is visible
+
+09-12-2025T08:14:00 - [MESSAGE][PASSED] - Text 'objet' is set on object 'Object Repository/ComunCI/Page_Simplicit/input_ObjetEntretien'
+
+09-12-2025T08:14:00 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+09-12-2025T08:14:00 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_CommentaireGeneral"), comm_gen): Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+09-12-2025T08:14:00 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/input_CommentaireGeneral' is visible
+
+09-12-2025T08:14:01 - [MESSAGE][PASSED] - Text 'comm' is set on object 'Object Repository/ComunCI/Page_Simplicit/input_CommentaireGeneral'
+
+09-12-2025T08:14:01 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+09-12-2025T08:14:01 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.waitAndSet(findTestObject("Object Repository/ComunCI/Page_Simplicit/input_CommentaireMedical"), comm_medical): Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+09-12-2025T08:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/input_CommentaireMedical' is visible
+
+09-12-2025T08:14:03 - [MESSAGE][PASSED] - Text 'comm' is set on object 'Object Repository/ComunCI/Page_Simplicit/input_CommentaireMedical'
+
+09-12-2025T08:14:03 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.waitAndSet is PASSED
+
+09-12-2025T08:14:03 - [TEST_STEP][PASSED] - dateProchainRV = findTestObject("Object Repository/ComunCI/Page_Simplicit/input_DateProchainRDV"): null
+
+09-12-2025T08:14:03 - [TEST_STEP][PASSED] - Keywords.commun.UtilsEpide.setDateField(dateProchainRV, date_rv_prochain): Keywords.commun.UtilsEpide.setDateField is PASSED
+
+09-12-2025T08:14:03 - [MESSAGE][PASSED] - Object 'Object Repository/ComunCI/Page_Simplicit/input_DateProchainRDV' is visible
+
+09-12-2025T08:14:05 - [MESSAGE][PASSED] - Text '10/12/2025' is set on object 'Object Repository/ComunCI/Page_Simplicit/input_DateProchainRDV'
+
+09-12-2025T08:14:05 - [MESSAGE][PASSED] - Found web element by test object Object Repository/ComunCI/Page_Simplicit/input_DateProchainRDV
+
+09-12-2025T08:14:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].dispatchEvent(new Event('change'))' successfully
+
+09-12-2025T08:14:05 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/ComunCI/Page_Simplicit/input_DateProchainRDV'
+
+09-12-2025T08:14:05 - [MESSAGE][PASSED] - Keywords.commun.UtilsEpide.setDateField is PASSED
+
+09-12-2025T08:14:05 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+09-12-2025T08:14:05 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED"): null
+
+09-12-2025T08:14:05 - [TEST_STEP][PASSED] - path = getProjectDir() + "/Screenshots/Fail_" + getTestCaseId().replaceAll("/", "_") + "_" + System.currentTimeMillis() + ".png": null
+
+09-12-2025T08:14:06 - [TEST_STEP][PASSED] - try: null
+
+09-12-2025T08:14:06 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+09-12-2025T08:14:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\A689947\\Katalon Studio\\EPIDE-Automation\\Reports\\20251209_081212\\test41004\\20251209_081212\\C:/Users/A689947/Katalon Studio/EPIDE-Automation/Screenshots/Fail_Test Cases_Candidature_41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF cr\u00E9e un entretien individuel_1765264446021.png]]
+
+09-12-2025T08:14:06 - [TEST_STEP][PASSED] - println("Screenshot pris : " + path): null
+
+09-12-2025T08:14:06 - [TEST_STEP][PASSED] - try: null
+
+09-12-2025T08:14:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2025T08:14:07 - [MESSAGE][PASSED] - Browser is closed
+
+09-12-2025T08:14:07 - [TEST_STEP][PASSED] - println("Navigateur fermé suite à l'échec du Test Case"): null]]></system-out>
+         <system-err><![CDATA[09-12-2025T08:13:00 - [TEST_CASE][FAILED] - Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel: Test Cases/Candidature/41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: ERREUR : L'élément devait être présent mais ne l'est pas.
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy:117)
+	at Keywords.commun.UtilsEpide.verifyElementInPage(UtilsEpide.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at 41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel.run(41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765264332926.run(TempTestSuite1765264332926.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-12-2025T08:12:58 - [TEST_SUITE][FAILED] - test41004: null]]></system-out>
+      <system-err><![CDATA[09-12-2025T08:12:58 - [TEST_SUITE][FAILED] - test41004: null]]></system-err>
+   </testsuite>
+</testsuites>

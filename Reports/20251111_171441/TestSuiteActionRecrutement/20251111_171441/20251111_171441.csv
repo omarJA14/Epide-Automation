@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteActionRecrutement,Edge Chromium 142,,,11-11-2025 17:15:28,11-11-2025 17:17:02,"1m - 34,265s",PASSED
+,,,,,,,
+Test Cases/Recrutement/ActionRecrutement,Edge Chromium 142,,,11-11-2025 17:15:29,11-11-2025 17:17:02,"1m - 33,567s",PASSED
+"data_actionrecrut = findTestData(""action_recrutement"")",Edge Chromium 142,,,11-11-2025 17:15:30,11-11-2025 17:15:30,"0,148s",PASSED
+totalRows = data_actionrecrut.getRowNumbers(),Edge Chromium 142,,,11-11-2025 17:15:30,11-11-2025 17:15:31,"0,177s",PASSED
+"for ([i = 1, i <= totalRows, (i++)])",Edge Chromium 142,,,11-11-2025 17:15:31,11-11-2025 17:16:59,"1m - 28,138s",PASSED
+closeBrowser(),Edge Chromium 142,,,11-11-2025 17:16:59,11-11-2025 17:17:02,"3,408s",PASSED
