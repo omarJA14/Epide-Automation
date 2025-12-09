@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39006_UC1.4.4 nominal_GRH_saisit des informations du candidat lors de latelier dadmission administratif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>18ea04ff-a5ff-484e-8d52-dcf81006fd60</testCaseGuid>
+</TestCaseEntity>

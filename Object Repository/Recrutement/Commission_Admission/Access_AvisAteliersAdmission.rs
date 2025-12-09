@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Access_AvisAteliersAdmission</name>
+   <tag></tag>
+   <elementGuidId>d20a3932-6fa8-46b9-a8ed-9f6b5fff1029</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#panel_work_24 > div.card > div.card-header.collapsed</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='panel_work_24']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Avis des ateliers d'admission$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>563cf78f-1da9-40ab-9be5-bd7884a6e9c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-header collapsed</value>
+      <webElementGuid>146a98da-7da6-48b2-8182-8768f4c81145</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>collapse</value>
+      <webElementGuid>f8db16b2-e03d-4a8c-88d3-47546ceb94ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#collapse_panel_work_24</value>
+      <webElementGuid>c1a4e0d1-b8e5-4261-a93e-423e86c8d9df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Avis des ateliers d'admission</value>
+      <webElementGuid>f41d12c6-1ea3-42f9-ba2d-68516c367a25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel_work_24&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header collapsed&quot;]</value>
+      <webElementGuid>9b23722f-fc6e-4262-a10a-3367e6dc7577</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='panel_work_24']/div/div</value>
+      <webElementGuid>2498f816-63e6-4a16-82fd-9a2f838503fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 0'])[2]/following::div[10]</value>
+      <webElementGuid>d02600ac-c2ed-4881-b9b6-2dcccdfd0599</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avis sur les candidats'])[1]/preceding::div[1]</value>
+      <webElementGuid>161236cc-9177-4003-afcd-7c1637313cde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[20]/div/div/div</value>
+      <webElementGuid>7b1a87cf-a6f6-4090-96b4-6370de628390</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Avis des ateliers d&quot; , &quot;'&quot; , &quot;admission&quot;) or . = concat(&quot;Avis des ateliers d&quot; , &quot;'&quot; , &quot;admission&quot;))]</value>
+      <webElementGuid>d3456131-8b5d-4f1d-927e-aba1bc851c3d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

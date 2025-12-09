@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_contrat</name>
+   <tag></tag>
+   <elementGuidId>ee45568d-8983-43ad-93c1-6b13f8c1248c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamContratAvenant_panel_ajax_NamContratAvenant_namCavenantScoId&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card.panel-list > div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamContratAvenant_panel_ajax_NamContratAvenant_namCavenantScoId div >> internal:has-text=&quot;TypeStatutNuméro de contratNuméro d’avenantDate de début Date de finDurée (mois)&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>53a677b4-0d5d-4c00-9ced-36268c390d90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>14434fdb-c31a-4cf3-89cb-c14dc98e9404</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TypeStatutNuméro de contratNuméro d’avenantDate de début Date de finDurée (mois)Nom du centre EPIDEGénérer documentContrat d'insertionA signer5/2025/012019/002017/11/202515/07/20268Bordeaux</value>
+      <webElementGuid>144cc886-d936-4f29-95b8-450bced455c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamContratAvenant_panel_ajax_NamContratAvenant_namCavenantScoId&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>33ee45f9-c39a-499d-89ca-b3a0f842cdac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamContratAvenant_panel_ajax_NamContratAvenant_namCavenantScoId']/div/div[2]</value>
+      <webElementGuid>358babd4-3ba7-4de5-8f63-b812f11163d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 1'])[1]/following::div[5]</value>
+      <webElementGuid>dc1d11af-ac98-46a8-8ae7-1494dbebed55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contrats avenants'])[1]/following::div[7]</value>
+      <webElementGuid>3b8e80cb-06ed-4dce-97bb-75babbc3a96d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/div/div/div[2]</value>
+      <webElementGuid>c70f8c17-f5e8-41d0-bf24-7466bab3901f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;TypeStatutNuméro de contratNuméro d’avenantDate de début Date de finDurée (mois)Nom du centre EPIDEGénérer documentContrat d&quot; , &quot;'&quot; , &quot;insertionA signer5/2025/012019/002017/11/202515/07/20268Bordeaux&quot;) or . = concat(&quot;TypeStatutNuméro de contratNuméro d’avenantDate de début Date de finDurée (mois)Nom du centre EPIDEGénérer documentContrat d&quot; , &quot;'&quot; , &quot;insertionA signer5/2025/012019/002017/11/202515/07/20268Bordeaux&quot;))]</value>
+      <webElementGuid>dd14b549-a255-4c7a-9627-fb77e2c83e8c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

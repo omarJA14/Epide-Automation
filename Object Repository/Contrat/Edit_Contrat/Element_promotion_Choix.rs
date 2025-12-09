@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_promotion_Choix</name>
+   <tag></tag>
+   <elementGuidId>66121e7a-8c08-4ebb-8bdf-db0e539cacee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form[name=&quot;f_list_NamPromotion_ref_ajax_NamPromotion&quot;] > div.container-table.table-responsive > table.table.table-striped > tbody > tr.list-clickable.js-resizable > td:nth-of-type(3) > div.text-left.breakword.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='list_NamPromotion_ref_ajax_NamPromotion']/div/div[2]/form/div/table/tbody/tr/td[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;012019&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>be5c47ce-19b5-49ca-9fb5-45e913b55b6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left breakword text</value>
+      <webElementGuid>1d8f8662-6bf5-4b76-8a16-a80dbcf52aba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>012019</value>
+      <webElementGuid>e44414fa-7770-4b23-b580-c5440bc0ec29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamPromotion_ref_ajax_NamPromotion&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[3]/div[@class=&quot;text-left breakword text&quot;]</value>
+      <webElementGuid>aa6daab0-650d-4fed-85e5-20a0bd96194e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamPromotion_ref_ajax_NamPromotion']/div/div[2]/form/div/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>60e26797-442e-4ae9-874d-a6b65d85481a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bordeaux'])[1]/following::div[1]</value>
+      <webElementGuid>965dcf10-b2fb-45f5-83f4-10cd6750d35d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 1'])[6]/preceding::div[2]</value>
+      <webElementGuid>7018e70d-163f-4212-a73c-c641a38bb040</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='012019']/parent::*</value>
+      <webElementGuid>3959b183-76a8-4b81-812e-fa6de58598e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/form/div/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>1be3596b-8399-4564-8d6b-0f40d3a7d6fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '012019' or . = '012019')]</value>
+      <webElementGuid>b741c5a9-9925-4bbe-bcce-d5f6a88f33af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39007_CAS_ERREUR_UC2.1.1 nominal_Un agent GRH édite le contrat de plusieurs jeunes admissibles</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1dbd357d-da74-4e33-a9d1-8f768d0d8343</testCaseGuid>
+</TestCaseEntity>

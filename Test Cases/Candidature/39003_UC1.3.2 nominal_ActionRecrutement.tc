@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39003_UC1.3.2 nominal_ActionRecrutement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5225c09e-920d-4cf8-baeb-fa9adfbba495</testCaseGuid>
+</TestCaseEntity>

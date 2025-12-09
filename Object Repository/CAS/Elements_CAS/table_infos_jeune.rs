@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_infos_jeune</name>
+   <tag></tag>
+   <elementGuidId>b1f4ee16-8013-4d85-90eb-c576f5e53922</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamJeune_the_ajax_NamJeune&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamJeune_the_ajax_NamJeune div >> internal:has-text=&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerNom Prénom RangDate d&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6838a1d1-c348-46cd-a4e8-7da628f07ad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>ecd9f5d8-7483-484e-94c0-a122c7a0d23d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tout sélectionnerSélectionner cette pageTout désélectionnerNom Prénom RangDate de naissanceEmailTéléphone portableStatut du jeuneDepuis3 Décembre 202512:0012:0512:1012:1512:2012:2512:3012:3512:4012:4512:5012:55Aujourd'hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiJusqu'à3 Décembre 202512:0012:0512:1012:1512:2012:2512:3012:3512:4012:4512:5012:55Aujourd'hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiDépôt de candidatureAdmissibleConvoquéAdmis(e)Volontaire intégréRétractationCandidature abandonnéeSortie positiveSortie dynamiqueFCSSSuspendueExcluSortie anticipéeTRATKatalonNom13TRATKatalonPrenom13006/11/2005katalontest@email.com01 23 45 67 89Convoqué</value>
+      <webElementGuid>414b1606-f01c-48a3-babc-12c5da78a7a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamJeune_the_ajax_NamJeune&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>e672a35f-cb41-469f-8012-d6d4380b2e69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamJeune_the_ajax_NamJeune']/div/div[2]</value>
+      <webElementGuid>8f0da702-5097-43bd-9721-15f1953b2992</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>7112d199-e7d7-4d15-a605-d9f443bd68a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prénom: tratkatalonprenom13'])[1]/following::div[4]</value>
+      <webElementGuid>ed8f48bf-41f4-4455-91a7-c71ebde0fc83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>ce63d159-d1fc-4383-b586-716fdea4b861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerNom Prénom RangDate de naissanceEmailTéléphone portableStatut du jeuneDepuis3 Décembre 202512:0012:0512:1012:1512:2012:2512:3012:3512:4012:4512:5012:55Aujourd&quot; , &quot;'&quot; , &quot;hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à3 Décembre 202512:0012:0512:1012:1512:2012:2512:3012:3512:4012:4512:5012:55Aujourd&quot; , &quot;'&quot; , &quot;hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiDépôt de candidatureAdmissibleConvoquéAdmis(e)Volontaire intégréRétractationCandidature abandonnéeSortie positiveSortie dynamiqueFCSSSuspendueExcluSortie anticipéeTRATKatalonNom13TRATKatalonPrenom13006/11/2005katalontest@email.com01 23 45 67 89Convoqué&quot;) or . = concat(&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerNom Prénom RangDate de naissanceEmailTéléphone portableStatut du jeuneDepuis3 Décembre 202512:0012:0512:1012:1512:2012:2512:3012:3512:4012:4512:5012:55Aujourd&quot; , &quot;'&quot; , &quot;hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à3 Décembre 202512:0012:0512:1012:1512:2012:2512:3012:3512:4012:4512:5012:55Aujourd&quot; , &quot;'&quot; , &quot;hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiDépôt de candidatureAdmissibleConvoquéAdmis(e)Volontaire intégréRétractationCandidature abandonnéeSortie positiveSortie dynamiqueFCSSSuspendueExcluSortie anticipéeTRATKatalonNom13TRATKatalonPrenom13006/11/2005katalontest@email.com01 23 45 67 89Convoqué&quot;))]</value>
+      <webElementGuid>cacbabe1-030d-4996-8fa8-12659a79b4e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

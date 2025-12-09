@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SituationMatrimonialePere</name>
+   <tag></tag>
+   <elementGuidId>b3d64a9a-34ce-4c22-a297-7e4f321a94ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='select2-field_namJenSituaMatrimonialePere-container']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#select2-field_namJenSituaMatrimonialePere-container > div.enum-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#select2-field_namJenSituaMatrimonialePere-container div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>90551d1b-c2ae-4774-861c-8b9ce9141434</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>enum-item</value>
+      <webElementGuid>b6194d1d-7536-473e-9d55-a18fd3f5de02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Célibataire</value>
+      <webElementGuid>7a023a95-5d55-4f60-afe0-0bda4c25e8dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-field_namJenSituaMatrimonialePere-container&quot;)/div[@class=&quot;enum-item&quot;]</value>
+      <webElementGuid>66470b2a-0b53-4959-9c67-ae9e227ccf2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='select2-field_namJenSituaMatrimonialePere-container']/div</value>
+      <webElementGuid>f08d5d3c-7f7f-4524-aa4a-c037c6b4d454</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[3]/following::div[1]</value>
+      <webElementGuid>51583afa-7c65-4e57-a0d7-e501ed0cb3a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Situation matrimoniale du père'])[1]/following::div[1]</value>
+      <webElementGuid>8a423148-960d-4c6f-9645-213638cb73e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Situation matrimoniale de la mère'])[1]/preceding::div[1]</value>
+      <webElementGuid>3d08b2c8-c659-4909-b0a4-365481deb092</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[3]/div/div/div/div/span/span/span/span/div</value>
+      <webElementGuid>4278eb91-fa21-4878-a3b6-e6b86deb848e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Célibataire' or . = 'Célibataire')]</value>
+      <webElementGuid>5e811135-4875-4fd9-bf47-21fd59e78988</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>40005_AUTO7-2_UC2.1.4 nominal_Transfert - Donner un Avis du centre de Destination</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c7fc37c-5f29-47f9-9ca3-cec7ba9aad5f</testCaseGuid>
+</TestCaseEntity>

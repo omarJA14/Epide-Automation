@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_volontaires</name>
+   <tag></tag>
+   <elementGuidId>13de5466-befc-4430-a45a-7b4168a9b1d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamVolontaire_the_ajax_NamVolontaire&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamVolontaire_the_ajax_NamVolontaire div >> internal:has-text=&quot;AdresseParcours scolaireSuivi d'insertionParcours professionnelSituation familia&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>635dda9b-b639-4ef8-855c-b68bf9615c2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>6180e7eb-db3b-4d04-9f08-04d6978a4081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AdresseParcours scolaireSuivi d'insertionParcours professionnelSituation familialeHébergementHabillementAdministratifMobilitéSituation médicaleAntécédentsAntécédents gynécologiquesBiométrieAcuité visuelleEtat bucco-dentairePratique sportiveAvis des ateliers d'admissionPièces AdministrativesAcquisition de compétencesCoordonnées bancairesRubriques atelier admissionTout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDENom Prénom Rang Date de naissanceEmailTéléphone portableStatut du jeuneSectionPromotionDepuis4 Décembre 202510:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd'hui4 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiJusqu'à4 Décembre 202510:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd'hui4 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiDépôt de candidatureAdmissibleConvoquéAdmis(e)Volontaire intégréRétractationCandidature abandonnéeSortie positiveSortie dynamiqueFCSSSuspendueExcluSortie anticipéeBordeauxTRATKatalonNom1TRATKatalonPrenom1008/07/2005katalontest@email.com01 23 45 67 89Volontaire intégréSection 1012019</value>
+      <webElementGuid>9a16f8a9-79a5-4c8a-8026-8100768b7b03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamVolontaire_the_ajax_NamVolontaire&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>7885abf1-1f26-4478-b6b2-e7f0b3530701</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamVolontaire_the_ajax_NamVolontaire']/div/div[2]</value>
+      <webElementGuid>b1f96975-d919-4577-b52b-284b5224049b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>a500e65a-5df4-4a68-8c6f-d9e3b52313d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluer'])[2]/following::div[1]</value>
+      <webElementGuid>15b9a9d8-835f-4e78-80eb-d9908cb00bb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>fe994f46-8361-4c25-8fc3-50d05dd930b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;AdresseParcours scolaireSuivi d&quot; , &quot;'&quot; , &quot;insertionParcours professionnelSituation familialeHébergementHabillementAdministratifMobilitéSituation médicaleAntécédentsAntécédents gynécologiquesBiométrieAcuité visuelleEtat bucco-dentairePratique sportiveAvis des ateliers d&quot; , &quot;'&quot; , &quot;admissionPièces AdministrativesAcquisition de compétencesCoordonnées bancairesRubriques atelier admissionTout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDENom Prénom Rang Date de naissanceEmailTéléphone portableStatut du jeuneSectionPromotionDepuis4 Décembre 202510:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd&quot; , &quot;'&quot; , &quot;hui4 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à4 Décembre 202510:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd&quot; , &quot;'&quot; , &quot;hui4 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiDépôt de candidatureAdmissibleConvoquéAdmis(e)Volontaire intégréRétractationCandidature abandonnéeSortie positiveSortie dynamiqueFCSSSuspendueExcluSortie anticipéeBordeauxTRATKatalonNom1TRATKatalonPrenom1008/07/2005katalontest@email.com01 23 45 67 89Volontaire intégréSection 1012019&quot;) or . = concat(&quot;AdresseParcours scolaireSuivi d&quot; , &quot;'&quot; , &quot;insertionParcours professionnelSituation familialeHébergementHabillementAdministratifMobilitéSituation médicaleAntécédentsAntécédents gynécologiquesBiométrieAcuité visuelleEtat bucco-dentairePratique sportiveAvis des ateliers d&quot; , &quot;'&quot; , &quot;admissionPièces AdministrativesAcquisition de compétencesCoordonnées bancairesRubriques atelier admissionTout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDENom Prénom Rang Date de naissanceEmailTéléphone portableStatut du jeuneSectionPromotionDepuis4 Décembre 202510:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd&quot; , &quot;'&quot; , &quot;hui4 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à4 Décembre 202510:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd&quot; , &quot;'&quot; , &quot;hui4 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiDépôt de candidatureAdmissibleConvoquéAdmis(e)Volontaire intégréRétractationCandidature abandonnéeSortie positiveSortie dynamiqueFCSSSuspendueExcluSortie anticipéeBordeauxTRATKatalonNom1TRATKatalonPrenom1008/07/2005katalontest@email.com01 23 45 67 89Volontaire intégréSection 1012019&quot;))]</value>
+      <webElementGuid>e5a41a2d-42b4-4740-9b19-c0308c651f7f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

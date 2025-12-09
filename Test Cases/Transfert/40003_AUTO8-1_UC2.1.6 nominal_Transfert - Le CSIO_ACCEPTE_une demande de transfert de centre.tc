@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>40003_AUTO8-1_UC2.1.6 nominal_Transfert - Le CSIO_ACCEPTE_une demande de transfert de centre</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3623c942-ff76-411b-8fe3-627ca7f21003</testCaseGuid>
+</TestCaseEntity>

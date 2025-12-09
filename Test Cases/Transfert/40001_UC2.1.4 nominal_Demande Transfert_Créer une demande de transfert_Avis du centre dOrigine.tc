@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>40001_UC2.1.4 nominal_Demande Transfert_Créer une demande de transfert_Avis du centre dOrigine</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f9b08a8-df43-4e08-986a-c73079804d83</testCaseGuid>
+</TestCaseEntity>

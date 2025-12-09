@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_SelecCentre</name>
+   <tag></tag>
+   <elementGuidId>84aaa058-bc04-45d9-8b7c-d52fc90c465d</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card.panel-list > div.card-body</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamCentre_ref_ajax_NamCentre&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamCentre_ref_ajax_NamCentre div >> internal:has-text=&quot;Code PEPCentre EPIDE SIRETGroupeNuméro de centreEffectif théoriqueCode postalVil&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a8ebaefe-dba0-4d7f-b7b6-0a60eef128dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>9a78e029-60fe-462a-9ac1-55b4e9f8ebcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Code PEPCentre EPIDE SIRETGroupeNuméro de centreEffectif théoriqueCode postalVilleSEDJIAlençon18009259500131ALEN_VI112061007AlençonFIGUEIRAAlès - La Grand Combe18009259500347ALES_VI2415030110Alès - La Grand Combe⛔Anemasse / Burdignin  - Centre Fermé  ⛔180092595001802074420BURDIGNINBELARBIAngers-Avrillé18009259500354COMB_VI2510449240Avrillé⛔ Autrans - Centre Fermé ⛔180092595002143038880AUTRANSSEDJIBelfort18009259500198BELF_VI412090003BELFORTZERRAFBordeaux18009259500222BORD_VI515033082BORDEAUXBELARBIBourges / Osmoy18009259500156BOUR_VI618018390BOURGES-OSMOYSEDJIBrétigny18009259500305BRET_VI1515091220Brétigny-sur-OrgeBELARBICambrai18009259500255CAMB_VI715059407CAMBRAIBELARBI⛔ Combrée ⛔18009259500149COMB_VI8149520CombréePAUDELEUXDoullens18009259500065DOUL_VI915080600DOULLENSZERRAFLangres18009259500164LANG_VI119052201LANGRESZERRAFLanrodec18009259500123LANR_VI1212022170LANRODECPAUDELEUXLyon-Meyzieu18009259500313LYON_VI2221069330LYON-MEYZIEUPAUDELEUXMargny les Compiègne18009259500263MARG_VI1318060382Margny-lès-CompiègneFIGUEIRAMarseille18009259500206MARS_VI1418013015MARSEILLESEDJIMontry18009259500024MTRY_VI1618077450MONTRY⛔ Saint-Clément-les-Places  -  Centre Fermé ⛔1800925950008117069930SAINT CLEMENT LES PLACESPAUDELEUXSaint-Quentin18009259500271STQUE_VI1815002100SAINT-QUENTIN</value>
+      <webElementGuid>3ff333b9-09fe-42a0-a169-30cc1be39719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamCentre_ref_ajax_NamCentre&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>7de40ec2-9d2e-4880-b4ae-eacd46e49387</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamCentre_ref_ajax_NamCentre']/div/div[2]</value>
+      <webElementGuid>7af010e9-f962-43ee-bfdc-5443821c8e10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[4]/following::div[1]</value>
+      <webElementGuid>e03dcabf-df49-4e18-999a-bea4f2cc2f97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[3]/following::div[2]</value>
+      <webElementGuid>d036b663-4122-49e0-8903-c8653f3e1dc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>bb248e1a-e893-4087-8423-38ec42f2771b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Code PEPCentre EPIDE SIRETGroupeNuméro de centreEffectif théoriqueCode postalVilleSEDJIAlençon18009259500131ALEN_VI112061007AlençonFIGUEIRAAlès - La Grand Combe18009259500347ALES_VI2415030110Alès - La Grand Combe⛔Anemasse / Burdignin  - Centre Fermé  ⛔180092595001802074420BURDIGNINBELARBIAngers-Avrillé18009259500354COMB_VI2510449240Avrillé⛔ Autrans - Centre Fermé ⛔180092595002143038880AUTRANSSEDJIBelfort18009259500198BELF_VI412090003BELFORTZERRAFBordeaux18009259500222BORD_VI515033082BORDEAUXBELARBIBourges / Osmoy18009259500156BOUR_VI618018390BOURGES-OSMOYSEDJIBrétigny18009259500305BRET_VI1515091220Brétigny-sur-OrgeBELARBICambrai18009259500255CAMB_VI715059407CAMBRAIBELARBI⛔ Combrée ⛔18009259500149COMB_VI8149520CombréePAUDELEUXDoullens18009259500065DOUL_VI915080600DOULLENSZERRAFLangres18009259500164LANG_VI119052201LANGRESZERRAFLanrodec18009259500123LANR_VI1212022170LANRODECPAUDELEUXLyon-Meyzieu18009259500313LYON_VI2221069330LYON-MEYZIEUPAUDELEUXMargny les Compiègne18009259500263MARG_VI1318060382Margny-lès-CompiègneFIGUEIRAMarseille18009259500206MARS_VI1418013015MARSEILLESEDJIMontry18009259500024MTRY_VI1618077450MONTRY⛔ Saint-Clément-les-Places  -  Centre Fermé ⛔1800925950008117069930SAINT CLEMENT LES PLACESPAUDELEUXSaint-Quentin18009259500271STQUE_VI1815002100SAINT-QUENTIN' or . = 'Code PEPCentre EPIDE SIRETGroupeNuméro de centreEffectif théoriqueCode postalVilleSEDJIAlençon18009259500131ALEN_VI112061007AlençonFIGUEIRAAlès - La Grand Combe18009259500347ALES_VI2415030110Alès - La Grand Combe⛔Anemasse / Burdignin  - Centre Fermé  ⛔180092595001802074420BURDIGNINBELARBIAngers-Avrillé18009259500354COMB_VI2510449240Avrillé⛔ Autrans - Centre Fermé ⛔180092595002143038880AUTRANSSEDJIBelfort18009259500198BELF_VI412090003BELFORTZERRAFBordeaux18009259500222BORD_VI515033082BORDEAUXBELARBIBourges / Osmoy18009259500156BOUR_VI618018390BOURGES-OSMOYSEDJIBrétigny18009259500305BRET_VI1515091220Brétigny-sur-OrgeBELARBICambrai18009259500255CAMB_VI715059407CAMBRAIBELARBI⛔ Combrée ⛔18009259500149COMB_VI8149520CombréePAUDELEUXDoullens18009259500065DOUL_VI915080600DOULLENSZERRAFLangres18009259500164LANG_VI119052201LANGRESZERRAFLanrodec18009259500123LANR_VI1212022170LANRODECPAUDELEUXLyon-Meyzieu18009259500313LYON_VI2221069330LYON-MEYZIEUPAUDELEUXMargny les Compiègne18009259500263MARG_VI1318060382Margny-lès-CompiègneFIGUEIRAMarseille18009259500206MARS_VI1418013015MARSEILLESEDJIMontry18009259500024MTRY_VI1618077450MONTRY⛔ Saint-Clément-les-Places  -  Centre Fermé ⛔1800925950008117069930SAINT CLEMENT LES PLACESPAUDELEUXSaint-Quentin18009259500271STQUE_VI1815002100SAINT-QUENTIN')]</value>
+      <webElementGuid>1ead397c-fadc-4faf-936b-dc62f261573c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

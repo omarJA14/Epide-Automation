@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>41003_AUTO10_UC1.4.3 nominal_INF complète les rubriques de santé lors de son entretien avec un candidat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6075656-21fc-4fe9-b8bb-3b975f27de51</testCaseGuid>
+</TestCaseEntity>

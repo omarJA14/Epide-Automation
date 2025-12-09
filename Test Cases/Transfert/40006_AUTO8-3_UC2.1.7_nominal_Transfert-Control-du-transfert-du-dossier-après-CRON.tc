@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>40006_AUTO8-3_UC2.1.7_nominal_Transfert-Control-du-transfert-du-dossier-après-CRON</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5827052c-65ed-4022-afb3-4baabb4e460a</testCaseGuid>
+</TestCaseEntity>

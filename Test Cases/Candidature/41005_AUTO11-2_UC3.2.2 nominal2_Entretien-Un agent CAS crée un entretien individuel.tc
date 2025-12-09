@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>41005_AUTO11-2_UC3.2.2 nominal2_Entretien-Un agent CAS crée un entretien individuel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62a68cb1-4f95-4b40-ab88-67296324c27c</testCaseGuid>
+</TestCaseEntity>

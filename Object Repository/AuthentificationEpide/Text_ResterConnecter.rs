@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_ResterConnecter</name>
+   <tag></tag>
+   <elementGuidId>d992bd69-2d63-42de-80a5-0088845c3db8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.text-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lightbox']/div[3]/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Rester connecté ?&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>38cb4a58-f98b-4e8a-a93c-0a2ca1708462</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row text-title</value>
+      <webElementGuid>468ca22f-1280-40fa-bd7a-f62fa6c5293e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>5fb77c59-c8ad-4e4e-a52b-44e5cfb76be3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>26a13582-019b-46a2-89b5-03f5080d4138</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>text: str['STR_Kmsi_Title']</value>
+      <webElementGuid>998f9281-c2be-4c9d-9170-196d9a0e27dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rester connecté ?</value>
+      <webElementGuid>78070eef-c1ab-4947-b79a-22dd3359724c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lightbox&quot;)/div[3]/div[1]/div[@class=&quot;pagination-view has-identity-banner animate slide-in-next&quot;]/div[1]/div[@class=&quot;row text-title&quot;]</value>
+      <webElementGuid>bcf64f5c-8f72-48d0-b0c2-d492cd8798ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lightbox']/div[3]/div/div[2]/div/div</value>
+      <webElementGuid>cc4a6785-003a-4e71-88a6-7bbb7d3dbc94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='crv.bordeaux@epidead.onmicrosoft.com'])[1]/following::div[3]</value>
+      <webElementGuid>3123b679-f288-4772-9fb8-38f9234f9876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[24]</value>
+      <webElementGuid>6bf5025e-fddd-4a49-9fb3-9f8b8b2af158</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cela vous permet de réduire le nombre de fois où vous êtes invité à vous connecter.'])[1]/preceding::div[1]</value>
+      <webElementGuid>1879a74b-c3ff-4ca7-93f5-dd67463d8201</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ne plus afficher ce message'])[1]/preceding::div[3]</value>
+      <webElementGuid>c07decdb-aaf1-41dc-b2d6-9c5801097f5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rester connecté ?']/parent::*</value>
+      <webElementGuid>23cbefa4-b57e-424b-99a4-4b12461bb455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div</value>
+      <webElementGuid>8a51f76a-1126-406d-8d69-e9397bb3b64f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rester connecté ?' or . = 'Rester connecté ?')]</value>
+      <webElementGuid>b115467a-e5f5-497a-a7ef-f0a187f4a0b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

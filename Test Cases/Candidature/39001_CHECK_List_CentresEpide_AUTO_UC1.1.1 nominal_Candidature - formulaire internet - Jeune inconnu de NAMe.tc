@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39001_CHECK_List_CentresEpide_AUTO_UC1.1.1 nominal_Candidature - formulaire internet - Jeune inconnu de NAMe</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>babd8b20-5f93-4fff-beee-02f2b204fdd3</testCaseGuid>
+</TestCaseEntity>

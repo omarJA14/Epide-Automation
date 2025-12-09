@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_RelationsAvecLePere</name>
+   <tag></tag>
+   <elementGuidId>ecfbce65-65fe-42ff-8e6d-98b443c1998c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='select2-field_namJenRelationPere-container']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#select2-field_namJenRelationPere-container > div.enum-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#select2-field_namJenRelationPere-container div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1e6ede15-79b6-46f2-9c81-3e65ca478ab1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>enum-item</value>
+      <webElementGuid>60f38762-7cfb-4e00-9e64-89a528780016</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bonnes</value>
+      <webElementGuid>d106fbf7-5fb1-453f-a47b-3a2e9f7228cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-field_namJenRelationPere-container&quot;)/div[@class=&quot;enum-item&quot;]</value>
+      <webElementGuid>5b477c51-8990-4d8b-86b4-56e3b0e2cdba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='select2-field_namJenRelationPere-container']/div</value>
+      <webElementGuid>b3fae194-2670-48b2-8e87-6aef12d788b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[5]/following::div[1]</value>
+      <webElementGuid>1c73cab6-0987-4d3a-a97c-0e7ea7499697</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relations avec le père'])[1]/following::div[1]</value>
+      <webElementGuid>e9a2acf9-00da-47f8-9ec3-978fb43e9a66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relations avec la mère'])[1]/preceding::div[1]</value>
+      <webElementGuid>4316e7d3-6ce5-434b-97d1-e292124f88c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[6]/div/div/div/div/span/span/span/span/div</value>
+      <webElementGuid>0c0213c7-448f-4c08-a497-ef8d87c67960</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Bonnes' or . = 'Bonnes')]</value>
+      <webElementGuid>670e1b12-cea5-47d6-b9b3-fb0207a30709</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

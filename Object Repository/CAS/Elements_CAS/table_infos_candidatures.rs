@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_infos_candidatures</name>
+   <tag></tag>
+   <elementGuidId>f11a6cac-937e-45b9-8ea0-327d1e9a9fdf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamCandidature_the_ajax_NamCandidature&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamCandidature_the_ajax_NamCandidature div >> internal:has-text=&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDE souhaité&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b4cc47f7-f975-4885-83fd-7c77eeb1a59e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>5e0a69e7-12a8-43b3-b54a-f908ee806729</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDE souhaitéStatut de la candidature Date de candidature Etat de la candidatureOrigineNomPrénomRangAge (années,mois)GenreCode postalIndice d'éligibilitéQPVActifInactifArchivée (contrat résilié)Depuis3 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd'hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiJusqu'à3 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd'hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiBrouillon (BSN)Nouvelle candidatureCandidat à convoquerCandidat convoquéCandidat à recontacterCandidature reportéeCandidature admissibleCandidat validé en commissionCandidat admisArchivée (candidat exclu du vivier)Archivée (doublon)Candidature gelée (doublon)Archivé (contrat résilié)RéadmissionArchivée (réadmission rejetée)TRA testTEST_21-11TEST_TRAMABL_NOV_ONE_TEST_TRAInternetCourrierTéléphoneForumFichier BSNMinMaxHommeFemmeMinMaxOuiNonNon renseigné(vide)(non vide)BordeauxActif25/11/2025Nouvelle candidatureCourrierTRATKatalonNom13TRATKatalonPrenom13020,00Homme35700100Non renseigné</value>
+      <webElementGuid>c2455607-0788-4bef-8e40-da1a50f66106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamCandidature_the_ajax_NamCandidature&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>d122b0c7-cc01-4662-852c-9610ab6c1043</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamCandidature_the_ajax_NamCandidature']/div/div[2]</value>
+      <webElementGuid>8b91699f-9785-4ae7-a87c-24f76e4460cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>de52c886-5a82-40b5-8c05-6ac8d53a517b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nom: tratkatalonnom13'])[1]/following::div[4]</value>
+      <webElementGuid>4720f156-0a1d-4242-8447-3d99a40c425a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>b4127399-65b4-4100-a409-beed89db9cf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDE souhaitéStatut de la candidature Date de candidature Etat de la candidatureOrigineNomPrénomRangAge (années,mois)GenreCode postalIndice d&quot; , &quot;'&quot; , &quot;éligibilitéQPVActifInactifArchivée (contrat résilié)Depuis3 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à3 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiBrouillon (BSN)Nouvelle candidatureCandidat à convoquerCandidat convoquéCandidat à recontacterCandidature reportéeCandidature admissibleCandidat validé en commissionCandidat admisArchivée (candidat exclu du vivier)Archivée (doublon)Candidature gelée (doublon)Archivé (contrat résilié)RéadmissionArchivée (réadmission rejetée)TRA testTEST_21-11TEST_TRAMABL_NOV_ONE_TEST_TRAInternetCourrierTéléphoneForumFichier BSNMinMaxHommeFemmeMinMaxOuiNonNon renseigné(vide)(non vide)BordeauxActif25/11/2025Nouvelle candidatureCourrierTRATKatalonNom13TRATKatalonPrenom13020,00Homme35700100Non renseigné&quot;) or . = concat(&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDE souhaitéStatut de la candidature Date de candidature Etat de la candidatureOrigineNomPrénomRangAge (années,mois)GenreCode postalIndice d&quot; , &quot;'&quot; , &quot;éligibilitéQPVActifInactifArchivée (contrat résilié)Depuis3 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à3 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui3 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiBrouillon (BSN)Nouvelle candidatureCandidat à convoquerCandidat convoquéCandidat à recontacterCandidature reportéeCandidature admissibleCandidat validé en commissionCandidat admisArchivée (candidat exclu du vivier)Archivée (doublon)Candidature gelée (doublon)Archivé (contrat résilié)RéadmissionArchivée (réadmission rejetée)TRA testTEST_21-11TEST_TRAMABL_NOV_ONE_TEST_TRAInternetCourrierTéléphoneForumFichier BSNMinMaxHommeFemmeMinMaxOuiNonNon renseigné(vide)(non vide)BordeauxActif25/11/2025Nouvelle candidatureCourrierTRATKatalonNom13TRATKatalonPrenom13020,00Homme35700100Non renseigné&quot;))]</value>
+      <webElementGuid>df53cb48-c0d3-40ab-abf5-9caa4460e60a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

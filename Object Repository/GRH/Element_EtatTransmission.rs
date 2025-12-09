@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_EtatTransmission</name>
+   <tag></tag>
+   <elementGuidId>d666324b-1d97-436f-8970-13c4c4090bd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;field_namDocadminEtatTransmission&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#select2-field_namDocadminEtatTransmission-container > div.enum-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Non transmis&quot;i >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>58b4be43-3ef0-4ea1-bff7-110c558db3fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>enum-item</value>
+      <webElementGuid>0662b38f-f088-4a0f-a506-3c1d8e83c25f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Non transmis</value>
+      <webElementGuid>8fcf955e-5665-4d82-b259-9de09be336d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-field_namDocadminEtatTransmission-container&quot;)/div[@class=&quot;enum-item&quot;]</value>
+      <webElementGuid>57764333-8039-4bd1-b58a-1d11238ac3c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='select2-field_namDocadminEtatTransmission-container']/div</value>
+      <webElementGuid>886e323d-5240-4fb7-8c48-58aae5bb87c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Etat de transmission'])[1]/following::div[1]</value>
+      <webElementGuid>268c6b6f-600d-480d-b638-ac4548445e1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date de fourniture'])[1]/preceding::div[1]</value>
+      <webElementGuid>7c4e9b8e-b3ed-408a-a1bf-f06777362a8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/span/span/span/span/div</value>
+      <webElementGuid>c475eb45-8b31-4e4d-9846-d756aeaf4649</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Non transmis' or . = 'Non transmis')]</value>
+      <webElementGuid>1d198f13-5ad7-4b73-a146-687e3754c979</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

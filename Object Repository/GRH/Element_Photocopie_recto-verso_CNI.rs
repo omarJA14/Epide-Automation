@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_Photocopie_recto-verso_CNI</name>
+   <tag></tag>
+   <elementGuidId>f0e6fe2a-5e0b-4369-8da5-1c96ac814016</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='list_NamTypeDocument_ref_ajax_NamTypeDocument']/div/div[2]/form/div/table/tbody/tr[16]/td[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Photocopie recto-verso de la CNI&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9b29be61-c90e-403f-b494-6b60441f01da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left breakword text</value>
+      <webElementGuid>fd480f62-9c7b-4ef1-b67b-7725eb05479b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Photocopie recto-verso de la CNI</value>
+      <webElementGuid>ae20c1f8-3cc5-43b0-bdbd-b77e14db2602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamTypeDocument_ref_ajax_NamTypeDocument&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[3]/div[@class=&quot;text-left breakword text&quot;]</value>
+      <webElementGuid>c535eddd-e7b2-4061-ac28-c25657bfaec2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamTypeDocument_ref_ajax_NamTypeDocument']/div/div[2]/form/div/table/tbody/tr[16]/td[3]/div</value>
+      <webElementGuid>166b407a-a2b1-4f03-a1a5-971f32414b97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oui'])[22]/following::div[1]</value>
+      <webElementGuid>3881a731-fc4a-4ac6-8b97-89804bc258e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non'])[15]/following::div[2]</value>
+      <webElementGuid>a36be761-894a-498f-a787-a7b7fd69aed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Obligatoire'])[11]/preceding::div[1]</value>
+      <webElementGuid>c2013d5d-90f4-4c7b-b8cc-f0a5e9d105eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oui'])[23]/preceding::div[3]</value>
+      <webElementGuid>a958d5b6-5edf-448f-8ef1-1e5f8a8d4326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Photocopie recto-verso de la CNI']/parent::*</value>
+      <webElementGuid>f01fd7a8-7059-482e-83a9-a32fb91af3a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[16]/td[3]/div</value>
+      <webElementGuid>69a41ab9-5c12-428e-baf0-72031bf66a8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Photocopie recto-verso de la CNI' or . = 'Photocopie recto-verso de la CNI')]</value>
+      <webElementGuid>dee3d423-32c1-49ab-8bb7-d68e68133024</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

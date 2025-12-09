@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39007_UC2.1.1 nominal_Un agent GRH édite le contrat de plusieurs jeunes admissibles</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ceed1169-4b60-46e2-8c1b-e8202fc5b89f</testCaseGuid>
+</TestCaseEntity>

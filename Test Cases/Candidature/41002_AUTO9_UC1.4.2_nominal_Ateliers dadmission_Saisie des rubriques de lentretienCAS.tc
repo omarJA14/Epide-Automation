@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>41002_AUTO9_UC1.4.2_nominal_Ateliers dadmission_Saisie des rubriques de lentretienCAS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1dbbfcb-86ce-4ff3-a165-7a50e84c95dd</testCaseGuid>
+</TestCaseEntity>

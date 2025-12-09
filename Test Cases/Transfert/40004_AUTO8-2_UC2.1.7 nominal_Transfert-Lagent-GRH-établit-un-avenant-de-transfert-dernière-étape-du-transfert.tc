@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>40004_AUTO8-2_UC2.1.7 nominal_Transfert-Lagent-GRH-établit-un-avenant-de-transfert-dernière-étape-du-transfert</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fc7b0b0-1d48-4bfb-9f76-8d060778c75c</testCaseGuid>
+</TestCaseEntity>

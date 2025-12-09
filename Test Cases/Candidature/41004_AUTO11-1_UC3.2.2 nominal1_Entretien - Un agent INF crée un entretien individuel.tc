@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>41004_AUTO11-1_UC3.2.2 nominal1_Entretien - Un agent INF crée un entretien individuel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>01c40f44-1e68-47aa-a645-21fd7414efac</testCaseGuid>
+</TestCaseEntity>

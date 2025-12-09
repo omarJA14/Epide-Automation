@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_candidats</name>
+   <tag></tag>
+   <elementGuidId>7616ba28-f2e4-4b1d-96bf-9f0e806804a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamCandidat_the_ajax_NamCandidat&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamCandidat_the_ajax_NamCandidat div >> internal:has-text=&quot;AdresseNamCandidat-1Parcours scolaireSuivi d'insertionParcours professionnelSitu&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9c619bce-b058-419b-a9ad-e7a4b96c78fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>3ef657a7-80fd-488e-89e1-1177218ecb46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AdresseNamCandidat-1Parcours scolaireSuivi d'insertionParcours professionnelSituation familialeHébergementHabillementAdministratifMobilitéSituation médicaleAntécédentsAntécédents gynécologiquesBiométrieAcuité visuelleEtat bucco-dentairePratique sportiveAvis des ateliers d'admissionPièces AdministrativesAcquisition de compétencesCoordonnées bancairesRubriques atelier admissionCentre EPIDENomPrénomRangAge (années,mois)Code postalGenreQPVIndice d'éligibilité Date de candidatureEtat de la candidatureStatut de la candidatureDernière action de recrutementNombre de candidaturesMinMaxHommeFemmeOuiNonNon renseigné(vide)(non vide)MinMaxSéjour découverteVisite de centreInformation collectivePréadmissionAdmissionPrendre contact avec jeune(vide)(non vide)BordeauxTRATKatalonNom13TRATKatalonPrenom13020,0035700HommeNon renseigné10025/11/2025Nouvelle candidatureActif1</value>
+      <webElementGuid>895c423f-7d15-455d-b224-a46e59e53aba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamCandidat_the_ajax_NamCandidat&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>1a717b81-03f2-47a1-9a9c-f9988c0954ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamCandidat_the_ajax_NamCandidat']/div/div[2]</value>
+      <webElementGuid>0b41b2af-71d4-4100-accc-def86b1af29f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>a7530ca1-8c01-4a3d-89ac-cf92237aba7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prénom: tratkatalonprenom13'])[1]/following::div[4]</value>
+      <webElementGuid>edf7aa79-923d-4351-a00b-8abc7181a791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>e6b99e67-7665-4d0f-a5b8-8f7ff0c8cae7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;AdresseNamCandidat-1Parcours scolaireSuivi d&quot; , &quot;'&quot; , &quot;insertionParcours professionnelSituation familialeHébergementHabillementAdministratifMobilitéSituation médicaleAntécédentsAntécédents gynécologiquesBiométrieAcuité visuelleEtat bucco-dentairePratique sportiveAvis des ateliers d&quot; , &quot;'&quot; , &quot;admissionPièces AdministrativesAcquisition de compétencesCoordonnées bancairesRubriques atelier admissionCentre EPIDENomPrénomRangAge (années,mois)Code postalGenreQPVIndice d&quot; , &quot;'&quot; , &quot;éligibilité Date de candidatureEtat de la candidatureStatut de la candidatureDernière action de recrutementNombre de candidaturesMinMaxHommeFemmeOuiNonNon renseigné(vide)(non vide)MinMaxSéjour découverteVisite de centreInformation collectivePréadmissionAdmissionPrendre contact avec jeune(vide)(non vide)BordeauxTRATKatalonNom13TRATKatalonPrenom13020,0035700HommeNon renseigné10025/11/2025Nouvelle candidatureActif1&quot;) or . = concat(&quot;AdresseNamCandidat-1Parcours scolaireSuivi d&quot; , &quot;'&quot; , &quot;insertionParcours professionnelSituation familialeHébergementHabillementAdministratifMobilitéSituation médicaleAntécédentsAntécédents gynécologiquesBiométrieAcuité visuelleEtat bucco-dentairePratique sportiveAvis des ateliers d&quot; , &quot;'&quot; , &quot;admissionPièces AdministrativesAcquisition de compétencesCoordonnées bancairesRubriques atelier admissionCentre EPIDENomPrénomRangAge (années,mois)Code postalGenreQPVIndice d&quot; , &quot;'&quot; , &quot;éligibilité Date de candidatureEtat de la candidatureStatut de la candidatureDernière action de recrutementNombre de candidaturesMinMaxHommeFemmeOuiNonNon renseigné(vide)(non vide)MinMaxSéjour découverteVisite de centreInformation collectivePréadmissionAdmissionPrendre contact avec jeune(vide)(non vide)BordeauxTRATKatalonNom13TRATKatalonPrenom13020,0035700HommeNon renseigné10025/11/2025Nouvelle candidatureActif1&quot;))]</value>
+      <webElementGuid>e64fd32d-eeb5-460f-9e07-a2c295b66811</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
