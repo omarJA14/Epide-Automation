@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>44004_AUTO21_CheckUp_UC5.3.2_Délégation_Délégation de rôle de D1 vers CRE</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fab99bb-c1f1-449f-a538-56586343f2d5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Elem_CongesPaternite</name>
+   <tag></tag>
+   <elementGuidId>41283230-59fc-4594-bacc-8bfb8c61c85f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='list_NamTypeAbsence_ref_ajax_NamTypeAbsence']/div/div[2]/form/div/table/tbody/tr[7]/td[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Congé paternité&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26eb067f-74f8-4b5d-814d-104b546dc1c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left breakword text</value>
+      <webElementGuid>a2d4426c-4992-441f-bf16-3adc7f14407e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Congé paternité</value>
+      <webElementGuid>885bd2f9-45f8-46fb-b428-2af7cc068a53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamTypeAbsence_ref_ajax_NamTypeAbsence&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[2]/div[@class=&quot;text-left breakword text&quot;]</value>
+      <webElementGuid>b6cb1c87-8d47-430c-ba05-72d5ab3f048a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamTypeAbsence_ref_ajax_NamTypeAbsence']/div/div[2]/form/div/table/tbody/tr[7]/td[2]/div</value>
+      <webElementGuid>4f660172-20d2-4c2d-ba22-732794fabd9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non'])[10]/following::div[2]</value>
+      <webElementGuid>380570ca-bcf3-4605-9b9b-560ec2bfa3bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oui'])[16]/following::div[3]</value>
+      <webElementGuid>b6e6f49c-3267-4bee-bdc7-5835e79ca1b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CP'])[1]/preceding::div[1]</value>
+      <webElementGuid>8b2a308d-ffd5-4f62-9814-ad5ac4ed0acd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#ffffff'])[1]/preceding::div[2]</value>
+      <webElementGuid>f4c5aca6-a0e8-4db5-b9d3-192415189b4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Congé paternité']/parent::*</value>
+      <webElementGuid>4917b044-fde4-41d7-9f71-33f88aef6e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[7]/td[2]/div</value>
+      <webElementGuid>2b373a4f-ebae-475d-83c8-483fb85ac386</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Congé paternité' or . = 'Congé paternité')]</value>
+      <webElementGuid>b14b861b-7550-4161-b32d-d8bfe812b5ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

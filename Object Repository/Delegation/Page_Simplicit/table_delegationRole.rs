@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_delegationRole</name>
+   <tag></tag>
+   <elementGuidId>d50a62a1-c24b-4d09-8352-e58ea61f03ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamRoleMandat_the_ajax_NamRoleMandat&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamRoleMandat_the_ajax_NamRoleMandat div >> internal:has-text=&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerDate de débutDate de &quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1b1b9bbd-a3df-451e-b6dc-7d9e0580dea3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>ed042837-2130-4666-bea4-7e20fadd96c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tout sélectionnerSélectionner cette pageTout désélectionnerDate de débutDate de finNom du délégantPrénom du délégantRôle du délégantNom du mandatairePrénom du mandataireCentreSupprimer25/02/202626/02/2026nom d1prénom d1Directeur(trice) de centreprénom crenom creBordeaux</value>
+      <webElementGuid>1bee5fb0-87e3-443c-80a1-470ef68ada49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamRoleMandat_the_ajax_NamRoleMandat&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>3bd1f1ad-666c-4ede-8b8e-1ba06d9325cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamRoleMandat_the_ajax_NamRoleMandat']/div/div[2]</value>
+      <webElementGuid>432e4084-eec3-41a8-a7f4-6553215845b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>da29a11a-fa20-4eb5-8f4c-f4dc34561458</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prénom du mandataire: nom cre'])[1]/following::div[4]</value>
+      <webElementGuid>1462b870-d5c1-4f2a-a71f-aa3b877d7308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>e241ed4e-f66c-4d4a-b57e-e41f0d3d147b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tout sélectionnerSélectionner cette pageTout désélectionnerDate de débutDate de finNom du délégantPrénom du délégantRôle du délégantNom du mandatairePrénom du mandataireCentreSupprimer25/02/202626/02/2026nom d1prénom d1Directeur(trice) de centreprénom crenom creBordeaux' or . = 'Tout sélectionnerSélectionner cette pageTout désélectionnerDate de débutDate de finNom du délégantPrénom du délégantRôle du délégantNom du mandatairePrénom du mandataireCentreSupprimer25/02/202626/02/2026nom d1prénom d1Directeur(trice) de centreprénom crenom creBordeaux')]</value>
+      <webElementGuid>c04bc02f-4656-4523-9cc3-c136d59adeb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

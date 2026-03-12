@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Elem_HorsCursus</name>
+   <tag></tag>
+   <elementGuidId>1d003e65-82f2-464f-af87-d9f07b1a0a01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='list_NamTypeAbsence_ref_ajax_NamTypeAbsence']/div/div[2]/form/div/table/tbody/tr[8]/td[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Hors Cursus&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>62381c1d-510b-454a-967c-c82664f20252</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left breakword text</value>
+      <webElementGuid>28b6b0cc-6068-4e4e-8d78-c89bb90faddd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hors Cursus</value>
+      <webElementGuid>e91b7fc9-2562-456f-8253-f887ea9500eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamTypeAbsence_ref_ajax_NamTypeAbsence&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[2]/div[@class=&quot;text-left breakword text&quot;]</value>
+      <webElementGuid>44ed4107-d85f-46ab-90de-a46a336cfef4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamTypeAbsence_ref_ajax_NamTypeAbsence']/div/div[2]/form/div/table/tbody/tr[8]/td[2]/div</value>
+      <webElementGuid>a727606b-9a79-4cec-b446-8713903a9a9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non'])[12]/following::div[2]</value>
+      <webElementGuid>418477f3-3ac5-492d-85c7-b7b068864adf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oui'])[17]/following::div[3]</value>
+      <webElementGuid>f85e2ca4-6a81-475d-a04b-d4662655cc34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HC'])[1]/preceding::div[1]</value>
+      <webElementGuid>bd238eb4-15f4-42a8-a648-523e7ef2fd8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#0000FF'])[1]/preceding::div[2]</value>
+      <webElementGuid>804b405c-1051-443e-8170-fe01a6666044</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hors Cursus']/parent::*</value>
+      <webElementGuid>ce7f85ec-9e19-44a3-bcd2-5563553fd886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[8]/td[2]/div</value>
+      <webElementGuid>f24276e9-3334-4411-917f-174c0a6fd964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Hors Cursus' or . = 'Hors Cursus')]</value>
+      <webElementGuid>b96ab9e2-c577-496f-888f-92b82bb45c89</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

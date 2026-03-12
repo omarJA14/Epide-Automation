@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>44001_AUTO16_UC2.2.4 nominal_Un agent suit les absences des volontaires</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>099812ff-93be-44f2-ae20-8586b0f5aab2</testCaseGuid>
+</TestCaseEntity>

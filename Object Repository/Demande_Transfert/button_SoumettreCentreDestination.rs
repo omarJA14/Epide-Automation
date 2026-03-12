@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Soumettre au centre de destination&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d4765091-6446-4c5b-b8be-c48e3875c703</webElementGuid>
+      <webElementGuid>c60fd4a3-4b04-405f-a9fa-49775a3b3f67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>745babc5-e3ed-4410-8ce5-0b5ef2d2635d</webElementGuid>
+      <webElementGuid>9881459d-2435-4005-ab8e-373b0095a143</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-action action-not-xs</value>
-      <webElementGuid>0fc22016-629b-4fc2-bef6-707228952710</webElementGuid>
+      <webElementGuid>6953988e-c9ff-4833-be40-b09a554fcaca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>NAM_SOUMETTRE_CENTRE_DESTINATION</value>
-      <webElementGuid>56793be5-f7f8-49d4-a307-c5a6d00f44c0</webElementGuid>
+      <webElementGuid>58b0a0fe-7757-4125-8926-fef76c894bb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-rowid</name>
       <type>Main</type>
       <value>438</value>
-      <webElementGuid>9f76e3fa-0246-4cd1-9195-2b5528939e20</webElementGuid>
+      <webElementGuid>09a3a952-6404-4a54-8012-1bec3399c655</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Soumettre au centre de destination</value>
-      <webElementGuid>8b0834e4-0fb1-48dc-b9ac-6cb9e31de42c</webElementGuid>
+      <webElementGuid>8bc62fc3-6ae4-49b8-b561-2d3c84a76aea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamDemandeTransfertCentre_action3_ajax_NamDemandeTransfertCentre_438&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-action action-not-xs&quot;]</value>
-      <webElementGuid>9550157b-91df-40bf-9047-be7855ba86ca</webElementGuid>
+      <webElementGuid>2054a7ef-eff7-4966-99ca-37ad11d878f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>74dc450b-3659-43b0-b81e-f4647392f880</webElementGuid>
+      <webElementGuid>243df90f-856a-4746-86ef-c144e99421b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamDemandeTransfertCentre_action3_ajax_NamDemandeTransfertCentre_438']/div/div/div/div[2]/div/button[3]</value>
-      <webElementGuid>506b3ade-ad8d-4f74-8734-6e3bcd88b088</webElementGuid>
+      <webElementGuid>5f4739fd-42b3-478e-8f0c-afe4ae1c700b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Fermer'])[1]/following::button[1]</value>
-      <webElementGuid>f439948b-28d6-4576-ba9a-4e8f26b0e584</webElementGuid>
+      <webElementGuid>8cf9771a-29b0-4a47-8c30-d59e7e3b0370</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer'])[1]/following::button[2]</value>
-      <webElementGuid>2e3b54c8-75b0-42a9-8a30-d330a1a1ddda</webElementGuid>
+      <webElementGuid>693d4d8a-a02b-43a7-823f-3f7dd55a81eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supprimer'])[1]/preceding::button[2]</value>
-      <webElementGuid>60f4f647-5a5c-41f3-93ab-06853ff7a9e4</webElementGuid>
+      <webElementGuid>89b66752-8076-40de-8e13-40eac41fc843</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>3c10602c-3ee9-4823-a0bc-06a6e7cbd7df</webElementGuid>
+      <webElementGuid>019fd367-ce51-4b3b-9693-86c741512cb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Soumettre au centre de destination' or . = 'Soumettre au centre de destination')]</value>
-      <webElementGuid>746bc44f-4e4c-4c32-8ae6-e23c26d569df</webElementGuid>
+      <webElementGuid>75666efd-1ae1-425f-95ad-9aea52a5b48a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

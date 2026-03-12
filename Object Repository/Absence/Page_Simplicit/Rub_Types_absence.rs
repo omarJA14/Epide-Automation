@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Rub_Types_absence</name>
+   <tag></tag>
+   <elementGuidId>0912c2e2-25ee-4d9e-80c1-df50e8f6450d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.sub-menu > li.active > ul.sub-menu > li:nth-of-type(3) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='menu']/nav/ul/li/ul/li[13]/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>xpath=//a[normalize-space()='Types d'absence']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bc5e26bf-5837-4635-a7c1-513e8b8585b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-obj</name>
+      <type>Main</type>
+      <value>NamTypeAbsence</value>
+      <webElementGuid>ff804772-3d38-4fd7-9af7-be98ef5c672d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-search</name>
+      <type>Main</type>
+      <value>column</value>
+      <webElementGuid>8fa034f0-d0ff-4bed-b6ae-d05d3b235f02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Types d'absence</value>
+      <webElementGuid>ecf4f3d6-a217-4f63-9837-31eb472beb27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu&quot;)/nav[@class=&quot;main-nav&quot;]/ul[@class=&quot;main-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[3]/a[1]</value>
+      <webElementGuid>2b9d136e-c6e8-491b-95e8-2201fa2f726a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='menu']/nav/ul/li/ul/li[13]/ul/li[3]/a</value>
+      <webElementGuid>342089e7-ec98-4168-8d7f-75fa77daab9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Types de document'])[1]/following::a[1]</value>
+      <webElementGuid>9a0bebd9-310d-4465-92cc-cf8c2165afec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agents'])[1]/following::a[2]</value>
+      <webElementGuid>3054527c-a55d-4c05-9062-c48152973666</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[47]</value>
+      <webElementGuid>09124681-ea3f-4f4c-98f9-734be962a7e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[13]/ul/li[3]/a</value>
+      <webElementGuid>ea5a5fbe-d3ce-4aa9-861f-c186db28c2bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = concat(&quot;Types d&quot; , &quot;'&quot; , &quot;absence&quot;) or . = concat(&quot;Types d&quot; , &quot;'&quot; , &quot;absence&quot;))]</value>
+      <webElementGuid>4933d383-4f92-4dce-90da-5c9c4714015d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

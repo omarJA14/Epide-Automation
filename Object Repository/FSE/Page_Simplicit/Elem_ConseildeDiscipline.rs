@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Elem_ConseildeDiscipline</name>
+   <tag></tag>
+   <elementGuidId>d54c97c5-0deb-439f-b4af-494954530b58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#select2-field_namFseStatut-container > div.enum-item > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='select2-field_namFseStatut-container']/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Conseil de discipline&quot;i >> internal:text=&quot;Conseil de discipline&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d38b4d80-8ba7-4512-a84b-edd0d2e119ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Conseil de discipline</value>
+      <webElementGuid>1bf35d49-6a4a-4961-b042-735cf4ff3c51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-field_namFseStatut-container&quot;)/div[@class=&quot;enum-item&quot;]/span[1]</value>
+      <webElementGuid>2894efe0-f3a0-46b0-8d8e-021973a74e68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='select2-field_namFseStatut-container']/div/span</value>
+      <webElementGuid>ac1d7cfb-9fbb-4bd7-865c-c3879a7395ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Statut de FSE'])[1]/following::span[5]</value>
+      <webElementGuid>18d0377e-54e2-4d7a-9ad2-7d173549cddd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Détérioration'])[2]/following::span[7]</value>
+      <webElementGuid>dea994f8-f105-4da8-b321-faf16f13bc0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rédacteur'])[1]/preceding::span[3]</value>
+      <webElementGuid>a4bcd8e9-fbf1-42c1-ae3b-babd0c55241b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/span/span/span/span/div/span</value>
+      <webElementGuid>2aa052f5-c180-486e-9eaa-32285fd18d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Conseil de discipline' or . = 'Conseil de discipline')]</value>
+      <webElementGuid>8df96886-5260-4e09-8db0-f8dfdda1e4fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

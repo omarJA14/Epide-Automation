@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_search_notification</name>
+   <tag></tag>
+   <elementGuidId>e92c2854-6676-479f-9da0-0cead8135ee2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@data-field='namAdmNotifNom']//div&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-left.breakword.text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Nouvelle FSE&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aa5d34da-1133-4fd3-b812-0a3a5245d121</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left breakword text</value>
+      <webElementGuid>9b95c21b-95ae-4aa1-a0cb-46d0f542f03c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nouvelle FSE</value>
+      <webElementGuid>a76c86bf-f104-4210-a7cd-ea88b8079176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamAdmNotification_the_ajax_NamAdmNotification&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[2]/div[@class=&quot;text-left breakword text&quot;]</value>
+      <webElementGuid>ed6e4ae6-a0a8-44de-b325-0a16f08e359b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamAdmNotification_the_ajax_NamAdmNotification']/div/div[2]/form/div/table/tbody/tr/td[2]/div</value>
+      <webElementGuid>1c88ba1a-d636-42da-a6c7-1ecbd44066f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message'])[1]/following::div[19]</value>
+      <webElementGuid>5d79c82d-a7c6-4228-8022-36b2c6a219ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actif'])[1]/following::div[20]</value>
+      <webElementGuid>c5d0f753-fe8e-4f04-8cc4-43f2cebed6ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alerte'])[2]/preceding::div[2]</value>
+      <webElementGuid>600f86b9-6b42-40f0-ba18-99c7412ad671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='${prenom} ${nom} du ${rang}, dans la section ${section} et promotion ${promotion}'])[1]/preceding::div[3]</value>
+      <webElementGuid>5b4d80c6-708b-4462-b3f8-cf726c22bbc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nouvelle FSE']/parent::*</value>
+      <webElementGuid>995fd559-0898-431a-93c6-6996d1b21891</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div</value>
+      <webElementGuid>da32c59b-7f81-4852-9e5a-e34ba7a83225</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Nouvelle FSE' or . = 'Nouvelle FSE')]</value>
+      <webElementGuid>f0128109-21ff-4809-a805-1ade075adb1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

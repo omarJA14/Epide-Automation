@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42008_AUTO13-5_UC3.3.7 nominal_FSE-Un agent habilité à la gestion des volontaires convoque un jeune au conseil de discipline</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5bef0b8-3f5a-4a49-b539-120a48172829</testCaseGuid>
+</TestCaseEntity>

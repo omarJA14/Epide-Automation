@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Créer&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b717e7dd-5e55-4a88-b0bc-64f6f030f8f3</webElementGuid>
+      <webElementGuid>cf480ed2-78b7-44e3-b574-f7527c388d5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-create</value>
-      <webElementGuid>014c3003-a9ca-4298-8363-e935abb0bef7</webElementGuid>
+      <webElementGuid>dcddc234-9572-4085-8c09-6deb8447efd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>32eaa304-11e3-4123-bc59-c4a931031e1a</webElementGuid>
+      <webElementGuid>77029f83-6f7c-4992-b61a-591527eea442</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>create</value>
-      <webElementGuid>1b15d6b5-5ede-4fcb-aa92-24012fd5f2a5</webElementGuid>
+      <webElementGuid>9b795381-7272-4652-b3e3-9a5d0c4615f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Créer</value>
-      <webElementGuid>96a720f4-45ef-46f3-b2ed-0132b82653b9</webElementGuid>
+      <webElementGuid>b5c923f3-a638-47f3-b61f-b7665f1f3ba3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_NamEntretienIndividuel_panel_ajax_NamEntretienIndividuel_namEiJenId&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;list-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-primary btn-create&quot;]</value>
-      <webElementGuid>2b06bfdc-779e-4b03-ba3b-4303f052408a</webElementGuid>
+      <webElementGuid>192ea804-d99f-4dd0-b774-ac7fba2ff765</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[20]</value>
-      <webElementGuid>79e6bc13-47c4-4adf-826c-fdeb5c14319a</webElementGuid>
+      <webElementGuid>b4856ca9-05fa-4cd3-b8c5-c9a96f91a1e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='list_NamEntretienIndividuel_panel_ajax_NamEntretienIndividuel_namEiJenId']/div/div/div/div[3]/div/button</value>
-      <webElementGuid>cc948f80-454c-4435-90c8-5bd5883954e5</webElementGuid>
+      <webElementGuid>c53d7a6d-637f-46c4-8810-40099a848721</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 0'])[5]/following::button[1]</value>
-      <webElementGuid>2f722ca0-f958-49b3-95de-c6fa813f021d</webElementGuid>
+      <webElementGuid>9d2019c1-5de9-4f71-b777-c79163e72c76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Entretiens Individuels'])[2]/following::button[1]</value>
-      <webElementGuid>5162387c-450f-4a01-b7e5-87e0b6772b5e</webElementGuid>
+      <webElementGuid>0307beb5-471c-4f1c-a622-c4eb9c0ee90a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div/div/div/div[3]/div/button</value>
-      <webElementGuid>e3fcd90c-f672-4bcc-a58d-981a10a1168a</webElementGuid>
+      <webElementGuid>2118d6b8-8be8-423a-80a2-fb8af5f3fb0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Créer' or . = 'Créer')]</value>
-      <webElementGuid>e5212772-7441-4edd-b0dd-57d4cebae3e9</webElementGuid>
+      <webElementGuid>8d6391be-b06a-414c-b4dc-6bb581cb55f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

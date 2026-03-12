@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>B_Type_absence</name>
+   <tag></tag>
+   <elementGuidId>4a16d80b-43e0-423d-84d0-a00dcc53f998</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.breadcrumb-item > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='work']/div/div/div/ol/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>xpath=//a[normalize-space()=&quot;Type d'absence&quot;]&#xd;
+</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bd399889-563c-4a96-b9b7-af49f7b8b874</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>4afb828a-75f8-40ac-87da-a4386216cf66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Type d'absence</value>
+      <webElementGuid>94e1eb03-1c18-4e1d-b7f5-a482c69bb3f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;work&quot;)/div[@class=&quot;split&quot;]/div[@class=&quot;desk&quot;]/div[@class=&quot;nav d-none d-sm-block&quot;]/ol[@class=&quot;breadcrumb&quot;]/li[@class=&quot;breadcrumb-item&quot;]/a[1]</value>
+      <webElementGuid>7d8fb741-0179-45b0-a027-978a8d355906</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='work']/div/div/div/ol/li/a</value>
+      <webElementGuid>ed1c563b-7fd8-4633-9d8f-14c3b1a70a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liste de valeurs'])[1]/following::a[1]</value>
+      <webElementGuid>0381f605-35c2-4b8d-92b6-75d5fd62130a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paramètres métier'])[1]/following::a[2]</value>
+      <webElementGuid>b06927e2-3bb9-4d74-bca3-5d427bcd9213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 7'])[1]/preceding::a[1]</value>
+      <webElementGuid>c5158718-c840-4611-aad3-dbe9578a2e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[55]</value>
+      <webElementGuid>1eacfc09-cf84-4857-a98d-4db64643feb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol/li/a</value>
+      <webElementGuid>acc14b88-36dc-47db-a725-8112f0458ce7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = concat(&quot;Type d&quot; , &quot;'&quot; , &quot;absence&quot;) or . = concat(&quot;Type d&quot; , &quot;'&quot; , &quot;absence&quot;))]</value>
+      <webElementGuid>6453438d-3ae0-478f-ba2f-10200e527980</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

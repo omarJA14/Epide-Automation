@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Générer document&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>29e1d1dc-feaa-4c50-994b-cf553e9fd186</webElementGuid>
+      <webElementGuid>01a8ef38-53ed-491e-8eb7-b26b25372a0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bd6d5c2d-ac9a-4720-912d-b7158fe0a592</webElementGuid>
+      <webElementGuid>187e7f30-502a-4a2f-aded-e738c4850133</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary btn-print action-not-xs</value>
-      <webElementGuid>84151976-f673-424c-bcb6-1f635f74843f</webElementGuid>
+      <webElementGuid>a8bf6b6e-5e55-40ef-9554-9e2580b0a106</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>print_NamDownloadModelAvenant</value>
-      <webElementGuid>eecce0b0-d6e9-44ef-a877-d0d2ad5c50e5</webElementGuid>
+      <webElementGuid>98db311c-673c-47ce-841d-d4798802d316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-rowid</name>
       <type>Main</type>
       <value>55158</value>
-      <webElementGuid>ce76b569-e1fa-4e35-b2b6-5dda8381abe8</webElementGuid>
+      <webElementGuid>967a34c4-411c-4f4c-992d-bafc71850727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Générer document</value>
-      <webElementGuid>87212099-358c-4485-a643-8dc9e7166aff</webElementGuid>
+      <webElementGuid>25f4b1a6-1eee-4e62-becd-384bf8c9bcc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamContratAvenant_the_ajax_NamContratAvenant_55158&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-secondary btn-print action-not-xs&quot;]</value>
-      <webElementGuid>3875fdf4-cf9b-4b70-bbe6-1436a8e52dfb</webElementGuid>
+      <webElementGuid>748bd5fb-d14b-4be2-8925-73380a40fb4e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>03494c9a-12ee-4158-8b1e-64c11fc178e2</webElementGuid>
+      <webElementGuid>fe93a186-4452-44e8-833d-9edf1e0adc78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamContratAvenant_the_ajax_NamContratAvenant_55158']/div/div/div/div[2]/div/button[4]</value>
-      <webElementGuid>a4414d00-0627-4d3f-8e50-b0f29fd6c0aa</webElementGuid>
+      <webElementGuid>e8a66306-a1b5-46ae-b6fa-0078dfe4afc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Retour au statut précédent'])[1]/following::button[1]</value>
-      <webElementGuid>e20c402c-9ebf-4fab-8362-9cf0a5cee94a</webElementGuid>
+      <webElementGuid>0337a603-99e5-4a5d-bc9c-187828c8f8e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Fermer'])[1]/following::button[2]</value>
-      <webElementGuid>0868fc6c-fd41-4d25-b735-9814e17ae02e</webElementGuid>
+      <webElementGuid>14475b8f-1deb-4f29-b835-3cc0edf1b7b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Générer document'])[2]/preceding::button[2]</value>
-      <webElementGuid>ad23e46e-27ac-4c34-b35e-662cd02222d9</webElementGuid>
+      <webElementGuid>44e89d51-41b9-43de-90a5-f607c2910888</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[4]</value>
-      <webElementGuid>512a1f4f-1686-4a7f-be1d-8a0ab16f3a3e</webElementGuid>
+      <webElementGuid>2e6fc032-576f-4b8b-b2d7-d16e4f3d6f00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Générer document' or . = 'Générer document')]</value>
-      <webElementGuid>4d9318ce-38fc-4a7b-a522-2e70bb21bab1</webElementGuid>
+      <webElementGuid>60945662-540f-458c-959a-d880c0eb5e65</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

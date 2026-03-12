@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Créer&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>481536b6-ad8b-4216-9588-8a8dff7044bc</webElementGuid>
+      <webElementGuid>98e54a3f-169c-4b9f-857c-a1b43f9a75a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary btn-create</value>
-      <webElementGuid>a871de98-5d20-4e1b-a724-9fe17419b426</webElementGuid>
+      <webElementGuid>a0bc0775-a8f3-41d0-8aff-c4022df30b94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>49bed012-f765-4e57-af98-d3b02ae26913</webElementGuid>
+      <webElementGuid>a0c65668-4d08-435d-be11-b08209a69026</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>create</value>
-      <webElementGuid>859a93bc-bd71-4a1c-b48a-a653a97a4dd1</webElementGuid>
+      <webElementGuid>5b011eca-76c7-43b2-9825-e212707d90c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Créer</value>
-      <webElementGuid>61f0925c-99c0-4a8b-914d-7a016ec9b9ac</webElementGuid>
+      <webElementGuid>692e3648-8e0d-4bc0-932e-e82db7adae2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_NamAvisTransfert_panel_ajax_NamAvisTransfert_namAvtransfertDtcId&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;list-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-secondary btn-create&quot;]</value>
-      <webElementGuid>363cd8bd-7acd-4603-bba0-0f11a4f7ee22</webElementGuid>
+      <webElementGuid>834a3142-09bf-4d3c-a08d-edbfc0ce9d81</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>7228fe1d-4c5d-4261-9ed4-9ac7d06efb2e</webElementGuid>
+      <webElementGuid>49238510-fba1-4c0e-a6d8-a42e861003fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='list_NamAvisTransfert_panel_ajax_NamAvisTransfert_namAvtransfertDtcId']/div/div/div/div[3]/div/button</value>
-      <webElementGuid>a0f8d13d-4921-45da-862e-3640c1999f1c</webElementGuid>
+      <webElementGuid>b71732df-ab4e-49d5-a6a6-fb7e709a0fb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 0'])[1]/following::button[1]</value>
-      <webElementGuid>bd1ac6ff-0646-48be-b10e-6af026fb07f6</webElementGuid>
+      <webElementGuid>305d4749-46c1-4564-a28b-2ea0014f1d63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Avis'])[1]/following::button[1]</value>
-      <webElementGuid>91feaf50-c430-4185-9c96-955b129e1a04</webElementGuid>
+      <webElementGuid>aa6e69cf-20cd-4c51-92bb-3a1cda5281ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recharger'])[1]/preceding::button[3]</value>
-      <webElementGuid>eb53c3bb-24ea-45bd-8f7d-bf1b237cb551</webElementGuid>
+      <webElementGuid>b3e8811b-23ca-4ec5-99c3-e5a049f05164</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>354a4d0f-be16-40c0-ba6b-74295e0e7583</webElementGuid>
+      <webElementGuid>a5ffebaf-6111-41dc-9fd3-67501b82156e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Créer' or . = 'Créer')]</value>
-      <webElementGuid>07d9665b-0053-42fc-a633-cd250fede1a4</webElementGuid>
+      <webElementGuid>e161009a-8ae9-4397-882e-74485cbc37f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>43002_AUTO15-1_UC3.4.5_nominal_Un agent inscrit un volontaire à un examen existant</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4015fbdf-42a4-4ff9-9408-6b2866329ae9</testCaseGuid>
+</TestCaseEntity>

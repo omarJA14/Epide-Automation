@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>45001_AUTO30_UC5.2.6_s nominal_Créer une promotion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fb2f8f6-f166-43cb-bc47-37bcd0570cc4</testCaseGuid>
+</TestCaseEntity>

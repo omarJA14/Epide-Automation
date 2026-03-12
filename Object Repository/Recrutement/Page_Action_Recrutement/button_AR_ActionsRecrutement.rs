@@ -6,22 +6,22 @@
    <elementGuidId>0fa1f0ac-50df-4be5-ae01-0691bf0dcba2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='menu']/nav/ul/li/ul/li[4]/ul/li[4]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.menu-sel</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='menu']/nav/ul/li/ul/li[4]/ul/li[4]/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:role=link[name=&quot; Actions de recrutement&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>18889007-0ee0-4927-8421-3aa18e3d30ab</webElementGuid>
+      <webElementGuid>506a0f82-8fd5-48d4-b338-bcfe673309d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-obj</name>
       <type>Main</type>
       <value>NamActionRecrutement</value>
-      <webElementGuid>8c415482-a918-4e60-b54b-0c3ba578546a</webElementGuid>
+      <webElementGuid>e47f0b22-9049-44bf-822d-6864c172bb7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-search</name>
       <type>Main</type>
       <value>column</value>
-      <webElementGuid>d7c05c6b-58e4-41a4-99f0-8f81dbc2482a</webElementGuid>
+      <webElementGuid>26639f36-6bdd-4c55-a210-621aa657e881</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu-sel</value>
-      <webElementGuid>abe8d17d-5304-4d55-9f8f-f33e25a0a359</webElementGuid>
+      <webElementGuid>62034b3c-2150-4185-bab5-c7ef6ad59ea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Actions de recrutement</value>
-      <webElementGuid>f51f9c24-adf5-4db4-bea2-72f2d8ef4081</webElementGuid>
+      <webElementGuid>31572e66-c386-4800-94c2-4b3fb5914844</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu&quot;)/nav[@class=&quot;main-nav&quot;]/ul[@class=&quot;main-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[4]/a[@class=&quot;menu-sel&quot;]</value>
-      <webElementGuid>3323e58c-e346-4ace-881a-950967b4348d</webElementGuid>
+      <webElementGuid>42797f50-3eb9-452f-8bce-419419e2f33a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu']/nav/ul/li/ul/li[4]/ul/li[4]/a</value>
-      <webElementGuid>e4a5647a-5774-483d-b341-35c4da4805b1</webElementGuid>
+      <webElementGuid>023637d6-88a1-48d3-a9c6-b2e2d00f5cc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidats'])[1]/following::a[1]</value>
-      <webElementGuid>df3d0acc-5c88-4062-8c30-2715d07d2f0a</webElementGuid>
+      <webElementGuid>1aba7bbf-1dde-48cc-957d-0bcbaa86c390</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Imports de fichier BSN'])[1]/following::a[2]</value>
-      <webElementGuid>fa5c3e9f-49f5-48b9-982d-f1ba915b5d4c</webElementGuid>
+      <webElementGuid>3463eb40-5904-4ac9-95d8-4de511de6954</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gestion des volontaires'])[1]/preceding::a[1]</value>
-      <webElementGuid>fbddec1a-2e20-49a8-a7d8-4081d69d12ed</webElementGuid>
+      <webElementGuid>379c056e-d029-4a30-a639-3d2c3121a204</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[13]</value>
-      <webElementGuid>b9819c07-67b6-4e0f-b0aa-20b60937ff25</webElementGuid>
+      <webElementGuid>b56b9936-33e9-4d95-a9e5-716bfb87e22e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/ul/li[4]/a</value>
-      <webElementGuid>e6864cf2-1007-4a21-8717-f9b3c47f5182</webElementGuid>
+      <webElementGuid>31d033fd-0ffb-4fda-90e9-a26e03d3da1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = ' Actions de recrutement' or . = ' Actions de recrutement')]</value>
-      <webElementGuid>5c7f5baf-350d-4efb-8c32-b332bb1184c1</webElementGuid>
+      <webElementGuid>70056a9c-9f59-4420-9730-57d8e7ca2e2c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

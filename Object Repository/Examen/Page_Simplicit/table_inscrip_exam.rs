@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_inscrip_exam</name>
+   <tag></tag>
+   <elementGuidId>dc37c4b2-bebb-4433-bb65-d0644565ee7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card.panel-list > div.card-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamInscriptionExam_panel_ajax_NamInscriptionExam_namInexExamId&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamInscriptionExam_panel_ajax_NamInscriptionExam_namInexExamId div >> internal:has-text=&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDE Promotio&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f01a1979-0937-48b4-9d78-fb0e7bf1103a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>18d5a91a-05fa-457e-adf8-fa66439f1510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDE Promotion Section Nom Prénom Absent / PrésentObtenuDate d’obtentionNombre de modules validésConvoquéPrésentAbsentOuiNonDepuis20 Février 202610:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd'hui20 Février 20260:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiFévrier 2026LMaMeJVSD2627282930311234567891011121314151617181920212223242526272812345678Aujourd'hui2026JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiJusqu'à20 Février 202610:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd'hui20 Février 20260:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiFévrier 2026LMaMeJVSD2627282930311234567891011121314151617181920212223242526272812345678Aujourd'hui2026JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiMinMaxBordeaux012019Section 1TRATKatalonNom6TRATKatalonPrenom6PrésentOui20/02/2026</value>
+      <webElementGuid>2a05dd43-8172-4358-ade0-e892e8d5b181</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamInscriptionExam_panel_ajax_NamInscriptionExam_namInexExamId&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>e54cc5d7-2e83-4cbf-bc1e-0c2b1d829787</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamInscriptionExam_panel_ajax_NamInscriptionExam_namInexExamId']/div/div[2]</value>
+      <webElementGuid>ac9edcba-48cb-4722-b3b2-1777e5b91122</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supprimer en masse'])[2]/following::div[1]</value>
+      <webElementGuid>a2a4a338-a941-4daa-9c33-6f958c98ecc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div[2]</value>
+      <webElementGuid>47365594-0a12-452d-8bec-370868a2946c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDE Promotion Section Nom Prénom Absent / PrésentObtenuDate d’obtentionNombre de modules validésConvoquéPrésentAbsentOuiNonDepuis20 Février 202610:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd&quot; , &quot;'&quot; , &quot;hui20 Février 20260:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiFévrier 2026LMaMeJVSD2627282930311234567891011121314151617181920212223242526272812345678Aujourd&quot; , &quot;'&quot; , &quot;hui2026JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à20 Février 202610:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd&quot; , &quot;'&quot; , &quot;hui20 Février 20260:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiFévrier 2026LMaMeJVSD2627282930311234567891011121314151617181920212223242526272812345678Aujourd&quot; , &quot;'&quot; , &quot;hui2026JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiMinMaxBordeaux012019Section 1TRATKatalonNom6TRATKatalonPrenom6PrésentOui20/02/2026&quot;) or . = concat(&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDE Promotion Section Nom Prénom Absent / PrésentObtenuDate d’obtentionNombre de modules validésConvoquéPrésentAbsentOuiNonDepuis20 Février 202610:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd&quot; , &quot;'&quot; , &quot;hui20 Février 20260:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiFévrier 2026LMaMeJVSD2627282930311234567891011121314151617181920212223242526272812345678Aujourd&quot; , &quot;'&quot; , &quot;hui2026JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à20 Février 202610:0010:0510:1010:1510:2010:2510:3010:3510:4010:4510:5010:55Aujourd&quot; , &quot;'&quot; , &quot;hui20 Février 20260:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiFévrier 2026LMaMeJVSD2627282930311234567891011121314151617181920212223242526272812345678Aujourd&quot; , &quot;'&quot; , &quot;hui2026JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiMinMaxBordeaux012019Section 1TRATKatalonNom6TRATKatalonPrenom6PrésentOui20/02/2026&quot;))]</value>
+      <webElementGuid>4bba9eea-9eb9-4e82-ada1-fd8ff1f19255</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

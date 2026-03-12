@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>39005_UC1.4.6 nominal_Avis_Commission_Admission</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ff511db0-35b7-44a8-a124-4bc7163495f9</testCaseGuid>
-</TestCaseEntity>

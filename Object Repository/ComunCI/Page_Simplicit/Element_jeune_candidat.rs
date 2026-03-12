@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_jeune_candidat</name>
+   <tag></tag>
+   <elementGuidId>201eca9d-c086-4553-abee-69abc6921dbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@data-field='namPrenom']//div&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(4) > div.text-left.breakword.text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;marius&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>41be63d4-56de-42c5-8721-523fa1466d80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left breakword text</value>
+      <webElementGuid>21f7efb4-97ad-449b-a163-67ab3d626d2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Marius</value>
+      <webElementGuid>88dbcd6d-55c5-4a21-9b71-b2ee157d023a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamVolontaire_the_ajax_NamVolontaire&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[4]/div[@class=&quot;text-left breakword text&quot;]</value>
+      <webElementGuid>ae617dbb-1dec-49fd-b6da-fcfed8509078</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamVolontaire_the_ajax_NamVolontaire']/div/div[2]/form/div/table/tbody/tr/td[4]/div</value>
+      <webElementGuid>32cf00bb-7d03-4e28-ac65-3d7c2d4d1900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COLAS'])[1]/following::div[1]</value>
+      <webElementGuid>aa7f780f-3a8d-418b-8403-33a6caad6575</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bordeaux'])[1]/following::div[2]</value>
+      <webElementGuid>f089ef99-7265-4183-8092-9e4341871949</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='colasmarius07@gmail.com'])[1]/preceding::div[3]</value>
+      <webElementGuid>b431d2a0-24f3-47d9-b0b1-a219dc05a953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volontaire intégré'])[2]/preceding::div[5]</value>
+      <webElementGuid>a92da053-f6d8-411c-915b-4454b192fd1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Marius']/parent::*</value>
+      <webElementGuid>85a6ec53-3956-4911-8fca-152baeac6076</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div</value>
+      <webElementGuid>1e15ce9e-8a24-49a5-bade-6f39a56cc474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Marius' or . = 'Marius')]</value>
+      <webElementGuid>7b9ae2a3-3733-4400-9713-7ce3773d669c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

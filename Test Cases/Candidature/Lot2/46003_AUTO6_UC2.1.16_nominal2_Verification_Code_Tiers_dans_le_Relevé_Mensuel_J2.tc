@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>46003_AUTO6_UC2.1.16_nominal2_Verification_Code_Tiers_dans_le_Relevé_Mensuel_J2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e374f16-c5e9-4e40-9b6a-2ab9763eed65</testCaseGuid>
+</TestCaseEntity>

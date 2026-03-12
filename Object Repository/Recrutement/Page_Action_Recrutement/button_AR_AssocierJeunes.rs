@@ -6,12 +6,11 @@
    <elementGuidId>e9ec16cd-a851-4091-bafa-72040ea00c88</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:role=button[name=&quot;Associer Jeunes&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d00b6e60-68cd-42c1-ba03-0d2018d6f42e</webElementGuid>
+      <webElementGuid>744f5fea-48a3-4418-9ced-c2317a788c6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6cefa3ea-82e8-4b4a-8ad6-d121c525b417</webElementGuid>
+      <webElementGuid>cd86da7c-af16-4743-9059-3bea8dbfb6c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default action-not-xs</value>
-      <webElementGuid>7867cc66-032d-42cd-8128-a1a34eae807e</webElementGuid>
+      <webElementGuid>5ef69dbf-7fc1-434d-931e-5c567f6634a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>associate-NamActionRecrutement-namActRecJenId-NamJeune-namJenActRecId</value>
-      <webElementGuid>fa5a7695-63fe-4001-96a2-0e246eefe22f</webElementGuid>
+      <webElementGuid>7126bb47-1940-4a41-b5c7-721b13fff84f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Associer  Jeunes</value>
-      <webElementGuid>3d5e4a64-b7bc-4782-b60a-998464258804</webElementGuid>
+      <webElementGuid>55f59557-9600-4ee0-b39c-5b9bd98ab617</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_NamConvocation_panel_ajax_NamConvocation_namActRecJenId&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;list-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-default action-not-xs&quot;]</value>
-      <webElementGuid>02fd7d93-0009-493c-aaa3-bb021cc4ea63</webElementGuid>
+      <webElementGuid>40ceaa9c-7e96-4530-bef4-893056a9f1da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>f602d65b-f351-4f82-873d-49f164443a8f</webElementGuid>
+      <webElementGuid>ff791bb5-0ff0-480f-ab4e-5103b45b641b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='list_NamConvocation_panel_ajax_NamConvocation_namActRecJenId']/div/div/div/div[3]/div/button[5]</value>
-      <webElementGuid>c42213cd-70b6-4bdb-988b-59b37107b7b9</webElementGuid>
+      <webElementGuid>f68261dc-6c7d-4d51-9095-6656a17f42ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supprimer en masse'])[1]/following::button[1]</value>
-      <webElementGuid>6e6fd82e-a7cf-4a28-b728-edbbe129196f</webElementGuid>
+      <webElementGuid>8d1e31bd-213a-482a-bb5b-176655e23224</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Editer la liste'])[1]/following::button[2]</value>
-      <webElementGuid>8d1c1437-20c9-4a56-a9e0-f7625ca38294</webElementGuid>
+      <webElementGuid>7e870d64-d7d5-4635-8e4f-e82439fda7b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Editer la liste'])[2]/preceding::button[2]</value>
-      <webElementGuid>807e9fe5-5f58-40ed-ae86-6a3a488b7154</webElementGuid>
+      <webElementGuid>b207f2f2-e5bd-442d-aa72-df10956d68d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[5]</value>
-      <webElementGuid>07d5f391-214c-43b9-b2a1-96b884bbc2a0</webElementGuid>
+      <webElementGuid>dae0e786-3753-43c6-9e24-cc8c8b2dce3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +124,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Associer  Jeunes' or . = 'Associer  Jeunes')]</value>
-      <webElementGuid>9a9a3c29-bcd1-4050-8a22-a1b89f848959</webElementGuid>
+      <webElementGuid>4ead34cd-ed69-47eb-b146-a9d0676eeef2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

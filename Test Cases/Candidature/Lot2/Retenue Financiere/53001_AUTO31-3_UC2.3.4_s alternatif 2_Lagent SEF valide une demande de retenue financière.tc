@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>53001_AUTO31-3_UC2.3.4_s alternatif 2_Lagent SEF valide une demande de retenue financière</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0fb768e8-56ed-433f-b5f8-65397a30850f</testCaseGuid>
+</TestCaseEntity>

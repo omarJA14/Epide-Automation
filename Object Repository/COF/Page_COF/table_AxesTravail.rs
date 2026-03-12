@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_AxesTravail</name>
+   <tag></tag>
+   <elementGuidId>94be110a-9426-4bde-bd72-e484bde52819</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamAxesTravail_panel_ajax_NamAxesTravail_namAxetrvCofId&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#list_NamAxesTravail_panel_ajax_NamAxesTravail_namAxetrvCofId > div.card.panel-list > div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamAxesTravail_panel_ajax_NamAxesTravail_namAxetrvCofId div >> internal:has-text=&quot;DomaineConstatProposition d’objectifMoyensConseiller(ère) éducation et citoyenne&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5c22d747-6b5a-481b-a877-41774cd9afbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>24c1ac7e-3f49-4540-9792-91fb081d2f2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DomaineConstatProposition d’objectifMoyensConseiller(ère) éducation et citoyennetéChargé(e) d’accompagnement socialInfirmier(ère)Moniteur(trice)Conseiller(ère) en insertion professionnelleChargé(e) de relations entreprisesChargé(e) de recrutement des volontairesCoordonnateur(trice) pédagogiqueFormateur(trice) d’enseignement généralFormateur(trice) sportFormateur(trice) informatiqueFormateur(trice) mobilitéGestionnaire RHDirecteur(rice) de centreAssistant(e) de directionAssistant(e) administratifDir. Insertion Opérations Réseau et Relations Ext.Service de l'Exécution FinancièreChef de service Insertion professionnelle et formationChef de service éducation citoyennetéCoordonnateur(trice) éducatifCoordonnateur(trice) éducatifChargé(e) de recrutement des volontairesTRAdddd</value>
+      <webElementGuid>6fe2aae2-0fab-43a6-bf47-f975af282f7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamAxesTravail_panel_ajax_NamAxesTravail_namAxetrvCofId&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>09be9bc2-4235-4748-8f86-521d4be6f012</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamAxesTravail_panel_ajax_NamAxesTravail_namAxetrvCofId']/div/div[2]</value>
+      <webElementGuid>42ce237d-0e69-4e1e-9f40-5bd87c4e83e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 1'])[1]/following::div[5]</value>
+      <webElementGuid>412829dc-cc9e-469d-84f4-2d735b728c62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Axes de travail'])[1]/following::div[7]</value>
+      <webElementGuid>e50f2592-2cb3-4967-b708-9ab705f75229</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div[2]</value>
+      <webElementGuid>ab67c09e-ceae-490d-9a3e-8c4c2293176a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;DomaineConstatProposition d’objectifMoyensConseiller(ère) éducation et citoyennetéChargé(e) d’accompagnement socialInfirmier(ère)Moniteur(trice)Conseiller(ère) en insertion professionnelleChargé(e) de relations entreprisesChargé(e) de recrutement des volontairesCoordonnateur(trice) pédagogiqueFormateur(trice) d’enseignement généralFormateur(trice) sportFormateur(trice) informatiqueFormateur(trice) mobilitéGestionnaire RHDirecteur(rice) de centreAssistant(e) de directionAssistant(e) administratifDir. Insertion Opérations Réseau et Relations Ext.Service de l&quot; , &quot;'&quot; , &quot;Exécution FinancièreChef de service Insertion professionnelle et formationChef de service éducation citoyennetéCoordonnateur(trice) éducatifCoordonnateur(trice) éducatifChargé(e) de recrutement des volontairesTRAdddd&quot;) or . = concat(&quot;DomaineConstatProposition d’objectifMoyensConseiller(ère) éducation et citoyennetéChargé(e) d’accompagnement socialInfirmier(ère)Moniteur(trice)Conseiller(ère) en insertion professionnelleChargé(e) de relations entreprisesChargé(e) de recrutement des volontairesCoordonnateur(trice) pédagogiqueFormateur(trice) d’enseignement généralFormateur(trice) sportFormateur(trice) informatiqueFormateur(trice) mobilitéGestionnaire RHDirecteur(rice) de centreAssistant(e) de directionAssistant(e) administratifDir. Insertion Opérations Réseau et Relations Ext.Service de l&quot; , &quot;'&quot; , &quot;Exécution FinancièreChef de service Insertion professionnelle et formationChef de service éducation citoyennetéCoordonnateur(trice) éducatifCoordonnateur(trice) éducatifChargé(e) de recrutement des volontairesTRAdddd&quot;))]</value>
+      <webElementGuid>1ff0369b-291b-4b8f-aeed-f597359f8887</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

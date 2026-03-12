@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42010_AUTO13-7_UC3.3.9_s nominal_Un agent CSIO donne son avis du conseil de discipline-validation DG</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>427f06b2-bd04-48c6-92c5-1f3c9239bfc4</testCaseGuid>
+</TestCaseEntity>

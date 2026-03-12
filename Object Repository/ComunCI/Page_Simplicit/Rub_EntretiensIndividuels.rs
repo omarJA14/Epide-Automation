@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -18,10 +17,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=tab[name=&quot; Entretiens Individuels&quot;i]</value>
+         <value>//*[@role='tab'][contains(normalize-space(),'Entretiens Individuels')]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>44e13e69-92cf-4fe8-a1e0-65151c1acad8</webElementGuid>
+      <webElementGuid>a885ad60-7799-4f9c-8ff0-617931d2d9e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#links_NamJeune_7</value>
-      <webElementGuid>c93e92ad-2bf3-440e-8961-719284eec309</webElementGuid>
+      <webElementGuid>0ed077b0-5c39-4c5b-b217-846bc85680ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>links_NamJeune_7</value>
-      <webElementGuid>6eabaccd-c2ad-4a9b-a3fd-607cb42e6df5</webElementGuid>
+      <webElementGuid>d99cfa49-b204-4c07-b4e2-8d30652e9d25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>619891e4-9045-41e1-b391-0aa4c7c70b4b</webElementGuid>
+      <webElementGuid>b09d59c7-4150-47fc-b31d-a14e17af9605</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>363f1e8c-770b-4b7a-a4b9-c15cd37f366e</webElementGuid>
+      <webElementGuid>6715a517-587c-44c2-a0b7-e7b7eb4e5405</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>215629d0-3229-4564-92fc-975a102c3fca</webElementGuid>
+      <webElementGuid>ee881211-7833-42a6-a2c9-0e2cfaa212cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>data-tab</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>087a25c2-b5bd-4536-b0bc-8450e3d223d8</webElementGuid>
+      <webElementGuid>2981a3bc-070d-4431-95dd-263bda43b7e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>data-key</name>
       <type>Main</type>
       <value>NamEntretienIndividuel_namEiJenId</value>
-      <webElementGuid>83dbf5f9-841c-48e1-86c9-ec5ea3e0b1dd</webElementGuid>
+      <webElementGuid>ba81e08f-9cf0-4691-8a0e-5478cb11006c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +92,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Entretiens Individuels</value>
-      <webElementGuid>92934ed0-d68e-424c-ba4b-2150b07a6269</webElementGuid>
+      <webElementGuid>3372e04c-65eb-4913-a262-f8c891d142ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;links_NamJeune&quot;)/ul[@class=&quot;nav nav-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>afa3ee93-d48c-4b9c-b6ee-9e6cfa612bb2</webElementGuid>
+      <webElementGuid>6f2fc4dd-88dd-461b-aa1d-fedc8f00d560</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='links_NamJeune']/ul/li[8]/a</value>
-      <webElementGuid>d99f3d76-3ba6-4fd0-b469-2a449221895f</webElementGuid>
+      <webElementGuid>67c67c79-f2c2-4259-b89f-338581f115a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Emplois'])[1]/following::a[1]</value>
-      <webElementGuid>9d926bbe-f13f-4185-a468-26258615ef14</webElementGuid>
+      <webElementGuid>359c9491-4d20-49e8-9bea-568de6cd391d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Demandes de transfert'])[2]/following::a[2]</value>
-      <webElementGuid>b4af6059-9819-4e61-a458-5ba9cc84a5bc</webElementGuid>
+      <webElementGuid>86a13a81-0dd2-4087-997d-c02c3fd62fab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluations'])[2]/preceding::a[1]</value>
-      <webElementGuid>4ae9431d-ffaf-4086-82d8-82e12c2ad376</webElementGuid>
+      <webElementGuid>bd2442ac-04d4-4192-9148-5c240d0311d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +140,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#links_NamJeune_7')]</value>
-      <webElementGuid>c5f40841-735f-4e0f-aea4-2de1bf2880b7</webElementGuid>
+      <webElementGuid>f77236a9-7d7e-47b4-9dba-68a80abeb12d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +148,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[8]/a</value>
-      <webElementGuid>43284eb7-8bfe-49dc-b14a-013eb35e7d40</webElementGuid>
+      <webElementGuid>4adbcbaf-1295-47ec-87f8-852d4de05aa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +156,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#links_NamJeune_7' and (text() = ' Entretiens Individuels' or . = ' Entretiens Individuels')]</value>
-      <webElementGuid>576d83bc-a392-473f-9d3e-a6d4e8e5db0c</webElementGuid>
+      <webElementGuid>a67a79ca-e0ec-4b2b-81cc-53630d26612f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

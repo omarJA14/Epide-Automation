@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>46002_AUTO20_UC2.4.1_s alternatif 4_Lagent GRH remplit le formulaire de sortie anticipée du volontaire</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb4d2dad-d5f6-48f3-a753-743a5171765e</testCaseGuid>
+</TestCaseEntity>

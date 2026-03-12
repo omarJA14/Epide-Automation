@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Axe_Tr_Domaine</name>
+   <tag></tag>
+   <elementGuidId>a6638a86-bdfb-42c5-8145-73a3f43ed5e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;field_namAxetrvDomaine&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.enum-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Gestionnaire RH&quot;i >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1128930d-06d7-4681-ba86-708127625a03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>enum-item</value>
+      <webElementGuid>c5d8f053-2c11-4feb-a962-0a4b02f1a8d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gestionnaire RH</value>
+      <webElementGuid>218536fd-0e0b-496c-9dc6-0f21c50dfb1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-field_namAxetrvDomaine-container&quot;)/div[@class=&quot;enum-item&quot;]</value>
+      <webElementGuid>ef3e0348-31e6-4193-844d-5617411632ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='select2-field_namAxetrvDomaine-container']/div</value>
+      <webElementGuid>ca7da457-2507-4b32-8244-6273353501da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Domaine'])[1]/following::div[1]</value>
+      <webElementGuid>bc594d81-b9bf-4bf7-abd7-8532f609059c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[1]/following::div[11]</value>
+      <webElementGuid>930a581e-4d73-40b1-8876-3e7e48fcbf4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Constat'])[1]/preceding::div[1]</value>
+      <webElementGuid>4f7f032d-f8db-4468-948a-30905a011932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div</value>
+      <webElementGuid>8212559c-f1fd-45c4-94dc-540e6be7a0e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Gestionnaire RH' or . = 'Gestionnaire RH')]</value>
+      <webElementGuid>c1dc2255-4f1e-4f70-8af0-40a79a7f93a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

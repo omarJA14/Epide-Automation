@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42001_AUTO12-1_UC3.2.7_nominal_COF-Un-agent-consulte-des-COF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e9bbdc52-5d7a-4818-b2fc-4d3d0428fe63</testCaseGuid>
+</TestCaseEntity>

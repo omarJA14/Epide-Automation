@@ -6,15 +6,15 @@
    <elementGuidId>5e87371f-9dee-4e07-8d71-dc71b4b31ab5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='list_NamCandidat_the_ajax_NamCandidat']/div/div[2]/form/div/table/tbody/tr/td[4]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td:nth-of-type(4)</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='list_NamCandidat_the_ajax_NamCandidat']/div/div[2]/form/div/table/tbody/tr/td[4]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>0e33239c-9dad-4eb0-91e1-a0afce91e5b8</webElementGuid>
+      <webElementGuid>b0edcae4-195a-460f-a8af-f2777d3b2628</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-field</name>
       <type>Main</type>
       <value>namPrenom</value>
-      <webElementGuid>e8bd2276-7e46-4be1-9090-ea27fda9d709</webElementGuid>
+      <webElementGuid>58d09a31-104b-450f-aae7-1fea5d3bd765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>TRATKatalonPrenom4</value>
-      <webElementGuid>bdfc4097-69df-4e79-9698-d4d37a41a62d</webElementGuid>
+      <webElementGuid>3a122256-d4b9-46fb-9816-16659167c77f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_NamCandidat_the_ajax_NamCandidat&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[4]</value>
-      <webElementGuid>3d723662-05ad-45e4-8c07-f784dd93d50d</webElementGuid>
+      <webElementGuid>6ea29c50-b629-4291-8cf7-5c4fc80c3a17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='list_NamCandidat_the_ajax_NamCandidat']/div/div[2]/form/div/table/tbody/tr/td[4]</value>
-      <webElementGuid>408c6dbc-5fd8-4c05-b86f-f0aac047ecd0</webElementGuid>
+      <webElementGuid>8d657b1b-0b3e-426b-ac28-0e55c5febab2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TRATKatalonNom4'])[1]/following::td[1]</value>
-      <webElementGuid>dfff7c3e-dbcb-468c-b833-9116f7a20dcd</webElementGuid>
+      <webElementGuid>5f7ded2c-0d43-49e3-b24a-9337e3721c3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bordeaux'])[1]/following::td[2]</value>
-      <webElementGuid>acd07bd1-e42b-470d-8dd9-6376ede8ca12</webElementGuid>
+      <webElementGuid>9eb49e4f-5906-4228-93b2-635c82ccfe06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Homme'])[2]/preceding::td[4]</value>
-      <webElementGuid>4049553e-455f-4f03-adda-c472092e415d</webElementGuid>
+      <webElementGuid>37770b08-a2ac-4040-aec1-40a82585689c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]</value>
-      <webElementGuid>19c23acd-a26d-4104-b77c-4d394d2028d7</webElementGuid>
+      <webElementGuid>7789a4e3-3a2d-465d-b090-0c79920ce028</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'TRATKatalonPrenom4' or . = 'TRATKatalonPrenom4')]</value>
-      <webElementGuid>030af261-1163-4453-8d49-5ee48af046b6</webElementGuid>
+      <webElementGuid>94e81cd0-d306-4e03-9444-27aab2ee3e35</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

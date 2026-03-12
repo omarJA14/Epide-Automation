@@ -6,12 +6,12 @@
    <elementGuidId>5ac95297-b7b5-4d11-824a-351eb10a439e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.btn-save.js-ctrl-s</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Enregistrer&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>55b2013e-5382-49f6-8626-ab5c58542232</webElementGuid>
+      <webElementGuid>4952fc81-742d-40dd-8a92-62ffcd768928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-save js-ctrl-s</value>
-      <webElementGuid>127bc1f0-4c4f-4200-8ce4-9e0e0161dbf9</webElementGuid>
+      <webElementGuid>6303bfbe-edd5-49de-8446-91b2a73c21ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>799529e3-8b2a-4165-99c8-d6897ff218fe</webElementGuid>
+      <webElementGuid>444c5c8f-8e72-4ea0-902d-7512120f4fae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>save</value>
-      <webElementGuid>df52b4ae-ef00-405c-a634-e9bdab876193</webElementGuid>
+      <webElementGuid>13746218-4c69-462b-8e5e-a29109acc8b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enregistrer</value>
-      <webElementGuid>ae38250b-edac-4249-a7bd-a83677a53364</webElementGuid>
+      <webElementGuid>255c454e-6a96-4624-8b73-b4260f1a385d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamActionRecrutement_the_ajax_NamActionRecrutement_0&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/div[@class=&quot;dropdown btn-group&quot;]/button[@class=&quot;btn btn-primary btn-save js-ctrl-s&quot;]</value>
-      <webElementGuid>382ac5a5-32b4-4037-816f-0c4d6bc207f6</webElementGuid>
+      <webElementGuid>95ea5309-1b5a-4443-95d4-3ac0f3b4121e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>9a38ca13-9503-4857-84b7-fc96ea470ff3</webElementGuid>
+      <webElementGuid>ed1322c9-5bf7-4c7d-832b-c4498d5b9cef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamActionRecrutement_the_ajax_NamActionRecrutement_0']/div/div/div/div[2]/div/div/button</value>
-      <webElementGuid>cd66be1c-3791-43bc-9013-d527d969c1c9</webElementGuid>
+      <webElementGuid>edd89054-c23d-4627-ac64-46c3535af483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Créer Action de recrutement'])[2]/following::button[1]</value>
-      <webElementGuid>a02ccd28-19c9-44f7-9052-f6edbd05913b</webElementGuid>
+      <webElementGuid>b8dcde32-bc57-437b-896a-ca3ef32cf242</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Créer Action de recrutement'])[1]/following::button[1]</value>
-      <webElementGuid>a64fcd0b-41b9-4d76-aed8-01e71aa12abf</webElementGuid>
+      <webElementGuid>d12b7295-7aff-4ed7-9756-564d31e1a34c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Créer'])[1]/preceding::button[2]</value>
-      <webElementGuid>d09aa38b-f6fb-491d-aa7e-44aef12fbc22</webElementGuid>
+      <webElementGuid>04201183-5ee7-4249-9a44-7dfd38edbdc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div/div/button</value>
-      <webElementGuid>0e69bada-48a9-463b-87a1-3d81f518d72f</webElementGuid>
+      <webElementGuid>4bfadf3a-28a5-45ee-939c-f5f603dd0952</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Enregistrer' or . = 'Enregistrer')]</value>
-      <webElementGuid>3da65486-430e-432f-99c1-ab64a1986b2a</webElementGuid>
+      <webElementGuid>a37b76f4-7042-48b6-bb2a-084bfd574213</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

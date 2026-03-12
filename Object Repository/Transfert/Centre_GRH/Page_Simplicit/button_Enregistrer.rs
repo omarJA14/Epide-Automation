@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Enregistrer&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1760ee02-9362-4ea1-b1ba-5f26db900aef</webElementGuid>
+      <webElementGuid>2d3714d3-9601-400b-8812-2ad0a9c70adf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-save js-ctrl-s</value>
-      <webElementGuid>c2f96af5-c135-405d-bc3c-0f9a85b5d058</webElementGuid>
+      <webElementGuid>c4431827-d9a2-407d-a413-4d3ebf6499cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>44e76bea-f64a-4625-aa64-0e060cf87814</webElementGuid>
+      <webElementGuid>b4d662d1-2b9a-4108-aca6-4a0e5b66cd41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>save</value>
-      <webElementGuid>7c09bfce-2091-425d-b8f0-9e7110a5c272</webElementGuid>
+      <webElementGuid>bc3c4777-9013-4ac3-bc2a-c4ce195a10be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enregistrer</value>
-      <webElementGuid>032bafe3-906f-4e24-a68e-0ad21c943523</webElementGuid>
+      <webElementGuid>06f5f53c-6152-4918-b5b3-7311c54a31d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamContratAvenant_the_ajax_NamContratAvenant_55158&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-primary btn-save js-ctrl-s&quot;]</value>
-      <webElementGuid>edca7eac-f9f1-4b6c-acb4-276c3c345243</webElementGuid>
+      <webElementGuid>a19e3af4-763f-43dc-af55-3eeb5bcf648a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>f6c20a17-e291-4fb8-9ddd-f6de7a6e49d5</webElementGuid>
+      <webElementGuid>3643094d-538d-4cb7-98ee-6fef04aaf382</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamContratAvenant_the_ajax_NamContratAvenant_55158']/div/div/div/div[2]/div/button</value>
-      <webElementGuid>3bf732ae-321f-448e-9a83-e29efcf1afdf</webElementGuid>
+      <webElementGuid>d59e6aec-88bf-420d-9825-508a7a473fad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Fermer'])[1]/preceding::button[1]</value>
-      <webElementGuid>cdc4ad2c-fd75-4fca-ab06-1fc3d4f6b306</webElementGuid>
+      <webElementGuid>4c271282-78c9-4d64-bf72-eee56565fd38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div/button</value>
-      <webElementGuid>e8bf8da0-e50b-45c6-84a1-14ad874f0db0</webElementGuid>
+      <webElementGuid>ad050520-0156-4ad0-92a1-2a2b68a5026c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Enregistrer' or . = 'Enregistrer')]</value>
-      <webElementGuid>4ca86e8c-fa9d-40c7-bdf9-2db6c9d2d857</webElementGuid>
+      <webElementGuid>b10113e2-1453-43fd-94b3-b520d0aca3ef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

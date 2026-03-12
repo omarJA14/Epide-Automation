@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_agent_suivi_sanction</name>
+   <tag></tag>
+   <elementGuidId>53af7572-eef6-422b-8a1f-91c5da8f628c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card.panel-list > div.card-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamAgentChargeFse_panel_ajax_NamAgentChargeFse_namFseAgent&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamAgentChargeFse_panel_ajax_NamAgentChargeFse_namFseAgent div >> internal:has-text=&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerRôle de l'agentNom de&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9c3ee3bc-d083-48d4-af3e-a03f2795b02a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>26a4df1d-a763-4780-9115-5b5962f51395</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tout sélectionnerSélectionner cette pageTout désélectionnerRôle de l'agentNom de l'agentPrénom de l'agentConseiller(ère) éducation et citoyennetéprénom cecnom cec</value>
+      <webElementGuid>90e116c6-8799-452f-b99e-cc5f87401c3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamAgentChargeFse_panel_ajax_NamAgentChargeFse_namFseAgent&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>9b1f457d-92b4-4644-9509-c7087a008259</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamAgentChargeFse_panel_ajax_NamAgentChargeFse_namFseAgent']/div/div[2]</value>
+      <webElementGuid>3c532f86-7525-4b35-aaf5-99849549b248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Associer Agents'])[2]/following::div[1]</value>
+      <webElementGuid>af737a55-41d5-4e49-9352-37cea2f3a115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supprimer en masse'])[2]/following::div[1]</value>
+      <webElementGuid>97427165-3d82-4d21-a533-c4f03b641a03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div[2]</value>
+      <webElementGuid>3e3d775f-184d-4cff-9844-b2de0b5f04a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerRôle de l&quot; , &quot;'&quot; , &quot;agentNom de l&quot; , &quot;'&quot; , &quot;agentPrénom de l&quot; , &quot;'&quot; , &quot;agentConseiller(ère) éducation et citoyennetéprénom cecnom cec&quot;) or . = concat(&quot;Tout sélectionnerSélectionner cette pageTout désélectionnerRôle de l&quot; , &quot;'&quot; , &quot;agentNom de l&quot; , &quot;'&quot; , &quot;agentPrénom de l&quot; , &quot;'&quot; , &quot;agentConseiller(ère) éducation et citoyennetéprénom cecnom cec&quot;))]</value>
+      <webElementGuid>ccdbda71-8454-4a59-b304-c573bb7ad702</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

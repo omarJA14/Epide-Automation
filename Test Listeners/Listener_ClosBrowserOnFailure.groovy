@@ -2,6 +2,9 @@ import com.kms.katalon.core.annotation.*
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.configuration.RunConfiguration
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+
 
 class Listener_CloseBrowserOnFailure {
 
@@ -10,9 +13,12 @@ class Listener_CloseBrowserOnFailure {
 
         if (testCaseContext.getTestCaseStatus() == "FAILED") {
 
-            String path = RunConfiguration.getProjectDir() + "/Screenshots/Fail_" +
+           String dateHeure = LocalDateTime.now()
+                    .format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))
+
+           String path = RunConfiguration.getProjectDir() + "/Screenshots/Fail_" +
                           testCaseContext.getTestCaseId().replaceAll("/", "_") + "_" +
-                          System.currentTimeMillis() + ".png"
+                          dateHeure + ".png"
 
             try {
                 WebUI.takeScreenshot(path)

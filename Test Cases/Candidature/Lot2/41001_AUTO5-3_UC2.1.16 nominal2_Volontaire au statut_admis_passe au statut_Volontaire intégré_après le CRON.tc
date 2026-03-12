@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>41001_AUTO5-3_UC2.1.16 nominal2_Volontaire au statut_admis_passe au statut_Volontaire intégré_après le CRON</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f3aa439c-6407-4950-bc9c-54a85312dae7</testCaseGuid>
+</TestCaseEntity>

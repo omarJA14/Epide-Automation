@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Confirmer&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c1cf3a73-72af-4dcf-9855-26b05da539ab</webElementGuid>
+      <webElementGuid>677a5894-074a-419c-b629-8b4ef5a30672</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-Confirmer btn-success</value>
-      <webElementGuid>df21e0cd-a62d-4b2b-9f12-a75d625bb51a</webElementGuid>
+      <webElementGuid>6a123288-ec70-4ee2-8c5c-ac041b08bfd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>35b1fccb-6b5b-4412-b3b1-b5ebd10b3c66</webElementGuid>
+      <webElementGuid>4e4e7923-a0ce-4923-938a-8b013eab9dd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>Confirmer</value>
-      <webElementGuid>3a31c4a5-bbce-4bca-a4ca-e665f6591aba</webElementGuid>
+      <webElementGuid>50300650-1c8d-464a-8668-d0ea4e4a8503</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Confirmer</value>
-      <webElementGuid>215ec1a6-c2d7-4fd7-aa1a-154fe583d072</webElementGuid>
+      <webElementGuid>b09251d3-acc4-4f40-ac90-04e98217a1d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dlgmodal_confirm&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-Confirmer btn-success&quot;]</value>
-      <webElementGuid>2a6d7f31-2dc1-408d-ab90-f35c68d04bf9</webElementGuid>
+      <webElementGuid>9869f8a6-14fc-4624-877c-17cae2b88fff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[14]</value>
-      <webElementGuid>a54e3079-0ea4-46b3-8b8f-85090d00f604</webElementGuid>
+      <webElementGuid>02ebe98e-04f8-4d75-b696-71d881a42bfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dlgmodal_confirm']/div/div/div[3]/button</value>
-      <webElementGuid>5df1ac35-786f-40e3-b825-5cdc5238ef33</webElementGuid>
+      <webElementGuid>deb43d31-6d16-43e6-91b6-1a068cd1833b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmer : Signer'])[1]/following::button[2]</value>
-      <webElementGuid>66e32b1c-086c-4063-9ddf-519237080e66</webElementGuid>
+      <webElementGuid>2bf15721-908b-4594-9611-f9091fe2f755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::button[2]</value>
-      <webElementGuid>a49ac38f-0638-4243-8d0d-aa3798330338</webElementGuid>
+      <webElementGuid>a5a51023-533f-4f66-8cec-c4e7979f6edb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Annuler'])[1]/preceding::button[1]</value>
-      <webElementGuid>d3d76fa8-9747-4f79-aeda-2416a3b17865</webElementGuid>
+      <webElementGuid>bc192566-ddaa-4991-9049-f7fc4ab9392c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>7f9298c2-332d-49f2-99f7-b6c682b2acbb</webElementGuid>
+      <webElementGuid>09a30ea8-0399-48bb-bed7-f80c46d89f20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Confirmer' or . = 'Confirmer')]</value>
-      <webElementGuid>b2388c62-2e1f-4e9c-9702-93cc7b1d93bc</webElementGuid>
+      <webElementGuid>25527171-5710-4e9e-bb4a-72a87a5919f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42007_AUTO13-4_UC3.3.6 nominal_FSE-Un agent D1 fait progresser une FSE sans RTC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>789dce98-93ed-446e-9544-7964b798ce15</testCaseGuid>
+</TestCaseEntity>

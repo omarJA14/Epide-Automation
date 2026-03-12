@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_notification</name>
+   <tag></tag>
+   <elementGuidId>6126300b-da5d-4264-aa04-dc71bfbc6b62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamAdmNotification_the_ajax_NamAdmNotification&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamAdmNotification_the_ajax_NamAdmNotification div >> internal:has-text=&quot;Nom de la notificationN° de notificationType de notificationInformations complém&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8a08f656-b757-486a-9597-4235775b54d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>1fc737b1-0b19-44cf-bba2-82e13a489b16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nom de la notificationN° de notificationType de notificationInformations complémentairesActifMessageActionAlerteRappelOuiNonNouvelle FSE2Alerte${prenom} ${nom} du ${rang}, dans la section ${section} et promotion ${promotion}OuiUne nouvelle FSE a été créée pour le jeune</value>
+      <webElementGuid>93fa7afb-a5b6-439d-b8ab-d72ad173fdd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamAdmNotification_the_ajax_NamAdmNotification&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>2b2faa42-3f91-483e-a6f0-a08b73a7f790</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamAdmNotification_the_ajax_NamAdmNotification']/div/div[2]</value>
+      <webElementGuid>4ad96809-9815-4ed6-ae18-741ef811dff9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>225e0665-4268-4ce0-a27c-627338cb2db8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nom de la notification: Nouvelle FSE'])[1]/following::div[4]</value>
+      <webElementGuid>6b8d57fc-d4a0-4b8e-a993-9c7854fbb3a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>fa130982-d397-44d6-a5ee-acc9710b8d65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Nom de la notificationN° de notificationType de notificationInformations complémentairesActifMessageActionAlerteRappelOuiNonNouvelle FSE2Alerte${prenom} ${nom} du ${rang}, dans la section ${section} et promotion ${promotion}OuiUne nouvelle FSE a été créée pour le jeune' or . = 'Nom de la notificationN° de notificationType de notificationInformations complémentairesActifMessageActionAlerteRappelOuiNonNouvelle FSE2Alerte${prenom} ${nom} du ${rang}, dans la section ${section} et promotion ${promotion}OuiUne nouvelle FSE a été créée pour le jeune')]</value>
+      <webElementGuid>59a3f514-fa7b-4eb7-95a5-ff8f631f348d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:role=button[name=&quot;Signer&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>84affb63-19d5-43db-a5e5-aa6d32cc2829</webElementGuid>
+      <webElementGuid>854ed6b5-ed15-44b2-8fd8-55adc3329c61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>368bffc6-8e1a-4ac3-a7f3-3790b3a21be9</webElementGuid>
+      <webElementGuid>4ee7e3f2-94f9-444a-8b62-307b51a49e62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-action action-not-xs</value>
-      <webElementGuid>57be429c-2687-49c2-8588-943f49a7ec8e</webElementGuid>
+      <webElementGuid>2cb36d9f-a57c-48e7-9f22-4ba35ab0cda1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>NAM_CAVENANT_SIGNER</value>
-      <webElementGuid>5a3cdbe0-c4c6-47b9-85f5-48977feaf134</webElementGuid>
+      <webElementGuid>f162c8a2-2ea1-4d10-8de2-26e8c19594d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>data-rowid</name>
       <type>Main</type>
       <value>55158</value>
-      <webElementGuid>5626492b-7fee-4eb6-8c66-137e37dec496</webElementGuid>
+      <webElementGuid>f86bd183-07c0-40cf-992a-ea0edb0de833</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Signer</value>
-      <webElementGuid>a698e799-b38b-4d67-87af-97ea8829cedc</webElementGuid>
+      <webElementGuid>1a5cafbd-879b-4d10-a095-a014cc2d9558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamContratAvenant_the_ajax_NamContratAvenant_55158&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-action action-not-xs&quot;]</value>
-      <webElementGuid>a00b0c85-d174-4ab7-ad60-f4de0de79fec</webElementGuid>
+      <webElementGuid>55d4329a-55f9-4c04-b2cb-88990fb91b9e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>9145071a-b4ef-4b3a-abe5-4443315263db</webElementGuid>
+      <webElementGuid>a47f5ddc-ef59-403d-908a-3b63e1bf5920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamContratAvenant_the_ajax_NamContratAvenant_55158']/div/div/div/div[2]/div/button[4]</value>
-      <webElementGuid>92693289-3a0a-4e85-8206-b083bec82407</webElementGuid>
+      <webElementGuid>ecb41a5e-1e07-4034-b415-a242dcd0958e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Retour au statut précédent'])[1]/following::button[1]</value>
-      <webElementGuid>7d7db82e-878f-421f-a08f-c97385a83da7</webElementGuid>
+      <webElementGuid>838c4015-45d6-414f-889a-71956020c89b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Fermer'])[1]/following::button[2]</value>
-      <webElementGuid>43e012db-324a-42b9-b59d-fffef2d78739</webElementGuid>
+      <webElementGuid>a4a178f4-54cd-40ba-b701-dadded79795a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Générer document'])[1]/preceding::button[2]</value>
-      <webElementGuid>b16a4a15-761b-4407-8350-be4e7b60cfe4</webElementGuid>
+      <webElementGuid>9df41a06-6792-4c77-b974-e3bce268a698</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +124,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[4]</value>
-      <webElementGuid>0df3ca4a-a0b0-448f-99ed-b7bb43951faa</webElementGuid>
+      <webElementGuid>a50615cd-17f1-4ebb-adeb-4479e43ab7e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +132,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Signer' or . = 'Signer')]</value>
-      <webElementGuid>c9f58c16-ad17-4e2e-aa60-7585b4ed7b1d</webElementGuid>
+      <webElementGuid>79e8ed67-bfb2-456a-b8c9-71945899bbd5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Editer&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>76a2b2ee-a5ec-46b5-9ae4-9fad4716a6a0</webElementGuid>
+      <webElementGuid>088b9243-53fb-425d-b9fd-d74de79ced0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>479ecf20-f0ee-4659-81b5-33096dc99efd</webElementGuid>
+      <webElementGuid>485ebac4-bd4d-4cd3-bd3a-c7e6648b4b1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-action action-not-xs</value>
-      <webElementGuid>b521fb9e-62de-4d2f-8e7b-864250813649</webElementGuid>
+      <webElementGuid>9bb8794a-0daf-401c-8681-008568083d47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>NAM_CAVENANT_EDITER</value>
-      <webElementGuid>5f5e93af-f897-437f-866f-7d6095480986</webElementGuid>
+      <webElementGuid>7b266794-35ab-4033-b686-5e010dbfd6bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-rowid</name>
       <type>Main</type>
       <value>55158</value>
-      <webElementGuid>d2789fab-2b85-438e-9788-43bfbd1cc1cc</webElementGuid>
+      <webElementGuid>1615387b-2023-4f11-9bef-788baa68e6a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Editer</value>
-      <webElementGuid>a60bb654-713a-4fce-b65e-4b8e1d95cfa8</webElementGuid>
+      <webElementGuid>d3b29e0a-8d0e-44fc-a2ab-239f011e9b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamContratAvenant_the_ajax_NamContratAvenant_55158&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-action action-not-xs&quot;]</value>
-      <webElementGuid>ac84577c-082b-4386-9f9d-76da9812d9f6</webElementGuid>
+      <webElementGuid>47a96e71-700d-4ed5-92b1-87cc37c036e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>46794831-b108-460c-8499-461a28fa2a58</webElementGuid>
+      <webElementGuid>9292b5bc-752d-4cc8-b168-70a20ed8b4c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamContratAvenant_the_ajax_NamContratAvenant_55158']/div/div/div/div[2]/div/button[3]</value>
-      <webElementGuid>86083646-8311-40b1-8dab-b5163df6b53d</webElementGuid>
+      <webElementGuid>5fbe1649-6809-40de-be2f-245f6233c092</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Fermer'])[1]/following::button[1]</value>
-      <webElementGuid>b9f8ed1d-7101-45ed-92d0-8b625c607737</webElementGuid>
+      <webElementGuid>7152313b-7b11-4471-b7c3-874cdf0b44a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer'])[1]/following::button[2]</value>
-      <webElementGuid>52bef028-49b2-44d6-a758-74d15529b4fc</webElementGuid>
+      <webElementGuid>ab801636-f5b7-45c2-9641-497658aaf186</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Générer document'])[1]/preceding::button[2]</value>
-      <webElementGuid>9fa9985d-1791-4205-8f75-20938bc18ed1</webElementGuid>
+      <webElementGuid>029ba536-646f-44c8-b602-3c7dc3fe1223</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>65c75a33-54ed-4e6c-a22b-a224d4300bb7</webElementGuid>
+      <webElementGuid>044a938c-7b18-4255-a57b-3936b50746e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Editer' or . = 'Editer')]</value>
-      <webElementGuid>9c63a7da-a364-466d-b885-f453635c6b9a</webElementGuid>
+      <webElementGuid>e5987b38-e9a7-4f94-93b5-13483ee6678f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

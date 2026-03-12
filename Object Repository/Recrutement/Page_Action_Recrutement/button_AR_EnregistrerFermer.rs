@@ -6,12 +6,12 @@
    <elementGuidId>d7d9f454-b031-4c34-8f85-fe3c3089dd26</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[18]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.btn-saveclose</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-action='saveclose']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>#form_NamConvocation_link_ajax_NamConvocation_0 >> internal:role=button[name=&quot;Enregistrer &amp; Fermer&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>577cc7f6-6fe9-4508-bb22-0152404090e1</webElementGuid>
+      <webElementGuid>af9cefec-ee79-426f-9ea0-080c75b3f1c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-saveclose</value>
-      <webElementGuid>2d9969c7-5bea-4725-9e83-cfd49cdab911</webElementGuid>
+      <webElementGuid>452446d9-d78e-40d3-8652-4434840d8ce6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7825d824-e494-4224-aed0-c115425a9b5a</webElementGuid>
+      <webElementGuid>dc5fede5-50a0-483c-aa8d-ec7e47eb8777</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>saveclose</value>
-      <webElementGuid>b810a40f-5752-49d3-8f14-84726e067924</webElementGuid>
+      <webElementGuid>92136fd5-0fec-4da4-93cc-a8bb0e6713ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enregistrer &amp; Fermer</value>
-      <webElementGuid>d20692cc-ba5e-45c2-a4fa-f6468d57fbd3</webElementGuid>
+      <webElementGuid>e32cd212-1460-4aee-a2ea-51209d27b93b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamConvocation_link_ajax_NamConvocation_0&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-primary btn-saveclose&quot;]</value>
-      <webElementGuid>fdebbeb8-79a5-4d71-a72b-76269a63c088</webElementGuid>
+      <webElementGuid>79dcfae4-ed85-4bf6-8c47-054780e9889f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[18]</value>
-      <webElementGuid>23252c2a-5558-4eea-917d-ce635de9c6a9</webElementGuid>
+      <webElementGuid>c0fdefd9-2618-4d98-9e4e-efd7baee774d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamConvocation_link_ajax_NamConvocation_0']/div/div/div/div[2]/div/button</value>
-      <webElementGuid>2912fe92-c5df-4e9e-aa6a-48a3d0e3de17</webElementGuid>
+      <webElementGuid>5b186043-bb7b-4901-9c23-70706b0c4319</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Créer Participation'])[1]/following::button[1]</value>
-      <webElementGuid>be2ed7f6-4eb5-4952-a092-a980e28f907c</webElementGuid>
+      <webElementGuid>92613b7d-b557-4642-a8d0-706d313a6c99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::button[1]</value>
-      <webElementGuid>e998ef78-5f73-4e9a-8317-d16b3d365ae7</webElementGuid>
+      <webElementGuid>1198ed5b-6076-47bc-aaf3-b28b67623d50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[3]/preceding::button[1]</value>
-      <webElementGuid>401dc6b8-ac09-49a4-b5ba-f295e08634dd</webElementGuid>
+      <webElementGuid>b0743b79-6365-4743-9a24-2c1c554b9b2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button</value>
-      <webElementGuid>fc99c97d-8cb9-43a4-8ec0-d4221481d1de</webElementGuid>
+      <webElementGuid>788bcfc2-bb04-47a3-9f4f-c7228221881b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Enregistrer &amp; Fermer' or . = 'Enregistrer &amp; Fermer')]</value>
-      <webElementGuid>b747ccbe-5733-4303-9db0-8f26d4990656</webElementGuid>
+      <webElementGuid>9cfcfd8d-f31b-4dc4-a6d1-c1aa16618058</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

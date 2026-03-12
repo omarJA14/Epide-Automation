@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Accepter&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6d2452d5-39d3-4e4e-bc7f-dff8a588ccb8</webElementGuid>
+      <webElementGuid>858bf1c0-2a6f-48dd-baee-fb053ab3fd9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bbb2a349-3945-4cf3-b675-0d5b3308e831</webElementGuid>
+      <webElementGuid>4faf71d5-a5b9-47f0-889c-1641f3b4c8bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-action action-not-xs</value>
-      <webElementGuid>58cf3eb3-91fd-428a-94c1-9229d87629bd</webElementGuid>
+      <webElementGuid>09cdf742-9729-4bd2-9e46-af3d2de7da6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>NAM_DTC_ACCEPTER</value>
-      <webElementGuid>4377d979-5dd8-4ce2-967a-e0d6515fdb9f</webElementGuid>
+      <webElementGuid>01f844ea-5d27-4472-9e15-5dd6796931f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-rowid</name>
       <type>Main</type>
       <value>448</value>
-      <webElementGuid>5c4bc290-806e-499e-8dd9-316c473fab02</webElementGuid>
+      <webElementGuid>3945a785-6d4b-4807-8288-16ecfc8d7f7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Accepter</value>
-      <webElementGuid>73393e2e-1ef7-4f01-9677-85ab00dc8bc0</webElementGuid>
+      <webElementGuid>5d5ef30d-13ba-49ea-b235-be723a1e570c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre_448&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-action action-not-xs&quot;]</value>
-      <webElementGuid>c7139de0-2648-4c28-9c7f-b54175f3b354</webElementGuid>
+      <webElementGuid>641426ee-60e3-4072-92e1-281eb9d5b54a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>953dbe0d-e756-43a0-be9a-ba611097e405</webElementGuid>
+      <webElementGuid>2da3ee6c-e14c-4ead-b98d-3d70cfb59e2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre_448']/div/div/div/div[2]/div/button[3]</value>
-      <webElementGuid>5982820f-47ab-4b6c-859d-a9404676016b</webElementGuid>
+      <webElementGuid>bc4f386e-1051-4f83-badb-3acbfb1b102b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Fermer'])[1]/following::button[1]</value>
-      <webElementGuid>a4e634ce-8c99-4133-b814-9c8271159be1</webElementGuid>
+      <webElementGuid>b2cb51f3-32e3-429b-a421-0b342a7ff3b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer'])[1]/following::button[2]</value>
-      <webElementGuid>e001a4f9-d191-42d0-97d3-dc9ef5c79c8d</webElementGuid>
+      <webElementGuid>fc1c668b-ba4d-4c56-83a9-e77a797b0afd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refuser'])[1]/preceding::button[1]</value>
-      <webElementGuid>1e47d36e-8d4e-4af6-80fe-6ed0f42525a3</webElementGuid>
+      <webElementGuid>70f06611-d195-488f-b292-501e51022397</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>38cb1fe6-9719-4a89-be95-20a906a799ad</webElementGuid>
+      <webElementGuid>8cfea21e-b51f-4318-9f32-84dec2b84b92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Accepter' or . = 'Accepter')]</value>
-      <webElementGuid>a8f2096f-8b4f-446b-9029-4c68c19dbe02</webElementGuid>
+      <webElementGuid>86308067-0427-441e-8ab0-5240afb2665f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>a67c59bb-8a2d-4017-8602-9ea2226d632f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id='select2-field_namStatut-container']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.text-left.enum</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='select2-field_namStatut-container']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=cell[name=&quot;Admissible&quot;i] >> div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>39c4e0b2-ed9c-43bf-bab3-3b272d885363</webElementGuid>
+      <webElementGuid>a6df87ce-2468-4aa8-bd83-c9f9b410b848</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-left enum</value>
-      <webElementGuid>cc797bc5-12c2-46c8-9e9f-c357ecf08685</webElementGuid>
+      <webElementGuid>e689f29a-f16e-4996-83e8-6391ce1c1ab7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Admissible</value>
-      <webElementGuid>431c59cb-6d7a-4534-af71-0d00aba37b24</webElementGuid>
+      <webElementGuid>fda75c62-ca2d-41ab-b2f5-e83f73fcc432</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_NamJeune_the_ajax_NamJeune&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[8]/div[@class=&quot;text-left enum&quot;]</value>
-      <webElementGuid>0bab7c24-cb3b-45cc-bc88-3f4b0618207d</webElementGuid>
+      <webElementGuid>97d4e904-2939-4c85-a355-b48b5b003569</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='list_NamJeune_the_ajax_NamJeune']/div/div[2]/form/div/table/tbody/tr/td[8]/div</value>
-      <webElementGuid>00ec3f4d-7028-4066-96be-5910c7b02cf1</webElementGuid>
+      <webElementGuid>607ecb4a-23f9-49b7-b962-fe0ed46b44ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='katalontest@email.com'])[1]/following::div[2]</value>
-      <webElementGuid>d71f5274-6f16-463b-ae06-9cfb219287df</webElementGuid>
+      <webElementGuid>d2241e5c-f74e-4204-b0dc-5601fcfe8fd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TRATKatalonPrenom4'])[1]/following::div[5]</value>
-      <webElementGuid>16dcba1e-c797-4b19-bb3b-06339887e032</webElementGuid>
+      <webElementGuid>7c0882ce-d626-4052-8980-f73016c124dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 1'])[2]/preceding::div[1]</value>
-      <webElementGuid>da3e7242-0b78-422b-b7a2-e4df7ebf4b3c</webElementGuid>
+      <webElementGuid>87c0fc86-6da1-472c-b3e4-75ff0f5a50f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© Simplicité Software'])[1]/preceding::div[11]</value>
-      <webElementGuid>38f41d54-85ab-4e78-a9b7-9801d96009b7</webElementGuid>
+      <webElementGuid>971e11cc-e396-41d1-9a4e-5ab729a80f59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[8]/div</value>
-      <webElementGuid>1b488af3-f328-4984-80be-f33caec0d0e8</webElementGuid>
+      <webElementGuid>705bf50e-d73d-4953-a6f5-44a4f3382af2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Admissible' or . = 'Admissible')]</value>
-      <webElementGuid>26d321d1-5a1e-4884-b209-1c0b94c7199f</webElementGuid>
+      <webElementGuid>1e48a6db-45a8-44f4-aae1-67f7e11b9432</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

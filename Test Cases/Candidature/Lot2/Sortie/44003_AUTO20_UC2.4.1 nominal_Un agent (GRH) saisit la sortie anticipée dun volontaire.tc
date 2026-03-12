@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>44003_AUTO20_UC2.4.1 nominal_Un agent (GRH) saisit la sortie anticipée dun volontaire</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>009f0585-8cfe-4749-8b6e-75312fa2b2c6</testCaseGuid>
+</TestCaseEntity>

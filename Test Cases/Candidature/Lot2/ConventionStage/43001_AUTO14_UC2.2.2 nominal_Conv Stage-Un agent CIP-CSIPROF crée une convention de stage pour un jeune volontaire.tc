@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>43001_AUTO14_UC2.2.2 nominal_Conv Stage-Un agent CIP-CSIPROF crée une convention de stage pour un jeune volontaire</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b50f0282-8005-4a64-a875-b873370e535f</testCaseGuid>
+</TestCaseEntity>

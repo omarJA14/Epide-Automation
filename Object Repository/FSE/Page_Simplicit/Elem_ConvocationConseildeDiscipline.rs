@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Elem_ConvocationConseildeDiscipline</name>
+   <tag></tag>
+   <elementGuidId>ac23fb7e-a7db-403e-8b1c-6ef21f2483d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#select2-field_namFseStatut-container > div.enum-item > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='select2-field_namFseStatut-container']/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Convocation conseil de discipline&quot;i >> internal:text=&quot;Convocation conseil de discipline&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>24aa783f-2899-4387-916c-6b8435852df5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Convocation conseil de discipline</value>
+      <webElementGuid>e9c2759d-1334-4777-9fd8-3d16e5013b4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-field_namFseStatut-container&quot;)/div[@class=&quot;enum-item&quot;]/span[1]</value>
+      <webElementGuid>4af9757b-46f9-4dd9-817d-ff933c334993</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='select2-field_namFseStatut-container']/div/span</value>
+      <webElementGuid>e75862c7-ee26-43a2-bffc-10913c27ec0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Statut de FSE'])[1]/following::span[5]</value>
+      <webElementGuid>1ba0544c-07d9-41c1-9b4c-b9aa015ab846</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Incivilité'])[2]/following::span[7]</value>
+      <webElementGuid>07e4eb21-871e-4f7a-98fa-406f23e51e66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rédacteur'])[1]/preceding::span[3]</value>
+      <webElementGuid>2c6fc8b4-3fe5-479c-af77-9a830305e9bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/span/span/span/span/div/span</value>
+      <webElementGuid>bf110807-23fe-4b56-a3fb-520a00bfacb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Convocation conseil de discipline' or . = 'Convocation conseil de discipline')]</value>
+      <webElementGuid>51bd94c2-6625-4b3f-aed0-b8a99f552acf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Enregistrer&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f037c8e1-87f3-4abf-b0d1-c088eb60d04c</webElementGuid>
+      <webElementGuid>a262f7d5-d0ad-4d09-944a-ae1ca02f23c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-save js-ctrl-s</value>
-      <webElementGuid>886ce331-1048-410d-9a42-5fb855cff535</webElementGuid>
+      <webElementGuid>e5eff9f5-7ea5-410e-8c07-7abf1a645081</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fe724ee0-9270-4b59-9156-1938ccc45a83</webElementGuid>
+      <webElementGuid>66437a6a-39b0-4618-96f5-73ea032233f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>save</value>
-      <webElementGuid>9bd668ae-7c22-4878-9d4d-ad0151bb3dad</webElementGuid>
+      <webElementGuid>bbac3d9b-382d-4c52-a694-66daf9c7eb94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enregistrer</value>
-      <webElementGuid>e1d577de-c853-4669-b5be-f95c5d1e110e</webElementGuid>
+      <webElementGuid>06ba4068-63e6-4c18-991a-2cd96611bae2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamDocAdministrative_the_ajax_NamDocAdministrative_0&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/div[@class=&quot;dropdown btn-group&quot;]/button[@class=&quot;btn btn-primary btn-save js-ctrl-s&quot;]</value>
-      <webElementGuid>7d548fe5-dbfc-4c69-a568-511ef3361b98</webElementGuid>
+      <webElementGuid>de66f681-908b-4f4e-8908-f7542940de88</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>12f6f656-acae-49a5-b20a-416be9639dad</webElementGuid>
+      <webElementGuid>666705fd-e33e-4dd1-9b87-0f819d4c1e81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamDocAdministrative_the_ajax_NamDocAdministrative_0']/div/div/div/div[2]/div/div/button</value>
-      <webElementGuid>9e6957c4-10e7-4cec-b6c0-519557518b17</webElementGuid>
+      <webElementGuid>d66808cb-6368-4420-b1c2-f7fa54018c98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Créer Pièce administrative'])[2]/following::button[1]</value>
-      <webElementGuid>81bdf430-8b6a-4b49-bbbd-ebf3a5052cce</webElementGuid>
+      <webElementGuid>607c034c-fe5f-4c59-9175-c8b73840969f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Créer Pièce administrative'])[1]/following::button[1]</value>
-      <webElementGuid>e3a5555b-3a89-46f5-981f-74b6946e613a</webElementGuid>
+      <webElementGuid>142f835c-dca6-4266-8afb-7e8b0df2e0a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Créer'])[1]/preceding::button[2]</value>
-      <webElementGuid>bc74cb26-a4b8-4025-a00d-47f5f00ccf4e</webElementGuid>
+      <webElementGuid>2e1bfdda-a27a-4e6e-b0fa-c3561f16e41d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div/div/button</value>
-      <webElementGuid>631d5f11-05b2-4946-8b6f-a22a4ad6687a</webElementGuid>
+      <webElementGuid>d40b198d-66da-4bc4-bb3f-8aebd322c786</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Enregistrer' or . = 'Enregistrer')]</value>
-      <webElementGuid>6f208370-41c7-4ca1-bac5-ca6b57198ec5</webElementGuid>
+      <webElementGuid>d3f10b53-8dce-4aba-bdc4-0ea7b67dcd64</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

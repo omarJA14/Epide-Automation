@@ -3,7 +3,9 @@ package Keywords.commun;
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import java.text.Normalizer
 import java.text.SimpleDateFormat
+import java.time.Duration
 
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
@@ -11,6 +13,8 @@ import org.openqa.selenium.Keys
 import org.openqa.selenium.Point
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.edge.EdgeDriver
+import org.openqa.selenium.edge.EdgeOptions
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
 
@@ -26,7 +30,6 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 
 class UtilsEpide {
 
@@ -111,6 +114,198 @@ class UtilsEpide {
 		assert errors.isEmpty() : errors.join("\n")
 	}
 
+	@Keyword
+	def initEdgeDownload() {
+
+		String downloadPath = System.getProperty("java.io.tmpdir") + "katalon_download"
+
+		new File(downloadPath).mkdirs()
+
+		Map<String, Object> prefs = new HashMap<>()
+		prefs.put("download.default_directory", downloadPath)
+		prefs.put("download.prompt_for_download", false)
+		prefs.put("download.directory_upgrade", true)
+		prefs.put("safebrowsing.enabled", true)
+
+		EdgeOptions options = new EdgeOptions()
+		options.setExperimentalOption("prefs", prefs)
+
+		EdgeDriver driver = new EdgeDriver(options)
+		DriverFactory.changeWebDriver(driver)
+
+		println "Edge configuré pour télécharger dans : " + downloadPath
+	}
+
+	@Keyword
+	def verifyDownload(String expectedNamePart, int timeoutSeconds) {
+		String downloadPath = System.getProperty("java.io.tmpdir") + "katalon_download"
+		File dir = new File(downloadPath)
+
+		int elapsed = 0
+		File downloadedFile = null
+
+		while (elapsed < timeoutSeconds && downloadedFile == null) {
+			File[] files = dir.listFiles({ f ->
+				f.getName().contains(expectedNamePart) && !f.getName().endsWith(".crdownload")
+			} as FileFilter)
+
+			if (files != null && files.length > 0) {
+				downloadedFile = files[0]
+			} else {
+				Thread.sleep(1000)
+				elapsed++
+			}
+		}
+
+		assert downloadedFile != null : "Aucun fichier téléchargé détecté"
+		assert downloadedFile.length() > 0 : "Fichier téléchargé vide"
+
+		println "Fichier téléchargé correctement : ${downloadedFile.getAbsolutePath()}"
+		return downloadedFile
+	}
+
+	@Keyword
+	def boolean delegationRowExists(String nomDelegant,
+			String prenomDelegant,
+			String role,
+			String nomMandataire,
+			String prenomMandataire,
+			int timeout = 5) {
+
+		String xpath = """
+        //tbody[@data-list='list_NamRoleMandat_the_ajax_NamRoleMandat']
+        /tr[
+            .//td[@data-field='namRolmdtFromUsrId__usr_last_name']//div[text()='${nomDelegant}']
+            and
+            .//td[@data-field='namRolmdtFromUsrId__usr_first_name']//div[text()='${prenomDelegant}']
+            and
+            .//td[@data-field='namRolmdtFromUsrId__namUsrAgentTitre']//div[text()='${role}']
+            and
+            .//td[@data-field='namRolmdtToUsrId__usr_last_name']//div[text()='${nomMandataire}']
+            and
+            .//td[@data-field='namRolmdtToUsrId__usr_first_name']//div[text()='${prenomMandataire}']
+        ]
+        """
+
+		TestObject row = new TestObject("delegationRow")
+		row.addProperty("xpath", ConditionType.EQUALS, xpath)
+
+		return WebUI.verifyElementPresent(row, timeout, FailureHandling.OPTIONAL)
+	}
+
+	@Keyword
+	def verifyDownloadByFirstname(String prenom, int timeoutSeconds) {
+
+		String downloadPath = System.getProperty("user.home") + "\\Downloads"
+		File downloadDir = new File(downloadPath)
+		assert downloadDir.exists() : "Dossier Downloads introuvable"
+
+		int elapsed = 0
+		File downloadedFile = null
+
+		while (elapsed < timeoutSeconds && downloadedFile == null) {
+			File[] files = downloadDir.listFiles({ f ->
+				f.getName().toLowerCase().contains(prenom.toLowerCase()) &&
+						!f.getName().endsWith(".crdownload")
+			} as FileFilter)
+
+			if (files != null && files.length > 0) {
+				downloadedFile = files.sort { -it.lastModified() }[0]
+			} else {
+				WebUI.delay(1)
+				elapsed++
+			}
+		}
+
+		assert downloadedFile != null :
+		"Aucun fichier téléchargé contenant le prénom '${prenom}'"
+
+		assert downloadedFile.length() > 0 :
+		"Fichier téléchargé vide"
+
+		println "Fichier téléchargé OK : ${downloadedFile.getName()}"
+
+		return downloadedFile
+	}
+
+	@Keyword
+	static Map<String, String> extractElements(String areaId) {
+
+		TestObject fields = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				"//*[@id='${areaId}']//input | //*[@id='${areaId}']//select | //*[@id='${areaId}']//textarea"
+				)
+
+		List<WebElement> elements = WebUI.findWebElements(fields, 10)
+
+		Map<String, String> data = [:]
+
+		elements.each { el ->
+			String name = el.getAttribute("name")
+			String value = el.getAttribute("value")
+
+			if (name) {
+				data[name] = value
+			}
+		}
+
+		println "=== Extraction (${areaId}) ==="
+		data.each { key, value ->
+			println "${key.padRight(35)} : ${value}"
+		}
+
+		return data
+	}
+
+	@Keyword
+	static void compareElements(Map<String, String> form, Map<String, String> expectedValues) {
+
+		def normalize = { input ->
+			if (!input) return ""
+			Normalizer.normalize(input, Normalizer.Form.NFD)
+					.replaceAll("\\p{InCombiningDiacriticalMarks}+", "")
+					.toLowerCase()
+					.trim()
+		}
+
+		expectedValues.each { key, expected ->
+			def actual = form[key] ?: ""
+			if (normalize(actual) == normalize(expected)) {
+				println "[OK] ${key} = ${actual}"
+			} else {
+				KeywordUtil.markFailedAndStop("[KO] ${key} = ${actual} (attendu: ${expected})")
+			}
+		}
+		println "Toutes les comparaisons sont OK !"
+	}
+
+
+	@Keyword
+	def verifySuccessMessage(String expectedTitle, String expectedMessage) {
+
+		TestObject div = new TestObject('confirmationMessage')
+		div.addProperty("xpath", ConditionType.EQUALS, "//div[@id='confirmation-message']")
+
+		WebUI.waitForElementVisible(div, 10)
+
+		WebUI.verifyElementPresent(div, 10)
+
+		TestObject h3 = new TestObject('confirmationH3')
+		h3.addProperty("xpath", ConditionType.EQUALS, "//div[@id='confirmation-message']//h3")
+
+		TestObject p = new TestObject('confirmationP')
+		p.addProperty("xpath", ConditionType.EQUALS, "//div[@id='confirmation-message']//p")
+
+		try {
+			WebUI.verifyElementText(h3, expectedTitle)
+			WebUI.verifyElementText(p, expectedMessage)
+			KeywordUtil.logInfo("Message de succès vérifié avec succès.")
+		} catch (Exception e) {
+			WebUI.takeScreenshot()
+			KeywordUtil.markFailed("Le message de succès ne correspond pas : " + e.getMessage())
+		}
+	}
 
 	@Keyword
 	def verifyElementInPage(String xpath, boolean shouldBeVisible, String label, int timeout = 5) {
@@ -132,6 +327,164 @@ class UtilsEpide {
 		}
 	}
 
+
+	private Map resolveRubrique(String rubrique) {
+		switch (rubrique.toLowerCase()) {
+
+			case "fse":
+				return [
+					champ : findTestObject('Object Repository/FSE/Page_Simplicit/input_FSE'),
+					click : findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_FSE_Type')
+				]
+
+			case "jeune":
+				return [
+					champ : findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes'),
+					click : findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_Prenom_jeune_candidat_volontaires')
+				]
+
+			case "inscription_exam":
+				return [
+					champ : findTestObject('Object Repository/Examen/Page_Simplicit/input_Prenom_inscription_examenED'),
+					click : findTestObject('Object Repository/Examen/Page_Simplicit/Element_Presence_inscription_examenED')
+				]
+
+			case "candidat":
+				return [
+					champ : findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_candidats'),
+					click : findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_Prenom_jeune_candidat_volontaires')
+				]
+
+			case "cof":
+				return [
+					champ  : findTestObject('Object Repository/ComunCI/Page_Simplicit/input_cof_prenom'),
+					click : [
+						"COF1": findTestObject('Object Repository/COF/Page_COF/Elem_COF1'),
+						"COF2": findTestObject('Object Repository/COF/Page_COF/Elem_COF2'),
+						"COF3": findTestObject('Object Repository/COF/Page_COF/Elem_COF3')
+					]
+				]
+
+			case "candidature":
+				return [
+					champ : findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_candidatures'),
+					click : findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_candidatures')
+				]
+
+			case "demandetransfert":
+				return [
+					champ : findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/input_prenom_DemandeTransfert'),
+					click : findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/Element_AvisCentreDestination')
+				]
+
+			case "volontaire":
+				return [
+					champ : findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes'),
+					click : findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_Prenom_jeune_candidat_volontaires')
+				]
+
+			default:
+				throw new IllegalArgumentException("Rubrique inconnue : ${rubrique}")
+		}
+	}
+
+	@Keyword
+	def searchInRub(String rubrique, String prenom) {
+
+		def config = resolveRubrique(rubrique)
+		TestObject champPrenom = config.champ
+
+		clearAndSetText(champPrenom, prenom)
+		WebUI.sendKeys(champPrenom, Keys.chord(Keys.ENTER))
+	}
+
+
+	@Keyword
+	def searchInRubAndClick(String rubrique, String prenom) {
+
+		def config = resolveRubrique(rubrique)
+
+		TestObject champPrenom = config.champ
+		TestObject elementACliquer =
+				config.clicks ? config.clicks[prenom] : config.click
+
+		if (elementACliquer == null) {
+			KeywordUtil.markFailedAndStop(
+					"Aucun élément à cliquer pour '${prenom}' dans la rubrique '${rubrique}'"
+					)
+		}
+
+		clearAndSetText(champPrenom, prenom)
+		WebUI.sendKeys(champPrenom, Keys.chord(Keys.ENTER))
+		waitAndClick(elementACliquer)
+	}
+
+	@Keyword
+	def AccessExamens() {
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_GestionDesVolontaires'))
+		waitAndClick(findTestObject('Object Repository/Examen/Page_Simplicit/Rub_Examens'))
+	}
+
+	@Keyword
+	def AccessTypesAbsence() {
+		waitAndClick(findTestObject('Object Repository/Absence/Page_Simplicit/Rub_Administration_applicative'))
+		waitAndClick(findTestObject('Object Repository/Absence/Page_Simplicit/Rub_Types_absence'))
+	}
+
+	@Keyword
+	def AccessFeuillePresence() {
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_GestionDesVolontaires'))
+		waitAndClick(findTestObject('Object Repository/Absence/Page_Simplicit/Rub_FeuilledePresence'))
+	}
+
+	@Keyword
+	def AccessInscriptionExamens() {
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_GestionDesVolontaires'))
+		waitAndClick(findTestObject('Object Repository/Examen/Page_Simplicit/Rub_InscriptionsExamen'))
+	}
+
+	@Keyword
+	def AccessPromotions() {
+		waitAndClick(findTestObject('Object Repository/Promotion/Page_Simplicit/Rub_OrganisationdesCentres'))
+		waitAndClick(findTestObject('Object Repository/Promotion/Page_Simplicit/Rub_Promotions'))
+	}
+
+
+	@Keyword
+	def searchCof(String prenomCof) {
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_GestionDesVolontaires'))
+		waitAndClick(findTestObject('Object Repository/COF/Page_COF/Rub_COF'))
+		TestObject champPrenomCof = findTestObject('Object Repository/ComunCI/Page_Simplicit/input_cof_prenom')
+		clearAndSetText(champPrenomCof, prenomCof)
+		WebUI.sendKeys(champPrenomCof, Keys.chord(Keys.ENTER))
+	}
+
+	@Keyword
+	def searchFse(String prenomFse) {
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_GestionDesVolontaires'))
+		waitAndClick(findTestObject('Object Repository/FSE/Page_Simplicit/Rub_FSE'))
+		TestObject champPrenomFse = findTestObject('Object Repository/FSE/Page_Simplicit/input_fse_prenom')
+		clearAndSetText(champPrenomFse, prenomFse)
+		WebUI.sendKeys(champPrenomFse, Keys.chord(Keys.ENTER))
+	}
+
+	@Keyword
+	def searchFseAndClick(String prenomFse) {
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_GestionDesVolontaires'))
+		waitAndClick(findTestObject('Object Repository/FSE/Page_Simplicit/Rub_FSE'))
+		TestObject champPrenomFse = findTestObject('Object Repository/FSE/Page_Simplicit/input_fse_prenom')
+		clearAndSetText(champPrenomFse, prenomFse)
+		WebUI.sendKeys(champPrenomFse, Keys.chord(Keys.ENTER))
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_FSE_Type'))
+	}
+
+	@Keyword
+	def searchNotification(String nomNotif) {
+		TestObject champNomNotif = findTestObject('Object Repository/Notification/Page_Notification/input_search_NomNotification')
+		clearAndSetText(champNomNotif, nomNotif)
+		WebUI.sendKeys(champNomNotif, Keys.chord(Keys.ENTER))
+	}
+
 	@Keyword
 	def searchJeuneInRub(String prenom) {
 		TestObject champPrenomjeune = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes')
@@ -141,11 +494,10 @@ class UtilsEpide {
 
 	@Keyword
 	def searchJeuneInRubAndClick(String prenom) {
-		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Jeunes'))
 		TestObject champPrenomcandidat = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes')
 		clearAndSetText(champPrenomcandidat, prenom)
 		WebUI.sendKeys(champPrenomcandidat, Keys.chord(Keys.ENTER))
-		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i'))
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_Prenom_jeune_candidat_volontaires'))
 	}
 
 	@Keyword
@@ -162,11 +514,20 @@ class UtilsEpide {
 		TestObject champPrenomcandidat = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes')
 		clearAndSetText(champPrenomcandidat, prenom)
 		WebUI.sendKeys(champPrenomcandidat, Keys.chord(Keys.ENTER))
-		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i'))
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_Prenom_jeune_candidat_volontaires'))
+	}
+
+	@Keyword
+	def searchCandidatInRub(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Candidats'))
+		TestObject champPrenomcandidat = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_candidats')
+		clearAndSetText(champPrenomcandidat, prenom)
+		WebUI.sendKeys(champPrenomcandidat, Keys.chord(Keys.ENTER))
 	}
 
 	@Keyword
 	def searchCandidat(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Gestion_des_candidats'))
 		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Candidats'))
 		TestObject champPrenomcandidat = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_candidats')
 		clearAndSetText(champPrenomcandidat, prenom)
@@ -175,15 +536,17 @@ class UtilsEpide {
 
 	@Keyword
 	def searchCandidatAndClick(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Gestion_des_candidats'))
 		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Candidats'))
 		TestObject champPrenomcandidat = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_candidats')
 		clearAndSetText(champPrenomcandidat, prenom)
 		WebUI.sendKeys(champPrenomcandidat, Keys.chord(Keys.ENTER))
-		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i'))
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_Prenom_jeune_candidat_volontaires'))
 	}
 
 	@Keyword
 	def searchCandidature(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Gestion_des_candidats'))
 		waitAndClick(findTestObject('Object Repository/Epide_Candidature/Candidatures/Rubrique_Candidatures'))
 		TestObject champPrenomcandidature = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_candidatures')
 		clearAndSetText(champPrenomcandidature, prenom)
@@ -191,15 +554,18 @@ class UtilsEpide {
 	}
 	@Keyword
 	def searchCandidatureAndClick(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Rub_Gestion_des_candidats'))
 		waitAndClick(findTestObject('Object Repository/Epide_Candidature/Candidatures/Rubrique_Candidatures'))
 		TestObject champPrenomcandidature = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_candidatures')
 		clearAndSetText(champPrenomcandidature, prenom)
 		WebUI.sendKeys(champPrenomcandidature, Keys.chord(Keys.ENTER))
-		waitAndClick(findTestObject('Object Repository/Recrutement/Commission_Admission/Element_TRATKatalonPrenom_i'))
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_candidatures'))
 	}
 
 	@Keyword
 	def searchDemandeTransfert(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/Rub_GestionVolontaires'))
+		waitAndClick(findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/Rub_DemandesTransfert'))
 		TestObject champPrenomcandidature = findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/input_prenom_DemandeTransfert')
 		clearAndSetText(champPrenomcandidature, prenom)
 		WebUI.sendKeys(champPrenomcandidature, Keys.chord(Keys.ENTER))
@@ -207,10 +573,48 @@ class UtilsEpide {
 
 	@Keyword
 	def searchDemandeTransfertAndClick(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/Rub_GestionVolontaires'))
+		waitAndClick(findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/Rub_DemandesTransfert'))
 		TestObject champPrenomcandidature = findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/input_prenom_DemandeTransfert')
 		clearAndSetText(champPrenomcandidature, prenom)
 		WebUI.sendKeys(champPrenomcandidature, Keys.chord(Keys.ENTER))
-		waitAndClick(findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/Element_AvisCentreDestination'))
+		waitAndClick(findTestObject('Object Repository/Transfert/ASSDIR/Page_Simplicit/Element_Etat_Demande_Transfert'))
+	}
+
+	@Keyword
+	def searchVolontaire(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_GestionDesVolontaires'))
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_Volontaires'))
+		TestObject champPrenomjeune = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes')
+		clearAndSetText(champPrenomjeune, prenom)
+		WebUI.sendKeys(champPrenomjeune, Keys.chord(Keys.ENTER))
+	}
+
+	@Keyword
+	def searchVolontaireAndClick(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_GestionDesVolontaires'))
+		waitAndClick(findTestObject('Object Repository/Demande_Transfert/Rub_Volontaires'))
+		TestObject champPrenomcandidat = findTestObject('Object Repository/Recrutement/Commission_Admission/input_prenom_jeunes')
+		clearAndSetText(champPrenomcandidat, prenom)
+		WebUI.sendKeys(champPrenomcandidat, Keys.chord(Keys.ENTER))
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Element_Prenom_jeune_candidat_volontaires'))
+	}
+
+	@Keyword
+	def searchMandataireDelagation(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Delegation/Page_Simplicit/Rub_Delegationderole'))
+		TestObject champPrenomcandidat = findTestObject('Object Repository/Delegation/Page_Simplicit/input_prenomduMandataire')
+		clearAndSetText(champPrenomcandidat, prenom)
+		WebUI.sendKeys(champPrenomcandidat, Keys.chord(Keys.ENTER))
+	}
+
+	@Keyword
+	def searchMandataireDelagationAndClick(String prenom) {
+		waitAndClick(findTestObject('Object Repository/Delegation/Page_Simplicit/Rub_Delegationderole'))
+		TestObject champPrenomcandidat = findTestObject('Object Repository/Delegation/Page_Simplicit/input_prenomduMandataire')
+		clearAndSetText(champPrenomcandidat, prenom)
+		WebUI.sendKeys(champPrenomcandidat, Keys.chord(Keys.ENTER))
+		waitAndClick(findTestObject('Object Repository/Delegation/Page_Simplicit/Element_nom_cre'))
 	}
 
 	@Keyword
@@ -311,7 +715,7 @@ class UtilsEpide {
 		boolean confirmationVisible =
 				WebUI.waitForElementPresent(
 				findTestObject('Object Repository/Epide_Candidature/Candidatures/Page_Simplicit/Text_EnregistrementTermineAvecSucces'),
-				10,
+				30,
 				FailureHandling.OPTIONAL
 				)
 		if (!confirmationVisible) {
@@ -353,15 +757,13 @@ class UtilsEpide {
 		}
 	}
 
-
-
 	@Keyword
 	def saveCloseAndCheckConfirmation() {
 		waitAndClick(findTestObject('Object Repository/Demande_Transfert/button_EnregistrerFermer'))
 		boolean confirmationVisible =
 				WebUI.waitForElementPresent(
 				findTestObject('Object Repository/Epide_Candidature/Candidatures/Page_Simplicit/Text_EnregistrementTermineAvecSucces'),
-				10,
+				30,
 				FailureHandling.OPTIONAL
 				)
 		if (!confirmationVisible) {
@@ -469,11 +871,44 @@ class UtilsEpide {
 		}
 	}
 
+	//	@Keyword
+	//	def waitAndVerifyText(TestObject to, String expectedText, int timeout = 10) {
+	//		WebUI.waitForElementVisible(to, timeout)
+	//		WebUI.verifyElementText(to, expectedText)
+	//	}
+
+
 	@Keyword
 	def waitAndVerifyText(TestObject to, String expectedText, int timeout = 10) {
-		WebUI.waitForElementVisible(to, timeout)
-		WebUI.verifyElementText(to, expectedText)
+		// Attendre que l'élément soit visible
+		boolean isVisible = WebUI.waitForElementVisible(to, timeout)
+		if (!isVisible) {
+			KeywordUtil.markFailed("Élément non visible après ${timeout} secondes : ${to.getObjectId()}")
+			return
+		}
+
+		// Récupérer le texte réel
+		String actualText = WebUI.getText(to).trim()
+
+		// Normalisation simple : apostrophes, espaces multiples
+		def normalize = { String s ->
+			s = s.replaceAll("[’‘`]", "'")           // normaliser toutes les apostrophes en simple '
+			s = s.replaceAll("\\s+", " ")           // réduire les espaces multiples
+			s = s.replaceAll("\u00A0", " ")         // convertir les espaces insécables
+			return s.trim()
+		}
+
+		actualText = normalize(actualText)
+		expectedText = normalize(expectedText)
+
+		// Comparaison
+		if (actualText != expectedText) {
+			KeywordUtil.markFailed("Texte non conforme : attendu='${expectedText}' / obtenu='${actualText}'")
+		} else {
+			KeywordUtil.logInfo("Texte validé : '${actualText}'")
+		}
 	}
+
 
 	@Keyword
 	def waitAndVerifyValue(TestObject to, String expectedValue, int timeout = 10) {
@@ -522,6 +957,1054 @@ class UtilsEpide {
 
 
 	@Keyword
+	def verifyTableFieldReleve(TestObject tableObj, String label, String expectedValue, int timeout = 10) {
+
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		// 1. Trouver le header par son libellé
+		TestObject headerObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//thead//tr[@class='head']//th[.//span[normalize-space(text())='${label}']]"
+				)
+
+		WebElement header = WebUiCommonHelper.findWebElement(headerObj, timeout)
+
+		// 2. Récupérer le data-name
+		String dataName = header.getAttribute("data-name")
+		if (!dataName) {
+			KeywordUtil.markFailed("Aucun data-name trouvé pour le label '${label}'")
+			return
+		}
+
+		// 3. Récupérer la cellule correspondante (ligne 1)
+		TestObject valueObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//tr[1]//td[@data-field='${dataName}']"
+				)
+
+		String actual = WebUI.getText(valueObj).trim()
+
+		if (actual == expectedValue) {
+			KeywordUtil.markPassed("'${label}' = '${actual}'")
+		} else {
+			KeywordUtil.markFailed("'${label}' incorrect. Attendu : '${expectedValue}', trouvé : '${actual}'")
+		}
+	}
+
+
+	@Keyword
+	static void verifyCofs(TestObject tableObj, List<String> expectedCofs) {
+
+		WebDriver driver = DriverFactory.getWebDriver()
+
+		WebElement table = driver.findElement(
+				By.xpath(tableObj.findPropertyValue('xpath'))
+				)
+
+		// Récupération des valeurs de la colonne N° COF
+		List<WebElement> cofCells = table.findElements(
+				By.xpath(".//td[@data-field='namCofNumero']//div")
+				)
+
+		List<String> actualCofs = cofCells.collect { it.getText().trim() }
+
+		// 1️⃣ Vérification du nombre
+		if (actualCofs.size() != expectedCofs.size()) {
+			KeywordUtil.markFailed(
+					"Nombre de COF incorrect : ${actualCofs.size()} (attendu : ${expectedCofs.size()})"
+					)
+		} else {
+			KeywordUtil.logInfo("Nombre de COF OK : ${actualCofs.size()}")
+		}
+
+		// 2️⃣ Vérification du contenu
+		expectedCofs.each { cof ->
+			if (actualCofs.contains(cof)) {
+				KeywordUtil.logInfo("${cof} présent")
+			} else {
+				KeywordUtil.markFailed("${cof} absent")
+			}
+		}
+
+		// 3️⃣ Vérification stricte (aucun COF en trop)
+		if (actualCofs.toSet() != expectedCofs.toSet()) {
+			KeywordUtil.markFailed(
+					"Liste des COF non conforme. Trouvés : ${actualCofs} / Attendus : ${expectedCofs}"
+					)
+		}
+
+		KeywordUtil.logInfo("Vérification des COF terminée avec succès")
+	}
+
+	@Keyword
+	def verifyTableFieldCof(TestObject tableObj, String label, String expectedValue, int timeout = 10) {
+
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		// 1. Récupérer le header
+		TestObject headerObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//thead//tr[@class='head']//th[.//span[normalize-space(.)='${label}']]"
+				)
+		WebElement header = WebUiCommonHelper.findWebElement(headerObj, timeout)
+
+		String dataName = header.getAttribute("data-name")
+		if (!dataName) {
+			KeywordUtil.markFailed("Aucun data-name trouvé pour le label '${label}'")
+			return
+		}
+
+		// 2. Chercher la valeur dans toutes les lignes
+		TestObject cellObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//td[@data-field='${dataName}']"
+				)
+
+		List<WebElement> cells = WebUiCommonHelper.findWebElements(cellObj, timeout)
+		boolean found = cells.any { it.getText().trim() == expectedValue }
+
+		if (found) {
+			KeywordUtil.markPassed("✅ '${label}' contient la valeur '${expectedValue}'")
+		} else {
+			KeywordUtil.markFailed("❌ Valeur '${expectedValue}' non trouvée dans la colonne '${label}'")
+		}
+	}
+
+	@Keyword
+	def verifySyntheseByStep2(Map<String, String> form, String stepLabel) {
+
+		Map<String, Map<String, Boolean>> rules = [
+
+			"COF1": [
+				'namCofSyntheseGlobalePr': false,
+				'namCofSyntheseGlobaleDx': false,
+				'namCofSyntheseGlobaleTr': false
+			],
+
+			"COF2": [
+				'namCofSyntheseGlobalePr': true,
+				'namCofSyntheseGlobaleDx': false,
+				'namCofSyntheseGlobaleTr': false
+			],
+
+			"COF3": [
+				'namCofSyntheseGlobalePr': true,
+				'namCofSyntheseGlobaleDx': true,
+				'namCofSyntheseGlobaleTr': false
+			]
+		]
+
+		if (!rules.containsKey(stepLabel)) {
+			KeywordUtil.markFailed("Règles inconnues pour '${stepLabel}'")
+			return
+		}
+
+		KeywordUtil.logInfo("===== Vérification synthèse ${stepLabel} =====")
+
+		rules[stepLabel].each { field, mustBeFilled ->
+
+			String value = form[field]
+			boolean isFilled = value != null && !value.trim().isEmpty()
+
+			if (mustBeFilled && !isFilled) {
+				KeywordUtil.markFailed(
+						"${stepLabel} – '${field}' devrait être rempli mais est vide"
+						)
+			}
+			else if (!mustBeFilled && isFilled) {
+				KeywordUtil.markFailed(
+						"${stepLabel} – '${field}' devrait être vide mais contient '${value}'"
+						)
+			}
+			else {
+				KeywordUtil.logInfo(
+						"${stepLabel} – '${field}' conforme"
+						)
+			}
+		}
+	}
+	@Keyword
+	List<Map<String, String>> readTableAsListOfMap(TestObject tableObj) {
+
+		WebUI.waitForElementVisible(tableObj, 10)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		TestObject rowObj = new TestObject().addProperty(
+				"xpath",
+				com.kms.katalon.core.testobject.ConditionType.EQUALS,
+				tableXPath + "//tbody//tr"
+				)
+
+		List<WebElement> rows = WebUiCommonHelper.findWebElements(rowObj, 10)
+		List<Map<String, String>> tableData = []
+
+		rows.eachWithIndex { row, rowIndex ->
+			Map<String, String> rowData = [:]
+
+			List<WebElement> cells = row.findElements(By.xpath("./td[@data-field]"))
+			cells.each { cell ->
+				String field = cell.getAttribute("data-field")
+				String value = cell.getText().trim()
+				rowData[field] = value
+			}
+
+			tableData.add(rowData)
+			KeywordUtil.logInfo("Ligne ${rowIndex + 1} => ${rowData}")
+		}
+
+		return tableData
+	}
+	@Keyword
+	def verifyRowExistsInTable(TestObject tableObj, Map<String, String> expectedRow) {
+
+		List<Map<String, String>> tableData =
+				readTableAsListOfMap(tableObj)
+
+		boolean found = tableData.any { row ->
+			expectedRow.every { key, expectedValue ->
+				row.containsKey(key) && row[key] == expectedValue
+			}
+		}
+
+		if (found) {
+			KeywordUtil.logInfo("Ligne trouvée dans la table : ${expectedRow}")
+		} else {
+			KeywordUtil.markFailed(
+					"Ligne NON trouvée dans la table.\nAttendu : ${expectedRow}\nContenu : ${tableData}"
+					)
+		}
+	}
+
+	@Keyword
+	def checkNotificationAndSelect1(
+			TestObject tableObj,
+			String expectedDate,
+			String expectedLibelle,
+			String expectedPrenom,
+			String expectedCof
+	) {
+
+		WebUI.waitForElementVisible(tableObj, 10)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		String rowXpath = """
+    ${tableXPath}//tr[
+        .//td[@data-field='namNotifDateRef']//div[normalize-space()='${expectedDate}']
+        and
+        .//td[@data-field='namNotifLibelle']//div[contains(normalize-space(),'${expectedLibelle}')]
+        and
+        .//td[@data-field='namNotifMessage']//div[
+            contains(normalize-space(),'${expectedPrenom}')
+            and contains(normalize-space(),'${expectedCof}')
+        ]
+    ]
+    """
+
+		TestObject checkboxObj = new TestObject().addProperty(
+				"xpath",
+				com.kms.katalon.core.testobject.ConditionType.EQUALS,
+				rowXpath + "//input[@type='checkbox' and contains(@class,'selrow')]"
+				)
+
+		if (WebUI.verifyElementPresent(checkboxObj, 5, FailureHandling.OPTIONAL)) {
+			WebUI.click(checkboxObj)
+			KeywordUtil.markPassed("Notification trouvée et sélectionnée : ${expectedCof}")
+		} else {
+			KeywordUtil.markFailed("Notification introuvable : ${expectedCof}")
+		}
+	}
+
+
+
+	@Keyword
+	def verifySyntheseByStep(Map<String, String> form, String stepLabel) {
+
+		Map<String, Map<String, Boolean>> rules = [
+
+			"COF1": [
+				'namCofSyntheseGlobalePr': false,
+				'namCofSyntheseGlobaleDx': false,
+				'namCofSyntheseGlobaleTr': false
+			],
+
+			"COF2": [
+				'namCofSyntheseGlobalePr': true,
+				'namCofSyntheseGlobaleDx': false,
+				'namCofSyntheseGlobaleTr': false
+			],
+
+			"COF3": [
+				'namCofSyntheseGlobalePr': true,
+				'namCofSyntheseGlobaleDx': true,
+				'namCofSyntheseGlobaleTr': false
+			]
+		]
+
+		// 🔹 Règles de présence des blocs Synthèse
+		Map<String, List<TestObject>> syntheseElements = [
+
+			"COF1": [
+				findTestObject('Object Repository/COF/Page_COF/Elem_Synthse_COF1')
+			],
+
+			"COF2": [
+				findTestObject('Object Repository/COF/Page_COF/Elem_Synthse_COF1'),
+				findTestObject('Object Repository/COF/Page_COF/Elem_Synthse_COF2')
+			],
+
+			"COF3": [
+				findTestObject('Object Repository/COF/Page_COF/Elem_Synthse_COF1'),
+				findTestObject('Object Repository/COF/Page_COF/Elem_Synthse_COF2'),
+				findTestObject('Object Repository/COF/Page_COF/Elem_Synthse_COF3')
+			]
+		]
+
+		if (!rules.containsKey(stepLabel)) {
+			KeywordUtil.markFailed("Règles inconnues pour '${stepLabel}'")
+			return
+		}
+
+		KeywordUtil.logInfo("===== Vérification synthèse ${stepLabel} =====")
+
+		rules[stepLabel].each { field, mustBeFilled ->
+
+			String value = form[field]
+			boolean isFilled = value != null && !value.trim().isEmpty()
+
+			if (mustBeFilled && !isFilled) {
+				KeywordUtil.markFailed(
+						"${stepLabel} – '${field}' devrait être rempli mais est vide"
+						)
+			}
+			else if (!mustBeFilled && isFilled) {
+				KeywordUtil.markFailed(
+						"${stepLabel} – '${field}' devrait être vide mais contient '${value}'"
+						)
+			}
+			else {
+				KeywordUtil.logInfo(
+						"${stepLabel} – '${field}' conforme"
+						)
+			}
+		}
+
+		syntheseElements[stepLabel].each { TestObject elem ->
+
+			WebUI.verifyElementPresent(
+					elem,
+					10,
+					FailureHandling.STOP_ON_FAILURE
+					)
+
+			KeywordUtil.logInfo(
+					"${stepLabel} – Élément ${elem.getObjectId()} présent"
+					)
+		}
+	}
+
+
+	@Keyword
+	def createAndVerifyAxeTravail(
+			String constat,
+			String proposition,
+			String moyens
+	) {
+		waitAndClick(findTestObject('Object Repository/COF/Page_COF/button_Creer_Axes_de_travail'))
+
+		waitAndSet(findTestObject('Object Repository/COF/Page_COF/input_Axe_Tr_Constat'), constat)
+		waitAndSet(findTestObject('Object Repository/COF/Page_COF/input_Axe_Tr_PropositionDobjectif'), proposition)
+		waitAndSet(findTestObject('Object Repository/COF/Page_COF/input_Axe_Tr_Moyens'), moyens)
+
+		saveCloseAndCheckConfirmation()
+
+		TestObject tableAxeTrav = findTestObject('Object Repository/COF/Page_COF/table_AxesTravail')
+
+		Map<String, String> expected = [
+			"namAxetrvDomaine" : "Chargé(e) de recrutement des volontaires",
+			"namAxetrvConstat" : constat,
+			"namAxetrvPropObj" : proposition,
+			"namAxetrvMoyen"   : moyens
+		]
+
+		verifyRowExistsInTable(tableAxeTrav, expected)
+	}
+
+
+	@Keyword
+	def processCofSynthese(
+			TestObject tableObj,
+			String cofCode,
+			TestObject inputSynthese,
+			TestObject inputCommentaire,
+			String synthese,
+			String commentaire
+	) {
+
+		clickOnCof(tableObj, cofCode)
+
+		waitAndClick(findTestObject('Object Repository/COF/Page_COF/button_COF_Animer'))
+		waitAndVerifyText(findTestObject('Object Repository/COF/Page_COF/Statut_EnCours'),
+				'En cours')
+
+		def form = extractElements("work")
+		verifySyntheseByStep(form, cofCode)
+
+		waitAndSet(inputSynthese, synthese)
+		waitAndSet(inputCommentaire, commentaire)
+
+		saveAndCheckConfirmation()
+
+		waitAndClick(findTestObject('Object Repository/COF/Page_COF/button_Valider'))
+		//verifyCofStatus(cofCode, "VALIDE")
+		waitAndVerifyText(findTestObject('Object Repository/COF/Page_COF/Statut_Valide'),
+				'Validé')
+
+		waitAndClick(findTestObject('Object Repository/COF/Page_COF/page_Cof_Volontaire'))
+	}
+
+	@Keyword
+	def checkNotificationAndSelect(
+			TestObject tableObj,
+			String expectedDate,
+			String expectedLibelle,
+			String expectedPrenom,
+			String expectedCof
+	) {
+
+		WebUI.waitForElementVisible(tableObj, 10)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		String rowXpath = """
+			${tableXPath}//tr[
+			    .//td[@data-field='namNotifDateRef']//div[normalize-space()='${expectedDate}']
+			    and
+			    .//td[@data-field='namNotifLibelle']//div[contains(normalize-space(), '${expectedLibelle}')]
+			    and
+			    .//td[@data-field='namNotifMessage']//div[
+			        contains(normalize-space(), '${expectedPrenom}')
+			        and contains(normalize-space(), '${expectedCof}')
+			    ]
+			]
+			"""
+
+		TestObject checkboxObj = new TestObject().addProperty(
+				"xpath",
+				com.kms.katalon.core.testobject.ConditionType.EQUALS,
+				rowXpath + "//input[@type='checkbox' and contains(@class,'selrow')]"
+				)
+
+		if (WebUI.verifyElementPresent(checkboxObj, 5, FailureHandling.OPTIONAL)) {
+			WebUI.click(checkboxObj)
+			KeywordUtil.markPassed(
+					"Notification trouvée : date=${expectedDate}, libellé=${expectedLibelle}, prénom=${expectedPrenom}, cof=${expectedCof}"
+					)
+		} else {
+			KeywordUtil.markFailed(
+					"Notification NON trouvée : date=${expectedDate}, libellé=${expectedLibelle}, prénom=${expectedPrenom}, cof=${expectedCof}"
+					)
+		}
+	}
+	@Keyword
+	def verifyCofCompteRenduNotification(
+			TestObject tableObj,
+			String expectedPrenom,
+			String expectedLibelle,
+			int timeout = 10
+	) {
+		WebUI.waitForElementVisible(tableObj, timeout)
+
+		// Date du jour jj/MM/yyyy
+		String today = new Date().format("dd/MM/yyyy")
+
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		// XPath insensible à la casse pour le prénom et le libellé
+		String rowXpath = """
+${tableXPath}//tr[
+    .//td[@data-field='namNotifDateRef']//div[normalize-space()='${today}']
+    and
+    contains(translate(.//td[@data-field='namNotifLibelle']//div, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${expectedLibelle.toLowerCase()}')
+    and
+    contains(translate(.//td[@data-field='namNotifMessage']//div, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${expectedPrenom.toLowerCase()}')
+]
+"""
+
+		TestObject rowObj = new TestObject().addProperty(
+				"xpath",
+				com.kms.katalon.core.testobject.ConditionType.EQUALS,
+				rowXpath
+				)
+
+		if (WebUI.verifyElementPresent(rowObj, timeout, FailureHandling.OPTIONAL)) {
+			KeywordUtil.markPassed(
+					"Notification trouvée : date=${today}, libellé='${expectedLibelle}', prénom='${expectedPrenom}'"
+					)
+		} else {
+			KeywordUtil.markFailed(
+					"Notification ABSENTE : date=${today}, libellé='${expectedLibelle}', prénom='${expectedPrenom}'"
+					)
+		}
+	}
+
+
+	@Keyword
+	def verifyCofCompteRenduNotificationFromAccueil(
+			String profil,
+			String expectedPrenom,
+			String expectedLibelle = "Le Compte Rendu du COF est disponible",
+			int timeout = 10
+	) {
+
+		Access_epide(profil)
+
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Rub_Accueil'))
+
+		TestObject tableNotif = findTestObject(
+				'Object Repository/Volontaire/Page_Simplicit/table_notification'
+				)
+
+		verifyCofCompteRenduNotification(
+				tableNotif,
+				expectedPrenom,
+				expectedLibelle,
+				timeout
+				)
+		WebUI.closeBrowser()
+	}
+
+	@Keyword
+	def verifyNotificationSortieFromAccueil(
+			String profil,
+			String expectedPrenom,
+			String expectedLibelle = "Une sortie est prévue pour le jeune",
+			int timeout = 10
+	) {
+
+		Access_epide(profil)
+
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Rub_Accueil'))
+
+		TestObject tableNotif = findTestObject(
+				'Object Repository/Volontaire/Page_Simplicit/table_notification'
+				)
+
+		verifyCofCompteRenduNotification(
+				tableNotif,
+				expectedPrenom,
+				expectedLibelle,
+				timeout
+				)
+		WebUI.closeBrowser()
+	}
+
+
+	@Keyword
+	def checkCofNotifications(
+			String centre,
+			String date,
+			String texteNotif,
+			String prenom,
+			List<String> cofList
+	) {
+
+		Access_epide(centre)
+
+		waitAndClick(findTestObject('Object Repository/ComunCI/Page_Simplicit/Rub_Accueil'))
+
+		TestObject tableNotif = findTestObject(
+				'Object Repository/Volontaire/Page_Simplicit/table_notification'
+				)
+
+		cofList.each { cof ->
+			KeywordUtil.logInfo("Vérification notification ${cof}")
+			checkNotificationAndSelect(
+					tableNotif,
+					date,
+					texteNotif,
+					prenom,
+					cof
+					)
+		}
+	}
+
+	@Keyword
+	def verifyCofWithStatus1(TestObject tableObj, String cofNumber, String expectedStatus, int timeout = 10) {
+
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		TestObject rowObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//tr[td[normalize-space(.)='${cofNumber}']]"
+				)
+
+		List<WebElement> rows = WebUiCommonHelper.findWebElements(rowObj, timeout)
+
+		if (rows.isEmpty()) {
+			KeywordUtil.markFailed("COF '${cofNumber}' non trouvé dans le tableau")
+			return
+		}
+
+		WebElement row = rows[0]
+
+		WebElement statusCell = row.findElement(By.xpath(".//td[contains(@data-field,'statut')]")
+
+				//By.xpath(".//td[contains(@data-field,'statut') or normalize-space(.)='${expectedStatus}']")
+				)
+
+		String actualStatus = statusCell.text.trim()
+
+		if (actualStatus.equalsIgnoreCase(expectedStatus)) {
+			KeywordUtil.markPassed("COF '${cofNumber}' → Statut = '${actualStatus}'")
+		} else {
+			KeywordUtil.markFailed(
+					"COF '${cofNumber}' → Statut incorrect. Attendu '${expectedStatus}', trouvé '${actualStatus}'"
+					)
+		}
+	}
+
+
+	@Keyword
+	def verifyCofStatus(String expectedNumero, String expectedStatut, int timeout = 15) {
+
+		long endTime = System.currentTimeMillis() + (timeout * 1000)
+		while (System.currentTimeMillis() < endTime) {
+
+			def form = extractElements("work")
+
+			String currentNumero = form["namCofNumero"]
+			String currentStatut = form["namCofStatut"]
+
+			if (currentNumero == expectedNumero && currentStatut == expectedStatut) {
+
+				KeywordUtil.logInfo(
+						"Statut '${expectedStatut}' confirmé pour ${expectedNumero}"
+						)
+				return
+			}
+
+			KeywordUtil.logInfo(
+					"Attente statut... COF=${currentNumero}, Statut=${currentStatut}"
+					)
+
+			WebUI.delay(1)
+		}
+
+		KeywordUtil.markFailed(
+				"Timeout ${timeout}s : attendu COF=${expectedNumero}, Statut=${expectedStatut}"
+				)
+	}
+
+
+
+	@Keyword
+	def verifyCofWithStatus(
+			TestObject tableObj,
+			String cofNumber,
+			String expectedStatus,
+			int timeout = 10
+	) {
+
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		/* ===== TROUVER LA LIGNE DU COF ===== */
+
+		TestObject rowObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//tr[td[@data-field='namCofNumero' and normalize-space(.)='${cofNumber}']]"
+				)
+
+		List<WebElement> rows = WebUiCommonHelper.findWebElements(rowObj, timeout)
+
+		if (rows.isEmpty()) {
+			KeywordUtil.markFailed("COF '${cofNumber}' non trouvé dans le tableau")
+			return
+		}
+
+		WebElement row = rows[0]
+
+		/* ===== CELLULE STATUT ===== */
+
+		WebElement statusCell = row.findElement(
+				By.xpath(".//td[@data-field='namCofStatut']//div")
+				)
+
+		String actualStatus = statusCell.text.trim()
+
+		/* ===== COMPARAISON ===== */
+
+		if (actualStatus.equalsIgnoreCase(expectedStatus)) {
+			KeywordUtil.markPassed(
+					"COF '${cofNumber}' → Statut = '${actualStatus}'"
+					)
+		} else {
+			KeywordUtil.markFailed(
+					"COF '${cofNumber}' → Statut incorrect : attendu '${expectedStatus}', trouvé '${actualStatus}'"
+					)
+		}
+	}
+
+	@Keyword
+	def clickOnCof(TestObject tableObj, String cofNumber, int timeout = 10) {
+
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		TestObject cofRow = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath +
+				"//tbody//tr[.//td[@data-field='namCofNumero']//div[normalize-space(.)='${cofNumber}']]"
+				)
+
+		if (!WebUI.verifyElementPresent(cofRow, timeout, FailureHandling.OPTIONAL)) {
+			KeywordUtil.markFailed("COF '${cofNumber}' introuvable dans le tableau")
+			return
+		}
+
+		WebUI.click(cofRow)
+		KeywordUtil.markPassed("COF '${cofNumber}' cliqué avec succès")
+	}
+
+	@Keyword
+	def verifyTableNotification(
+			TestObject tableObj,
+			String label,
+			String expectedValue,
+			int timeout = 10
+	) {
+		WebUI.waitForElementVisible(tableObj, timeout)
+
+		// Mapping des libellés vers les data-field
+		Map<String, String> fieldMapping = [
+			"Nom de la notification"      : "namAdmNotifNom",
+			"N° de notification"          : "namAdmNotifNum",
+			"Type de notification"        : "namAdmNotifType",
+			"Informations complémentaires": "namAdmNotifInfoCmp",
+			"Actif"                       : "namAdmNotifActif",
+			"Message"                     : "namAdmNotifMsg"
+		]
+
+		if (!fieldMapping.containsKey(label)) {
+			KeywordUtil.markFailed("Libellé '${label}' non mappé vers un data-field")
+			return
+		}
+
+		String dataField = fieldMapping[label]
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		TestObject valueObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//tr[1]//td[@data-field='${dataField}']//div"
+				)
+
+		WebUI.waitForElementVisible(valueObj, timeout)
+
+		String actual = ""
+		long endTime = System.currentTimeMillis() + (timeout * 1000)
+
+		while (System.currentTimeMillis() < endTime) {
+			actual = WebUI.getText(valueObj).trim()
+
+			if (expectedValue == "notEmpty") {
+				if (actual) {
+					KeywordUtil.markPassed("'${label}' n'est pas vide comme attendu. Valeur récupérée : '${actual}'")
+					return
+				}
+			} else if (expectedValue == "empty") {
+				if (!actual) {
+					KeywordUtil.markPassed("'${label}' est vide comme attendu.")
+					return
+				}
+			} else {
+				if (actual == expectedValue) {
+					KeywordUtil.markPassed("'${label}' = '${actual}' comme attendu")
+					return
+				}
+			}
+
+			WebUI.delay(1)
+		}
+
+
+		if (expectedValue == "notEmpty") {
+			KeywordUtil.markFailed("'${label}' est vide, alors qu'il ne devrait pas l'être.")
+		} else if (expectedValue == "empty") {
+			KeywordUtil.markFailed("'${label}' n'est pas vide, valeur trouvée : '${actual}'")
+		} else {
+			KeywordUtil.markFailed("'${label}' incorrect. Attendu : '${expectedValue}', trouvé : '${actual}'")
+		}
+	}
+
+	@Keyword
+	def selectSelect2OptionByLabel(TestObject selectObj, String optionLabel, int timeout = 10) {
+
+		TestObject select2Container = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				selectObj.findPropertyValue("xpath") +
+				"/following-sibling::span[contains(@class,'select2')]"
+				)
+
+		WebUI.waitForElementClickable(select2Container, timeout)
+		WebUI.click(select2Container)
+
+		TestObject optionObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				"//li[contains(@class,'select2-results__option') and normalize-space()='${optionLabel}']"
+				)
+
+		WebUI.waitForElementClickable(optionObj, timeout)
+		WebUI.click(optionObj)
+
+		KeywordUtil.markPassed("Option '${optionLabel}' sélectionnée")
+	}
+
+
+	@Keyword
+	def verifyTableFse(
+			TestObject tableObj,
+			String label,
+			String expectedValue,
+			int timeout = 10
+	) {
+		WebUI.waitForElementVisible(tableObj, timeout)
+
+		Map<String, String> fieldMapping = [
+			"Type de FSE"     : "namFseType",
+			"Statut de FSE"      : "namFseStatut",
+			"Date FSE"        : "namFseDate",
+			"Numéro de FSE"   : "namFseNum"
+
+		]
+
+		if (!fieldMapping.containsKey(label)) {
+			KeywordUtil.markFailed(
+					"Libellé '${label}' non mappé vers un data-field"
+					)
+			return
+		}
+
+		String dataField = fieldMapping[label]
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		TestObject valueObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//tr[1]//td[@data-field='${dataField}']//div"
+				)
+
+		WebUI.waitForElementVisible(valueObj, timeout)
+
+		String actual = ""
+		long endTime = System.currentTimeMillis() + (timeout * 1000)
+
+		while (System.currentTimeMillis() < endTime) {
+			actual = WebUI.getText(valueObj).trim()
+
+			if (expectedValue == "notEmpty" && actual) {
+				KeywordUtil.markPassed("'${label}' n'est pas vide : '${actual}'")
+				return
+			} else if (expectedValue == "empty" && !actual) {
+				KeywordUtil.markPassed("'${label}' est vide comme attendu")
+				return
+			} else if (expectedValue != "empty" && expectedValue != "notEmpty" && actual == expectedValue) {
+				KeywordUtil.markPassed("${label} = ${actual}")
+				return
+			}
+
+			WebUI.delay(1)
+		}
+
+		KeywordUtil.markFailed(
+				"'${label}' incorrect. Attendu '${expectedValue}', trouvé '${actual}'"
+				)
+	}
+	@Keyword
+	def verifyDemandeTransfertTable(
+			TestObject tableObj,
+			String columnLabel,
+			String expectedValue,
+			int rowIndex = 1,
+			int timeout = 10
+	) {
+		WebUI.waitForElementVisible(tableObj, timeout)
+
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		/* ===============================
+		 1. Récupérer le data-name depuis le label visible
+		 =============================== */
+		TestObject headerObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				"${tableXPath}//thead//th[.//span[normalize-space(text())='${columnLabel}']]"
+				)
+
+		if (!WebUI.verifyElementPresent(headerObj, timeout, FailureHandling.OPTIONAL)) {
+			KeywordUtil.markFailed("Colonne '${columnLabel}' introuvable dans la table Demande de transfert")
+			return
+		}
+
+		String dataName = WebUI.getAttribute(headerObj, "data-name")
+
+		if (!dataName) {
+			KeywordUtil.markFailed("La colonne '${columnLabel}' ne possède pas d'attribut data-name")
+			return
+		}
+
+		/* ===============================
+		 2. Récupérer la cellule correspondante
+		 =============================== */
+		TestObject cellObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				"${tableXPath}//tbody//tr[${rowIndex}]//td[@data-field='${dataName}']"
+				)
+
+		WebUI.waitForElementVisible(cellObj, timeout)
+
+		String actual = ""
+		long endTime = System.currentTimeMillis() + (timeout * 1000)
+
+		/* ===============================
+		 3. Boucle d’attente métier
+		 =============================== */
+		while (System.currentTimeMillis() < endTime) {
+			actual = WebUI.getText(cellObj).trim()
+
+			if (expectedValue.equalsIgnoreCase("notEmpty") && !actual.isEmpty()) {
+				KeywordUtil.markPassed("Colonne '${columnLabel}' non vide : '${actual}'")
+				return
+			}
+
+			if (expectedValue.equalsIgnoreCase("empty") && actual.isEmpty()) {
+				KeywordUtil.markPassed("Colonne '${columnLabel}' vide comme attendu")
+				return
+			}
+
+			if (!expectedValue.equalsIgnoreCase("empty")
+					&& !expectedValue.equalsIgnoreCase("notEmpty")
+					&& actual.equals(expectedValue)) {
+				KeywordUtil.markPassed("${columnLabel} = ${actual}")
+				return
+			}
+
+			WebUI.delay(1)
+		}
+
+		KeywordUtil.markFailed(
+				"Colonne '${columnLabel}' incorrecte. Attendu='${expectedValue}', trouvé='${actual}'"
+				)
+	}
+
+	@Keyword
+	def compareAndCheckElements(Map elementsMap, Map expectedValues, int timeout = 10) {
+		expectedValues.each { field, expected ->
+			if (!elementsMap.containsKey(field)) {
+				KeywordUtil.markFailed("Élément '${field}' introuvable dans le formulaire")
+				return
+			}
+
+			String actual = (elementsMap[field] as String)?.trim() ?: ""
+
+			if (expected == "empty") {
+				if (actual.isEmpty()) {
+					KeywordUtil.markPassed("${field} est vide comme attendu")
+				} else {
+					KeywordUtil.markFailed("${field} devait être vide, trouvé '${actual}'")
+				}
+			} else if (expected == "notEmpty") {
+				if (actual.isEmpty()) {
+					KeywordUtil.markFailed("${field} n'est pas vide comme attendu")
+				} else {
+					KeywordUtil.markPassed("${field} n'est pas vide comme attendu. Valeur récupérée : '${actual}'")
+				}
+			} else {
+				if (actual == expected) {
+					KeywordUtil.markPassed("${field} = '${actual}'")
+				} else {
+					KeywordUtil.markFailed("${field} incorrect. Attendu '${expected}', trouvé '${actual}'")
+				}
+			}
+		}
+	}
+
+	@Keyword
+	def compareAndCheckElementsFse(
+			String formKey,
+			Map<String, String> expectedValues,
+			int timeout = 10
+	) {
+		Map elementsMap = extractElements(formKey)
+
+		if (!elementsMap || elementsMap.isEmpty()) {
+			KeywordUtil.markFailed(
+					"Extraction du formulaire '${formKey}' vide ou invalide"
+					)
+			return
+		}
+
+		expectedValues.each { field, expected ->
+
+			if (!elementsMap.containsKey(field)) {
+				KeywordUtil.markFailed(
+						"Élément '${field}' introuvable dans le formulaire '${formKey}'"
+						)
+				return
+			}
+
+			String actual = (elementsMap[field] as String)?.trim() ?: ""
+
+			switch (expected) {
+
+				case "empty":
+					if (actual.isEmpty()) {
+						KeywordUtil.markPassed("${field} est vide comme attendu")
+					} else {
+						KeywordUtil.markFailed(
+								"${field} devait être vide, trouvé '${actual}'"
+								)
+					}
+					break
+
+				case "notEmpty":
+					if (actual.isEmpty()) {
+						KeywordUtil.markFailed(
+								"${field} est vide alors qu'il ne devrait pas l'être"
+								)
+					} else {
+						KeywordUtil.markPassed(
+								"${field} n'est pas vide comme attendu. Valeur récupérée : '${actual}'"
+								)
+					}
+					break
+
+				default:
+					if (actual == expected) {
+						KeywordUtil.markPassed("${field} = '${actual}'")
+					} else {
+						KeywordUtil.markFailed(
+								"${field} incorrect. Attendu '${expected}', trouvé '${actual}'"
+								)
+					}
+			}
+		}
+	}
+
+
+	@Keyword
 	def verifyTableField(TestObject tableObj, String label, String expectedValue, int timeout = 10) {
 		WebUI.waitForElementVisible(tableObj, timeout)
 		String tableXPath = tableObj.findPropertyValue("xpath")
@@ -556,6 +2039,486 @@ class UtilsEpide {
 				KeywordUtil.markFailed("'${label}' incorrect. Attendu : '${expectedValue}', trouvé : '${actual}'")
 	}
 
+	@Keyword
+	def verifyTableFieldEmptyOrNot(TestObject tableObj, String label, boolean shouldBeEmpty, int timeout = 10) {
+	
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+	
+		TestObject headerObj = new TestObject().addProperty(
+			"xpath",
+			ConditionType.EQUALS,
+			tableXPath + "//thead//tr[@class='head']//th"
+		)
+	
+		List<WebElement> headers = WebUiCommonHelper.findWebElements(headerObj, timeout)
+	
+		int colIndex = headers.findIndexOf { it.getText().trim() == label.trim() } + 1
+	
+		if (colIndex == 0) {
+			KeywordUtil.markFailed("Colonne '${label}' non trouvée")
+			return
+		}
+	
+		TestObject cellObj = new TestObject().addProperty(
+			"xpath",
+			ConditionType.EQUALS,
+			tableXPath + "//tbody/tr[1]/td[" + colIndex + "]"
+		)
+	
+		WebUI.waitForElementPresent(cellObj, timeout)
+	
+		String value = WebUI.getText(cellObj).trim()
+	
+		if(shouldBeEmpty) {
+	
+			if(value.isEmpty()) {
+				KeywordUtil.markPassed("Le champ '${label}' est vide comme attendu")
+			} else {
+				KeywordUtil.markFailed("Le champ '${label}' devrait être vide mais contient : ${value}")
+			}
+	
+		} else {
+	
+			if(value.isEmpty()) {
+				KeywordUtil.markFailed("Le champ '${label}' est vide alors qu'une valeur est attendue")
+			} else {
+				KeywordUtil.markPassed("Le champ '${label}' contient une valeur : ${value}")
+			}
+	
+		}
+	}
+
+	@Keyword
+	def verifyTableFieldAndClick(
+			TestObject tableObj,
+			String label,
+			String expectedValue,
+			int timeout = 10
+	) {
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		// 1️⃣ Trouver l’index de la colonne
+		TestObject headerObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//thead//tr[@class='head']//th"
+				)
+
+		List<WebElement> headers = WebUiCommonHelper.findWebElements(headerObj, timeout)
+		int colIndex = headers.findIndexOf { it.getText().trim() == label.trim() } + 1
+
+		if (colIndex == 0) {
+			KeywordUtil.markFailed("Label '${label}' non trouvé")
+			return
+		}
+
+		// 2️⃣ Récupérer toutes les lignes
+		TestObject rowsObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//tr"
+				)
+
+		List<WebElement> rows = WebUiCommonHelper.findWebElements(rowsObj, timeout)
+
+		if (rows.isEmpty()) {
+			KeywordUtil.markFailed("Aucune ligne trouvée dans le tableau")
+			return
+		}
+
+		// 3️⃣ Parcourir les lignes
+		for (int i = 1; i <= rows.size(); i++) {
+
+			TestObject cellObj = new TestObject().addProperty(
+					"xpath",
+					ConditionType.EQUALS,
+					tableXPath + "//tbody//tr[${i}]//td[${colIndex}]"
+					)
+
+			String actual = WebUI.getText(cellObj).trim()
+
+			if (actual == expectedValue) {
+				KeywordUtil.markPassed(
+						"'${label}' = '${actual}' trouvé à la ligne ${i}"
+						)
+
+				WebUI.click(cellObj)   // ✅ clic sur la bonne ligne
+				return
+			}
+		}
+
+		// 4️⃣ Rien trouvé
+		KeywordUtil.markFailed(
+				"Valeur '${expectedValue}' non trouvée dans la colonne '${label}'"
+				)
+	}
+
+	def clickRowByStatus(String statusTexte) {
+		def driver = DriverFactory.getWebDriver()
+
+		// XPath dynamique pour trouver le div correspondant au statut
+		String xpathStatus = "//td[@data-field='namRetfinanceStatut']//div[contains(text(),'" + statusTexte + "')]"
+
+		// Attente jusqu'à ce que l'élément soit visible et cliquable
+		WebDriverWait wait = new WebDriverWait(driver, 10)
+		WebElement statusElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpathStatus)))
+
+		// Récupérer la ligne parente <tr>
+		WebElement rowElement = statusElement.findElement(By.xpath("./ancestor::tr"))
+
+		// Scroll pour garantir visibilité
+		((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", rowElement)
+
+		// Cliquer sur la ligne entière
+		rowElement.click()
+
+		println("Clic effectué sur la première ligne contenant le statut : '${statusTexte}'")
+	}
+
+	@Keyword
+	def clickOnStatutRF(String statusTexte) {
+		def driver = DriverFactory.getWebDriver()
+
+		// XPath dynamique
+		String xpathStatus = "//td[@data-field='namRetfinanceStatut']//div[contains(text(),'" + statusTexte + "')]"
+
+		// Attente jusqu'à ce que l'élément soit cliquable
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10))
+		WebElement statusElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpathStatus)))
+
+		// Récupérer la ligne parente <tr>
+		WebElement rowElement = statusElement.findElement(By.xpath("./ancestor::tr"))
+
+		// Scroll pour visibilité
+		((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", rowElement)
+
+		// Cliquer sur la ligne entière
+		rowElement.click()
+
+		println("Clic effectué sur la première ligne contenant le statut : '${statusTexte}'")
+	}
+
+	@Keyword
+	def verifyTableFieldRFAndClick(
+			TestObject tableObj,
+			String label,
+			String expectedValue,
+			int timeout = 10
+	) {
+
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		// 1️⃣ Trouver les headers
+		TestObject headerObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//thead//tr[contains(@class,'head')]//th"
+				)
+
+		List<WebElement> headers = WebUiCommonHelper.findWebElements(headerObj, timeout)
+
+		int colIndex = headers.findIndexOf {
+			it.getText().trim() == label.trim()
+		} + 1
+
+		if (colIndex == 0) {
+			KeywordUtil.markFailed("Label '${label}' non trouvé")
+			return
+		}
+
+		// 2️⃣ Trouver les lignes
+		TestObject rowsObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//tr"
+				)
+
+		List<WebElement> rows = WebUiCommonHelper.findWebElements(rowsObj, timeout)
+
+		if (rows.isEmpty()) {
+			KeywordUtil.markFailed("Aucune ligne trouvée")
+			return
+		}
+
+		// 3️⃣ Parcourir
+		for (int i = 1; i <= rows.size(); i++) {
+
+			TestObject cellObj = new TestObject().addProperty(
+					"xpath",
+					ConditionType.EQUALS,
+					tableXPath + "//tbody//tr[${i}]//td[${colIndex}]//div"
+					)
+
+			String actual = WebUI.getText(cellObj).trim()
+
+			if (actual.contains(expectedValue)) {
+
+				KeywordUtil.markPassed(
+						"'${label}' = '${actual}' trouvé ligne ${i}"
+						)
+
+				// clic sur la ligne entière
+				TestObject rowObj = new TestObject().addProperty(
+						"xpath",
+						ConditionType.EQUALS,
+						tableXPath + "//tbody//tr[${i}]"
+						)
+
+				WebUI.click(cellObj)
+
+				return
+			}
+		}
+
+		KeywordUtil.markFailed(
+				"Valeur '${expectedValue}' non trouvée dans '${label}'"
+				)
+	}
+
+	@Keyword
+	def verifyElementTable(
+			TestObject tableObj,
+			List<String> expectedTypes,
+			int timeout = 10
+	) {
+		WebUI.waitForElementVisible(tableObj, timeout)
+
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		TestObject typeCells = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//td[@data-field='namCavenantType']//div"
+				)
+
+		List<String> actualTypes = WebUI.findWebElements(typeCells, timeout)
+				.collect { it.getText().trim() }
+				.findAll { it }
+
+		if (actualTypes.size() != expectedTypes.size()) {
+			KeywordUtil.markFailed(
+					"Nombre de types incorrect. Attendu=${expectedTypes.size()}, trouvé=${actualTypes.size()}"
+					)
+			return
+		}
+
+		if (!actualTypes.containsAll(expectedTypes)) {
+			KeywordUtil.markFailed(
+					"Types incorrects. Attendus=${expectedTypes}, trouvés=${actualTypes}"
+					)
+			return
+		}
+
+		KeywordUtil.markPassed("Types strictement conformes : ${expectedTypes}")
+	}
+
+	@Keyword
+	def getDateTimePlusWorkingDays(int workingDays, String time = "10:00") {
+
+		Calendar cal = Calendar.getInstance()
+		int addedDays = 0
+
+		while (addedDays < workingDays) {
+			cal.add(Calendar.DAY_OF_MONTH, 1)
+
+			int dayOfWeek = cal.get(Calendar.DAY_OF_WEEK)
+
+			if (dayOfWeek != Calendar.SATURDAY &&
+					dayOfWeek != Calendar.SUNDAY) {
+				addedDays++
+			}
+		}
+
+		String datePart = cal.getTime().format("dd/MM/yyyy")
+		return "${datePart} ${time}"
+	}
+
+
+	@Keyword
+	def setMembreConseil(TestObject accessObj, String value) {
+
+		int timeout = 10
+		TestObject inputObj = findTestObject('Object Repository/FSE/Page_Simplicit/input_NomAgent')
+		TestObject suggestionObj = findTestObject('Object Repository/FSE/Page_Simplicit/Elem_prenomCEC')
+
+		WebUI.waitForElementClickable(accessObj, timeout)
+		WebUI.click(accessObj)
+
+		WebUI.waitForElementVisible(inputObj, timeout)
+		WebUI.clearText(inputObj)
+		WebUI.setText(inputObj, value)
+		WebUI.sendKeys(inputObj, Keys.chord(Keys.ENTER))
+
+		WebUI.waitForElementClickable(suggestionObj, timeout)
+		WebUI.click(suggestionObj)
+	}
+
+
+	@Keyword
+	def verifyRadioSelection(
+			String fieldName,
+			String expectedState,
+			int timeout = 5
+	) {
+
+		expectedState = expectedState?.toLowerCase()
+
+		TestObject radioOui = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				"//input[@type='radio' and @name='${fieldName}' and @value='1']"
+				)
+
+		TestObject radioNon = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				"//input[@type='radio' and @name='${fieldName}' and @value='0']"
+				)
+
+		WebUI.waitForElementPresent(radioOui, timeout)
+
+		boolean ouiChecked = WebUI.verifyElementChecked(
+				radioOui,
+				1,
+				FailureHandling.OPTIONAL
+				)
+
+		boolean nonChecked = WebUI.verifyElementChecked(
+				radioNon,
+				1,
+				FailureHandling.OPTIONAL
+				)
+
+		switch (expectedState) {
+
+			case "oui":
+				if (ouiChecked && !nonChecked) {
+					KeywordUtil.markPassed("Radio OUI sélectionné pour '${fieldName}'")
+				} else {
+					KeywordUtil.markFailed("Radio OUI attendu mais état réel : oui=${ouiChecked}, non=${nonChecked}")
+				}
+				break
+
+			case "non":
+				if (nonChecked && !ouiChecked) {
+					KeywordUtil.markPassed("Radio NON sélectionné pour '${fieldName}'")
+				} else {
+					KeywordUtil.markFailed("Radio NON attendu mais état réel : oui=${ouiChecked}, non=${nonChecked}")
+				}
+				break
+
+			case "rien":
+				if (!ouiChecked && !nonChecked) {
+					KeywordUtil.markPassed("Aucune radio sélectionnée pour '${fieldName}'")
+				} else {
+					KeywordUtil.markFailed("Aucune radio attendue mais état réel : oui=${ouiChecked}, non=${nonChecked}")
+				}
+				break
+
+			default:
+				KeywordUtil.markFailed(
+				"Valeur invalide '${expectedState}'. Utiliser 'oui', 'non' ou 'rien'."
+				)
+		}
+	}
+
+
+
+	@Keyword
+	def verifyElementTableContains(
+			TestObject tableObj,
+			List<String> expectedTypes,
+			int timeout = 10
+	) {
+		WebUI.waitForElementVisible(tableObj, timeout)
+
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		TestObject typeCells = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//tbody//td[@data-field='namCavenantType']//div"
+				)
+
+		List<String> actualTypes = WebUI.findWebElements(typeCells, timeout)
+				.collect { it.getText().trim() }
+				.findAll { it }
+
+		List<String> missing = expectedTypes.findAll { !actualTypes.contains(it) }
+
+		if (!missing.isEmpty()) {
+			KeywordUtil.markFailed(
+					"Types manquants dans la table : ${missing}. Présents = ${actualTypes}"
+					)
+			return
+		}
+
+		KeywordUtil.markPassed(
+				"Tous les types attendus sont présents : ${expectedTypes}"
+				)
+	}
+
+
+	@Keyword
+	def verifyTableDT(
+			TestObject tableObj,
+			Map<String, String> expectedFields,
+			int rowIndex = 1,
+			int timeout = 10
+	) {
+
+		WebUI.waitForElementVisible(tableObj, timeout)
+		String tableXPath = tableObj.findPropertyValue("xpath")
+
+		// Récupération des headers
+		TestObject headerObj = new TestObject().addProperty(
+				"xpath",
+				ConditionType.EQUALS,
+				tableXPath + "//thead//tr[@class='head']//th"
+				)
+
+		List<WebElement> headers = WebUiCommonHelper.findWebElements(headerObj, timeout)
+
+		Map<String, Integer> columnIndexes = [:]
+
+		headers.eachWithIndex { WebElement th, int i ->
+			String headerText = th.getText()
+					.replaceAll('\\s+', ' ')
+					.trim()
+			columnIndexes[headerText] = i + 1
+		}
+
+		expectedFields.each { label, expectedValue ->
+
+			if (!columnIndexes.containsKey(label)) {
+				KeywordUtil.markFailed("Colonne '${label}' introuvable dans la table")
+				return
+			}
+
+			int colIndex = columnIndexes[label]
+
+			TestObject cellObj = new TestObject().addProperty(
+					"xpath",
+					ConditionType.EQUALS,
+					tableXPath + "//tbody//tr[${rowIndex}]//td[${colIndex}]"
+					)
+
+			String actualValue = WebUI.getText(cellObj)
+					.replaceAll('\\s+', ' ')
+					.trim()
+
+			if (actualValue != expectedValue) {
+				KeywordUtil.markFailed(
+						"Colonne '${label}' incorrecte. Attendu='${expectedValue}', trouvé='${actualValue}'"
+						)
+			} else {
+				WebUI.comment("OK - ${label} = ${actualValue}")
+			}
+		}
+	}
 
 
 	@Keyword
@@ -605,6 +2568,22 @@ class UtilsEpide {
 		}
 	}
 
+	@Keyword
+	def setDateTimeField(TestObject field, String dateTime) {
+
+		WebUI.waitForElementVisible(field, 10)
+		WebUI.clearText(field)
+		WebUI.setText(field, dateTime)
+
+		// Déclenchement JS (obligatoire sur Epide)
+		WebUI.executeJavaScript(
+				"arguments[0].dispatchEvent(new Event('change', { bubbles: true }))",
+				Arrays.asList(WebUI.findWebElement(field, 10))
+				)
+
+		// Validation côté UI
+		WebUI.sendKeys(field, Keys.chord(Keys.TAB))
+	}
 
 	@Keyword
 	def setDateField(TestObject field, String date) {
@@ -1119,7 +3098,7 @@ class UtilsEpide {
 
 
 	@Keyword
-	def Access_epide(String profilRequis = null) {
+	def Access_epideOld(String profilRequis = null) {
 		def data_ident_epide = TestDataFactory.findTestData('identifiants_epide')
 		String serviceName = "portail_epide"
 		String serviceUrl = getServiceUrl(serviceName)
@@ -1163,6 +3142,95 @@ class UtilsEpide {
 		throw new IllegalArgumentException("Aucun profil trouvé correspondant à : ${profilRequis}")
 	}
 
+	@Keyword
+	def Access_epide(String profilRequis = null) {
+
+		def data_ident_epide = TestDataFactory.findTestData('identifiants_epide')
+		String serviceName = "portail_epide"
+		String serviceUrl = getServiceUrl(serviceName)
+		def totalRows = data_ident_epide.getRowNumbers()
+
+		for (int i = 1; i <= totalRows; i++) {
+
+			String profil = data_ident_epide.getValue("profil", i)
+			String utilisateur = data_ident_epide.getValue("utilisateur", i)
+			String motDePasse = data_ident_epide.getValue("mot_de_passe", i)
+
+			if (profilRequis == null || profil == profilRequis) {
+
+				WebUI.openBrowser('')
+				WebUI.maximizeWindow()
+				WebUI.navigateToUrl(serviceUrl)
+
+				bypassCertificateInterstitial()
+
+				WebUI.waitForPageLoad(60)
+
+				waitAndClick(findTestObject(
+						'Object Repository/AuthentificationEpide/Button_signin-with-azuread'
+						))
+
+				TestObject btn = findTestObject(
+						'Object Repository/AuthentificationEpide/Button_Access_New_Account_Epide'
+						)
+
+				if (WebUI.verifyElementPresent(btn, 5, FailureHandling.OPTIONAL)) {
+					WebUI.click(btn)
+				}
+
+				waitAndSet(
+						findTestObject('Object Repository/AuthentificationEpide/Epide_Username'),
+						utilisateur
+						)
+
+				waitAndClick(
+						findTestObject('Object Repository/AuthentificationEpide/Button_Epide_suivant')
+						)
+
+				waitAndSetEncryptedText(
+						findTestObject('Object Repository/AuthentificationEpide/Epide_Passwd'),
+						motDePasse
+						)
+
+				waitAndClick(
+						findTestObject('Object Repository/AuthentificationEpide/Button_SeConnecter')
+						)
+
+				if (WebUI.verifyElementPresent(
+						findTestObject('Object Repository/AuthentificationEpide/Text_ResterConnecter'),
+						5,
+						FailureHandling.OPTIONAL
+						)) {
+					println("Pop-up 'Rester connecté' trouvé")
+					waitAndClick(
+							findTestObject('Object Repository/AuthentificationEpide/Button_Oui_Rub_Res_Co')
+							)
+				}
+
+				WebUI.waitForPageLoad(60)
+				WebUI.delay(2)
+
+				WebUI.waitForElementVisible(
+						findTestObject('Object Repository/AuthentificationEpide/PageAccess/Button_Accueil'),
+						60,
+						FailureHandling.STOP_ON_FAILURE
+						)
+
+				WebUI.waitForElementVisible(
+						findTestObject('Object Repository/AuthentificationEpide/PageAccess/List_NAMe'),
+						60,
+						FailureHandling.STOP_ON_FAILURE
+						)
+
+				println("Access Epide OK pour le profil : ${profil}")
+				return
+			}
+		}
+
+		throw new IllegalArgumentException(
+		"Aucun profil trouvé correspondant à : ${profilRequis}"
+		)
+	}
 
 	@Keyword
 	def Access_formulaire_internet_epide() {
@@ -1240,20 +3308,29 @@ class UtilsEpide {
 	}
 
 	@Keyword
-	def verifyButtonDisappears(TestObject button, int timeout = 10) {
+	def verifyMenuItemNotDisabled(TestObject menuItem) {
 
-		String label = button.getObjectId() ?: "bouton"
+		String label = menuItem.getObjectId() ?: "élément du menu"
+		WebUI.comment("Vérification : ${label} n’est PAS désactivé")
 
-		WebUI.comment("Vérification : disparition de ${label} après action…")
+		try {
+			WebUI.waitForElementVisible(menuItem, 5)
 
-		boolean disappeared = WebUI.waitForElementNotPresent(button, timeout, FailureHandling.OPTIONAL)
+			String classes = WebUI.getAttribute(menuItem, "class")
 
-		if (disappeared) {
-			WebUI.comment("${label} a correctement disparu.")
-		} else {
-			KeywordUtil.markFailed("ERREUR : ${label} est toujours présent.")
+			if (classes == null || !classes.contains("disabled")) {
+				WebUI.comment("${label} est actif (non disabled).")
+			} else {
+				KeywordUtil.markFailed(
+						"ERREUR : ${label} est désactivé alors qu’il ne devrait pas l’être."
+						)
+			}
+		} catch (com.kms.katalon.core.exception.StepFailedException e) {
+			KeywordUtil.markFailed("${label} est introuvable dans le DOM.")
 		}
 	}
+
+
 
 	@Keyword
 	def HandleCentreEpide(
@@ -1261,8 +3338,7 @@ class UtilsEpide {
 			List<String> expectedOptions = []
 	) {
 		WebDriver driver = DriverFactory.getWebDriver()
-		WebDriverWait wait = new WebDriverWait(driver, 10)
-
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10))
 
 		WebElement select = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(selectXPath)))
 

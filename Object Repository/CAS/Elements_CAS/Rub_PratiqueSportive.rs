@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7bd417c7-111c-4c87-a357-96a0c128149e</webElementGuid>
+      <webElementGuid>d2b95a2f-c9ff-4c98-b298-b2fe0469928d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-header collapsed</value>
-      <webElementGuid>18de2c3b-f305-4fcd-b97f-32564fbb94ca</webElementGuid>
+      <webElementGuid>bfa1705c-4cb7-4295-a830-9933f9cd6fb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>7f31a932-5c16-4491-8553-0729920b8ee2</webElementGuid>
+      <webElementGuid>b971dbf2-5c45-46f7-a833-934c55c4c768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#collapse_panel_work_23</value>
-      <webElementGuid>22058fd9-4437-4e3a-9e7f-644a6de9b4ce</webElementGuid>
+      <webElementGuid>511e2074-730d-438c-8541-1ee787f82556</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>659455b1-1b09-458d-b2e8-5c04e8ef7990</webElementGuid>
+      <webElementGuid>ea4dcc16-5d1b-4897-af13-1454ec110b54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pratique sportive</value>
-      <webElementGuid>b9a38dbf-9847-4aaa-89df-f1bfb1b87fe4</webElementGuid>
+      <webElementGuid>2e5cbe81-11da-483d-b331-f2b64d1e8a05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;panel_work_23&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header collapsed&quot;]</value>
-      <webElementGuid>54c55ccb-2f1d-4ebd-8261-085c0d7e965a</webElementGuid>
+      <webElementGuid>e9a91774-0f89-4f2c-b48a-cfd83caddada</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='panel_work_23']/div/div</value>
-      <webElementGuid>565e64d3-a58a-457c-86e3-7b3bf4318d9d</webElementGuid>
+      <webElementGuid>ae38ac6b-a3b3-43e5-9ddd-46d942ddf3c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Etat bucco-dentaire'])[1]/following::div[11]</value>
-      <webElementGuid>d30bc872-75b4-45fc-b502-6653ff61f6b2</webElementGuid>
+      <webElementGuid>acca9c6b-4d22-4110-bfa6-25063334963d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Non'])[58]/following::div[20]</value>
-      <webElementGuid>d7496cec-18cd-48b2-9bbb-3e2d5a6f7d4b</webElementGuid>
+      <webElementGuid>4512bb47-0d2c-49bd-953c-b41e14c3cbbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pratiquez-vous une activité sportive ?'])[1]/preceding::div[1]</value>
-      <webElementGuid>dd13c94a-750a-426b-9741-0aaf7d0bdaf5</webElementGuid>
+      <webElementGuid>1557c9ae-40a7-4490-8cee-bf3e8fc26694</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[18]/div/div/div</value>
-      <webElementGuid>8b4318ae-9d75-4ec5-b0ff-34a1319af313</webElementGuid>
+      <webElementGuid>2a9ac7c8-1561-4849-a1bb-e8a613d0947a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Pratique sportive' or . = 'Pratique sportive')]</value>
-      <webElementGuid>f54b0a15-1910-4f56-9632-0a0e9df7a631</webElementGuid>
+      <webElementGuid>ebb94bc0-e1a4-4275-9324-516921d01c80</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

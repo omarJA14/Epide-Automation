@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42003_AUTO13-1_UC3.3.2 nominal_FSE-Lagent crée une FSE pour un jeune</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>28167c78-81f7-4f8e-8691-662bd118c491</testCaseGuid>
+</TestCaseEntity>

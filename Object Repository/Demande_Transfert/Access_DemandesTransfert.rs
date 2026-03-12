@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -18,10 +17,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=tab[name=&quot; Demandes de transfert 1&quot;i]</value>
+         <value>//*[@role='tab'][contains(normalize-space(),'Demandes de transfert')]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>30773152-4e1f-46a6-a2d9-7a1916bef886</webElementGuid>
+      <webElementGuid>68c36ee1-2fc5-40e8-9777-d6c1b138df81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#links_NamJeune_6</value>
-      <webElementGuid>c71bc3d9-b861-47d4-b1c2-1ac86d18a807</webElementGuid>
+      <webElementGuid>9b85c6a0-f60f-4cd3-ae71-77b17d553454</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>links_NamJeune_6</value>
-      <webElementGuid>15a8cbc6-590d-4be5-b22d-4ef672ae986b</webElementGuid>
+      <webElementGuid>f52822f7-7e12-4236-a47f-50d4bbe6abcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>3a273a4e-7dfb-494c-8848-d6a1d8638fad</webElementGuid>
+      <webElementGuid>0d54e770-a259-4195-9023-3f6491019536</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>40f1fcbd-410a-4f3e-97cf-1387b2a59fb1</webElementGuid>
+      <webElementGuid>1c598d26-d728-4bea-9f47-4643cc1ab917</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>214327cf-33a4-4fe1-b861-fedce46ab4b6</webElementGuid>
+      <webElementGuid>8f860069-b22f-4efe-a207-b90da5be4fe5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>data-tab</name>
       <type>Main</type>
       <value>6</value>
-      <webElementGuid>71704bea-e752-470b-9f03-52eda682e8ad</webElementGuid>
+      <webElementGuid>9dd289a4-bbd0-4eef-abc8-9934a1cc07f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>data-key</name>
       <type>Main</type>
       <value>NamDemandeTransfertCentre_namDtcJenId</value>
-      <webElementGuid>9138f95f-bf8e-4cea-ab79-68e323e63526</webElementGuid>
+      <webElementGuid>2b8ee45c-d9a9-4696-94bd-cc6e729ba7a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +92,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Demandes de transfert1</value>
-      <webElementGuid>eed6b20f-9861-44a6-b545-ac7a993c5828</webElementGuid>
+      <webElementGuid>85347952-1b2a-4c23-ae33-36062a9379c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;links_NamJeune&quot;)/ul[@class=&quot;nav nav-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>e468f3b1-82b4-4cef-b9bf-77d505ee5ca1</webElementGuid>
+      <webElementGuid>f05f1b50-e764-42bc-8ba1-5c9c26ae4eeb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='links_NamJeune']/ul/li[7]/a</value>
-      <webElementGuid>0afde75c-fae0-4523-b802-e67e341eabdf</webElementGuid>
+      <webElementGuid>a3b5379d-294f-4b8b-b0c8-4095252363c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Demande de renouvellement de soutien'])[1]/following::a[1]</value>
-      <webElementGuid>70eec276-83de-4cd9-8aac-519c68f53329</webElementGuid>
+      <webElementGuid>5195bb01-319a-421a-9088-c8f619a5b0eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Conventions de stage'])[1]/following::a[2]</value>
-      <webElementGuid>edc06fa5-9583-466b-993b-ef937d8a45ff</webElementGuid>
+      <webElementGuid>cbc28991-7082-43c6-8d6d-ff1c39027804</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Emplois'])[1]/preceding::a[1]</value>
-      <webElementGuid>9e205889-bd7d-4d0a-95ed-a874629be58e</webElementGuid>
+      <webElementGuid>796b8893-d938-48be-aaa8-47b2987bec06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +140,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#links_NamJeune_6')]</value>
-      <webElementGuid>c9d38a12-a72e-4471-88d9-6725693b8f7f</webElementGuid>
+      <webElementGuid>378e81fd-9097-4cab-ba78-d9a0806e1753</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +148,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[7]/a</value>
-      <webElementGuid>ea33f93e-48e2-45d4-8271-e06a7a42192b</webElementGuid>
+      <webElementGuid>f9d54869-3b6a-466f-bbf1-212ec79a4e5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +156,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#links_NamJeune_6' and (text() = 'Demandes de transfert1' or . = 'Demandes de transfert1')]</value>
-      <webElementGuid>7a833e3c-6c84-488f-95b2-0a6c684eeb5e</webElementGuid>
+      <webElementGuid>72737bc1-cc44-41b5-80b3-da58ce1af51b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

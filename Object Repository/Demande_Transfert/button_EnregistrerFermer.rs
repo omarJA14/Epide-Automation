@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>18c292db-9ea4-47ca-a458-d5b1c2cfeb38</webElementGuid>
+      <webElementGuid>f17122e7-51c0-4b01-862d-b978f8c65eb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary btn-saveclose</value>
-      <webElementGuid>0a3f0376-ea61-4420-ab13-317a5be92d12</webElementGuid>
+      <webElementGuid>25630bc6-c1e4-47c1-aa5c-954364cc133d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>92736402-13b2-4102-8858-344c625f8fda</webElementGuid>
+      <webElementGuid>5c347d9c-c6a1-4453-a568-f217d7ab7ae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>saveclose</value>
-      <webElementGuid>9385aaaf-e3ae-493b-a003-9fcba61a3b6e</webElementGuid>
+      <webElementGuid>6bb78b85-d648-4495-8247-4c90d348846c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enregistrer &amp; Fermer</value>
-      <webElementGuid>e6b8cd50-fd8c-45f9-a061-3764d80fbaec</webElementGuid>
+      <webElementGuid>b89ae634-0f65-43a9-9a79-1511577ad3df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamAvisTransfert_the_ajax_NamAvisTransfert_0&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-secondary btn-saveclose&quot;]</value>
-      <webElementGuid>6406d576-bd4a-4e84-836b-bbe5168e62be</webElementGuid>
+      <webElementGuid>84561936-08fe-4a6b-8da1-aa23a5846513</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>134d6e71-b8b7-44ea-86a9-aef0568f39d1</webElementGuid>
+      <webElementGuid>4e33d494-61f3-43f7-94bf-9eff09ed36b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamAvisTransfert_the_ajax_NamAvisTransfert_0']/div/div/div/div[2]/div/button</value>
-      <webElementGuid>812c834a-efa9-4ccb-8758-ddc8c6c78928</webElementGuid>
+      <webElementGuid>92cbfff6-d793-4bc1-b239-f09afdb09284</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Copier'])[1]/following::button[1]</value>
-      <webElementGuid>51ccae90-fd15-409e-9d5f-93a469f0178e</webElementGuid>
+      <webElementGuid>c940b82d-9b35-43c1-9d12-bdef1e74ffb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Créer'])[1]/following::button[1]</value>
-      <webElementGuid>87637b28-c5ca-4af2-a6d3-8514727aed01</webElementGuid>
+      <webElementGuid>b3675e03-1c79-4efc-95ee-26ae9f8225d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[1]/preceding::button[1]</value>
-      <webElementGuid>3b9d948d-0534-4110-961b-938107ed99d0</webElementGuid>
+      <webElementGuid>f2070fac-da4d-4313-a687-8514f9567205</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>8d0c0472-27cc-48be-8f21-9ea983ee4beb</webElementGuid>
+      <webElementGuid>d7e6551b-1b51-4c96-936d-755b38727d5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Enregistrer &amp; Fermer' or . = 'Enregistrer &amp; Fermer')]</value>
-      <webElementGuid>defaf5b8-4781-41ec-81fe-049f1be87464</webElementGuid>
+      <webElementGuid>9c82e689-fe05-479a-86a9-9d6d956f599d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

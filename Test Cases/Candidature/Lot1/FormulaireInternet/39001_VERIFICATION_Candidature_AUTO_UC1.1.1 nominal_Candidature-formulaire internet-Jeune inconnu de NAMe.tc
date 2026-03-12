@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39001_VERIFICATION_Candidature_AUTO_UC1.1.1 nominal_Candidature-formulaire internet-Jeune inconnu de NAMe</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ada9c1f4-eedc-4582-9b92-40e1aa1cbbff</testCaseGuid>
+</TestCaseEntity>

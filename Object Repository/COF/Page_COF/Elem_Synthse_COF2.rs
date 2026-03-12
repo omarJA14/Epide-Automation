@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Elem_Synthse_COF2</name>
+   <tag></tag>
+   <elementGuidId>34c4a248-c45c-4e92-9d61-9dbca043715b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='panel_work_7']/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#panel_work_7 > div.card > div.card-header > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Synthèse COF2&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>80d39e1b-f7cc-4163-ae72-5e11df0c8854</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Synthèse COF2</value>
+      <webElementGuid>41dbb37d-8938-4f22-9968-e4c0c93da00e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel_work_7&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/span[1]</value>
+      <webElementGuid>95ebe4c2-6a0f-4cd8-bef8-f61ac1dd11a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='panel_work_7']/div/div/span</value>
+      <webElementGuid>05afdea1-0c76-4af4-bc70-59703e39837e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Commentaire COF1'])[1]/following::span[1]</value>
+      <webElementGuid>07ac7857-2130-418b-9d7d-7c66722e3218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 2'])[2]/following::span[1]</value>
+      <webElementGuid>0f632af1-9eae-457f-af84-a62617488a85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Synthèse globale'])[2]/preceding::span[1]</value>
+      <webElementGuid>2eb1b971-ecf3-42e0-8ca9-9176c7cc0caf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Objectifs COF2'])[1]/preceding::span[2]</value>
+      <webElementGuid>fce4bce4-7a80-477b-a835-18223a047c93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Synthèse COF2']/parent::*</value>
+      <webElementGuid>1551f9a1-23b5-4138-be2f-f2f986e78ff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/span</value>
+      <webElementGuid>3dfa7161-e78d-49db-8ef5-6649a7ab3e38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Synthèse COF2' or . = 'Synthèse COF2')]</value>
+      <webElementGuid>1d6408b6-ada4-44d2-a0f4-7aba51975fe4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

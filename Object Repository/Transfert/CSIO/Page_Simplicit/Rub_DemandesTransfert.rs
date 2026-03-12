@@ -6,22 +6,22 @@
    <elementGuidId>3e5c0773-c6a5-4f97-a844-8190b055c794</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='menu']/nav/ul/li/ul/li[5]/ul/li[6]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.menu-sel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='menu']/nav/ul/li/ul/li[5]/ul/li[6]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Demandes de transfert&quot;i]</value>
+         <value>xpath=//a[normalize-space()='Demandes de transfert']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>18f5cbce-3e71-444a-ad0b-b1b3f577c131</webElementGuid>
+      <webElementGuid>2b9e0325-255f-4817-b36c-4f9d0251a0b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-obj</name>
       <type>Main</type>
       <value>NamDemandeTransfertCentre</value>
-      <webElementGuid>b4be80bc-e166-4b7a-b114-3ec56d31fa3a</webElementGuid>
+      <webElementGuid>47056856-f302-45ee-bb43-313ab33356d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-search</name>
       <type>Main</type>
       <value>column</value>
-      <webElementGuid>1da9966c-067d-4384-b725-289a9f591c2f</webElementGuid>
+      <webElementGuid>51926d2a-85ea-48d7-86a5-a96dcc302a1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu-sel</value>
-      <webElementGuid>f51dde9d-e343-4c19-9fc3-0512a478d93b</webElementGuid>
+      <webElementGuid>965c98ac-a371-4ee1-a860-26be2578e90c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Demandes de transfert</value>
-      <webElementGuid>aeb5cbdc-4c81-4291-89ff-4dc02a50c77d</webElementGuid>
+      <webElementGuid>88b93f69-1dfa-42fb-85e1-2ae799388d23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu&quot;)/nav[@class=&quot;main-nav&quot;]/ul[@class=&quot;main-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[6]/a[@class=&quot;menu-sel&quot;]</value>
-      <webElementGuid>c9d2e3be-4634-449b-b222-c33bfa0f34c9</webElementGuid>
+      <webElementGuid>f9ce5695-3f5b-4197-b586-f355c09386cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu']/nav/ul/li/ul/li[5]/ul/li[6]/a</value>
-      <webElementGuid>cbbea6a1-ed4f-4993-a2d3-e5665c309225</webElementGuid>
+      <webElementGuid>7d7e6825-1c39-4659-a29e-f10f1c31871c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FSE'])[1]/following::a[1]</value>
-      <webElementGuid>092f27da-9caa-4184-85f8-bcf7bb055a95</webElementGuid>
+      <webElementGuid>bb4e04c8-f3e7-483c-8275-63f28982e197</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='COF'])[1]/following::a[2]</value>
-      <webElementGuid>884a95b0-b9d5-456c-8ee2-0b8bdd14b7bf</webElementGuid>
+      <webElementGuid>1498cb44-b6ec-41d6-83ce-cc55de9403fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sortie du volontaire'])[1]/preceding::a[1]</value>
-      <webElementGuid>f5142aa9-d331-46b9-8353-7277d888cf8f</webElementGuid>
+      <webElementGuid>0aff678e-eb79-4a50-b24b-622a916fc47e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[18]</value>
-      <webElementGuid>b5211e54-b4ea-4a5d-9b37-4d80b79474dc</webElementGuid>
+      <webElementGuid>890db551-5018-49d1-91bd-d85314e96739</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/ul/li[6]/a</value>
-      <webElementGuid>fed79769-a9c0-46d8-98b5-4aeb87ec0a82</webElementGuid>
+      <webElementGuid>e8c00aec-432a-4727-8ef1-c7ba850c9b47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Demandes de transfert' or . = 'Demandes de transfert')]</value>
-      <webElementGuid>d9807ac0-fb23-420c-88d2-b0587c7d3ae8</webElementGuid>
+      <webElementGuid>73bb34e7-2059-40b9-b13b-994fa62ceddb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

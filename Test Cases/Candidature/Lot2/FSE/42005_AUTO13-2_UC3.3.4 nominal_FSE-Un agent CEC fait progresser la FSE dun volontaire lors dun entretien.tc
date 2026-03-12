@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42005_AUTO13-2_UC3.3.4 nominal_FSE-Un agent CEC fait progresser la FSE dun volontaire lors dun entretien</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d24a950f-21a1-4faf-9181-83fa9e6ec8a9</testCaseGuid>
+</TestCaseEntity>

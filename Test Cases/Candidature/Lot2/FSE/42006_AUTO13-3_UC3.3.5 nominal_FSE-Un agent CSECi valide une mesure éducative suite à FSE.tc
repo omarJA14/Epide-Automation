@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42006_AUTO13-3_UC3.3.5 nominal_FSE-Un agent CSECi valide une mesure éducative suite à FSE</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53f46704-d8a5-40a7-b253-32e2e2cc5320</testCaseGuid>
+</TestCaseEntity>

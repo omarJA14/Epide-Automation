@@ -14,11 +14,11 @@
          <value>//div[@id='menu']/nav/ul/li/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Jeunes&quot;i]</value>
+         <value>xpath=//a[normalize-space()='Jeunes']</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d34ed71a-5afa-4f35-94d2-a8b202b274a9</webElementGuid>
+      <webElementGuid>18843698-b2bf-40fa-94e5-2f4f405e5040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-obj</name>
       <type>Main</type>
       <value>NamJeune</value>
-      <webElementGuid>b2a26205-fb5c-4757-a98f-644d7d282650</webElementGuid>
+      <webElementGuid>3ba238f8-ab0b-41f6-929b-48bf792428e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-search</name>
       <type>Main</type>
       <value>column</value>
-      <webElementGuid>e51f5342-ed60-40fc-8511-ec4f4e86867f</webElementGuid>
+      <webElementGuid>7dfd88cb-0782-486b-8708-6f55d3a0470a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Jeunes</value>
-      <webElementGuid>5bce2992-b22f-41aa-b1a2-48823f91865b</webElementGuid>
+      <webElementGuid>eb8c5e48-d3b6-4d0f-b42b-b390148834e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu&quot;)/nav[@class=&quot;main-nav&quot;]/ul[@class=&quot;main-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[3]/a[1]</value>
-      <webElementGuid>3d628682-f481-4939-ba77-7f0353768c43</webElementGuid>
+      <webElementGuid>0aea8583-91b1-4d7e-9bd9-cabf1e4e58ae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu']/nav/ul/li/ul/li[3]/a</value>
-      <webElementGuid>f22565d2-5ba7-4833-a1e9-8c1bd7c2f56e</webElementGuid>
+      <webElementGuid>b7922342-b521-4fa6-88ad-0acc6dbfe8c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exports'])[1]/following::a[1]</value>
-      <webElementGuid>e916cfcd-87b5-442e-95e8-de75517db838</webElementGuid>
+      <webElementGuid>f68e6a1b-c0c2-4234-9079-50c988827620</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accueil'])[1]/following::a[2]</value>
-      <webElementGuid>a15639e3-fded-44f4-acb3-0e547fdbf67b</webElementGuid>
+      <webElementGuid>01458332-b3b9-4958-9292-52519b0d16cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gestion des candidats'])[1]/preceding::a[1]</value>
-      <webElementGuid>04339d66-5bab-4f50-90c6-98a8c6fb09ea</webElementGuid>
+      <webElementGuid>85574070-bdf9-4ba0-aef9-f517bfdd8820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[8]</value>
-      <webElementGuid>3a4e7800-a39c-425a-a61a-d18d4a80c85b</webElementGuid>
+      <webElementGuid>9bb0d9df-b4f9-47bf-b9c4-5e63f02d4c67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a</value>
-      <webElementGuid>429d5db6-bad0-4d45-944f-9608bfa8ecdb</webElementGuid>
+      <webElementGuid>03128dae-24a5-4e92-89d2-cfb05a2b200c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = ' Jeunes' or . = ' Jeunes')]</value>
-      <webElementGuid>f4273c69-8273-4045-a839-dc458f7c39ad</webElementGuid>
+      <webElementGuid>60c14b19-ae83-4059-8d5b-3897c8de4d7a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

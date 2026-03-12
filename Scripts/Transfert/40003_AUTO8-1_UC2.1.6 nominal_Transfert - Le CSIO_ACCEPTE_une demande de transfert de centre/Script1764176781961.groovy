@@ -31,11 +31,7 @@ CustomKeywords.'Keywords.commun.UtilsEpide.Access_epide'('CSIO')
 for (int i = 1; i <= totalRows; i++) {
 	String prenom = data_transfert_avis_dg.getValue("Prénom du jeune", i)
 	String decision = data_transfert_avis_dg.getValue("Décision", i)
-		
-	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndClick'(findTestObject('Object Repository/Transfert/CSIO/Page_Simplicit/Rub_GestionVolontaires'))
-	
-	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndClick'(findTestObject('Object Repository/Transfert/CSIO/Page_Simplicit/Rub_DemandesTransfert'))
-	
+
 	CustomKeywords.'Keywords.commun.UtilsEpide.searchDemandeTransfert'(prenom)
 	
 	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndClick'(findTestObject('Object Repository/Transfert/CSIO/Page_Simplicit/Element_DecisiondelaDG'))

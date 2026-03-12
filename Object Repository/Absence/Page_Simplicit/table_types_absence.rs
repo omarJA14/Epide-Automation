@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_types_absence</name>
+   <tag></tag>
+   <elementGuidId>21e8ea2e-ffd3-4330-a005-33cb236ae07d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamTypeAbsence_the_ajax_NamTypeAbsence&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamTypeAbsence_the_ajax_NamTypeAbsence div >> internal:has-text=&quot;LibelléLibellé abrégéCouleurActifNécéssite un JustificatifImpacte l'allocationDe&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1ebc5692-0c23-44ec-961a-a9355b2e21ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>ae5741bb-a957-4e14-ac34-257c5cb704b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LibelléLibellé abrégéCouleurActifNécéssite un JustificatifImpacte l'allocationDescriptionOuiNonOuiNonOuiNonPédagogiqueP#a64d79OuiOuiNon/!\ : Ce type d'absence bien que n'impactant pas l'allocation par défaut, lorsque le justificatif attendu n'a pas été transmis dans le délai prévu, l'absence bascule en absence irrégulièreRenvoi temporaire à titre conservatoireRTC#a64d79OuiOuiNon/!\ : Ce type d'absence bien que n'impactant pas l'allocation par défaut, lorsque le justificatif attendu n'a pas été transmis dans le délai prévu, l'absence bascule en absence irrégulièreCongés maternitéCM#00ffffOuiOuiNon16 semaines pour un enfant;  26 semaines pour deux enfants et plus.  /!\ : Passé le délai de transmission du justificatif, l'absence de vient automatiquement une AIHors CursusHC#0000FFOuiOuiNonJustiffié par : Acte administratif lorsqu’il en existe un (mariage, grossesse, naissance, convocation, etc.) /!\ : Passé le délai de transmission du justificatif, l'absence devient une AIMaladieM#7F6000OuiOuiNonCertificat médical avec nombre de jours de repos/arrêt de travail. /!\ : Passé le délai de transmission du justificatif, l'absence de vient automatiquement une AIAccident du travailAT#CC0000OuiOuiNonCongé paternitéCP#ffffffOuiOuiNonLa durée du congé de paternité et d'accueil de l’enfant est de 25 jours calendaires. /!\ : Passé le délai de transmission du justificatif, l'absence de vient automatiquement une AI</value>
+      <webElementGuid>ff2cdc01-cc80-4882-9663-37e9f1efc9de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamTypeAbsence_the_ajax_NamTypeAbsence&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>0d6b6ef4-297c-4f93-ab94-b3c8ff8cdb91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamTypeAbsence_the_ajax_NamTypeAbsence']/div/div[2]</value>
+      <webElementGuid>37d59e38-a47e-4b2e-a4c4-84829b7afe48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>bf2fc203-bbed-4a0b-9522-6f0d0ea1ddec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Créer'])[1]/following::div[2]</value>
+      <webElementGuid>a9871fe8-08b7-4e5a-b34d-6c1ad7a36eed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>7dd74b31-a6ef-45ab-97f9-4a541d8f6d0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;LibelléLibellé abrégéCouleurActifNécéssite un JustificatifImpacte l&quot; , &quot;'&quot; , &quot;allocationDescriptionOuiNonOuiNonOuiNonPédagogiqueP#a64d79OuiOuiNon/!\ : Ce type d&quot; , &quot;'&quot; , &quot;absence bien que n&quot; , &quot;'&quot; , &quot;impactant pas l&quot; , &quot;'&quot; , &quot;allocation par défaut, lorsque le justificatif attendu n&quot; , &quot;'&quot; , &quot;a pas été transmis dans le délai prévu, l&quot; , &quot;'&quot; , &quot;absence bascule en absence irrégulièreRenvoi temporaire à titre conservatoireRTC#a64d79OuiOuiNon/!\ : Ce type d&quot; , &quot;'&quot; , &quot;absence bien que n&quot; , &quot;'&quot; , &quot;impactant pas l&quot; , &quot;'&quot; , &quot;allocation par défaut, lorsque le justificatif attendu n&quot; , &quot;'&quot; , &quot;a pas été transmis dans le délai prévu, l&quot; , &quot;'&quot; , &quot;absence bascule en absence irrégulièreCongés maternitéCM#00ffffOuiOuiNon16 semaines pour un enfant;  26 semaines pour deux enfants et plus.  /!\ : Passé le délai de transmission du justificatif, l&quot; , &quot;'&quot; , &quot;absence de vient automatiquement une AIHors CursusHC#0000FFOuiOuiNonJustiffié par : Acte administratif lorsqu’il en existe un (mariage, grossesse, naissance, convocation, etc.) /!\ : Passé le délai de transmission du justificatif, l&quot; , &quot;'&quot; , &quot;absence devient une AIMaladieM#7F6000OuiOuiNonCertificat médical avec nombre de jours de repos/arrêt de travail. /!\ : Passé le délai de transmission du justificatif, l&quot; , &quot;'&quot; , &quot;absence de vient automatiquement une AIAccident du travailAT#CC0000OuiOuiNonCongé paternitéCP#ffffffOuiOuiNonLa durée du congé de paternité et d&quot; , &quot;'&quot; , &quot;accueil de l’enfant est de 25 jours calendaires. /!\ : Passé le délai de transmission du justificatif, l&quot; , &quot;'&quot; , &quot;absence de vient automatiquement une AI&quot;) or . = concat(&quot;LibelléLibellé abrégéCouleurActifNécéssite un JustificatifImpacte l&quot; , &quot;'&quot; , &quot;allocationDescriptionOuiNonOuiNonOuiNonPédagogiqueP#a64d79OuiOuiNon/!\ : Ce type d&quot; , &quot;'&quot; , &quot;absence bien que n&quot; , &quot;'&quot; , &quot;impactant pas l&quot; , &quot;'&quot; , &quot;allocation par défaut, lorsque le justificatif attendu n&quot; , &quot;'&quot; , &quot;a pas été transmis dans le délai prévu, l&quot; , &quot;'&quot; , &quot;absence bascule en absence irrégulièreRenvoi temporaire à titre conservatoireRTC#a64d79OuiOuiNon/!\ : Ce type d&quot; , &quot;'&quot; , &quot;absence bien que n&quot; , &quot;'&quot; , &quot;impactant pas l&quot; , &quot;'&quot; , &quot;allocation par défaut, lorsque le justificatif attendu n&quot; , &quot;'&quot; , &quot;a pas été transmis dans le délai prévu, l&quot; , &quot;'&quot; , &quot;absence bascule en absence irrégulièreCongés maternitéCM#00ffffOuiOuiNon16 semaines pour un enfant;  26 semaines pour deux enfants et plus.  /!\ : Passé le délai de transmission du justificatif, l&quot; , &quot;'&quot; , &quot;absence de vient automatiquement une AIHors CursusHC#0000FFOuiOuiNonJustiffié par : Acte administratif lorsqu’il en existe un (mariage, grossesse, naissance, convocation, etc.) /!\ : Passé le délai de transmission du justificatif, l&quot; , &quot;'&quot; , &quot;absence devient une AIMaladieM#7F6000OuiOuiNonCertificat médical avec nombre de jours de repos/arrêt de travail. /!\ : Passé le délai de transmission du justificatif, l&quot; , &quot;'&quot; , &quot;absence de vient automatiquement une AIAccident du travailAT#CC0000OuiOuiNonCongé paternitéCP#ffffffOuiOuiNonLa durée du congé de paternité et d&quot; , &quot;'&quot; , &quot;accueil de l’enfant est de 25 jours calendaires. /!\ : Passé le délai de transmission du justificatif, l&quot; , &quot;'&quot; , &quot;absence de vient automatiquement une AI&quot;))]</value>
+      <webElementGuid>dae6a4cb-abf8-4e8f-a5e5-fcb973f7800c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

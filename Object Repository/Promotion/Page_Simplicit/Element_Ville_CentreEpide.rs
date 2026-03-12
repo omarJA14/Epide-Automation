@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_Ville_CentreEpide</name>
+   <tag></tag>
+   <elementGuidId>33c675f1-19ed-4a68-9a46-97ac523ef210</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(3) > div.text-left.breakword.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@data-field='namNomCentre']//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Bordeaux&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b38f2c14-b476-4468-a2ae-2f4c17edcd29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left breakword text</value>
+      <webElementGuid>5fa54339-dad2-43a2-9ddb-6f2f4b1c3f6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bordeaux</value>
+      <webElementGuid>ac4f4ee8-1195-4f9a-ae19-ded5b3ef8593</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamCentre_ref_ajax_NamCentre&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[3]/div[@class=&quot;text-left breakword text&quot;]</value>
+      <webElementGuid>d5b3a9d6-7ef0-470b-9e76-c39b85862549</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamCentre_ref_ajax_NamCentre']/div/div[2]/form/div/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>73c4d7bd-e7d7-47e6-8ddf-daa1caa692e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RAABON'])[1]/following::div[1]</value>
+      <webElementGuid>0edb184e-dc3b-4c73-9453-ce8f9ea66b1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ville'])[1]/following::div[5]</value>
+      <webElementGuid>f29df83e-cda6-4f65-a43c-ae7c844547a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BORD_VI'])[1]/preceding::div[2]</value>
+      <webElementGuid>eac21f63-9c34-4975-9cad-39e2f007c007</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BORDEAUX'])[1]/preceding::div[6]</value>
+      <webElementGuid>2685b212-4853-4026-b19a-4b3f7c30eb28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Bordeaux']/parent::*</value>
+      <webElementGuid>46077a2c-98a5-49b6-9ccb-8164f6bc2954</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div</value>
+      <webElementGuid>96feff77-2f18-4fb7-a10a-54974f46bc1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Bordeaux' or . = 'Bordeaux')]</value>
+      <webElementGuid>41546b8d-5137-40d1-8a12-e893f4d143ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

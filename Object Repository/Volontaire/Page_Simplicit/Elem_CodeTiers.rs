@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Elem_CodeTiers</name>
+   <tag></tag>
+   <elementGuidId>cf0ba308-bb9f-4a6b-8cab-7a9d3474901f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamReleveMensuel_panel_ajax_NamReleveMensuel_namRmlJenId&quot;]/div/div[2]/form/div/table/tbody/tr[1]/td[14]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.row > div:nth-child(4) >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3c7d4982-c411-4f22-9c57-ac6d715984c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-3</value>
+      <webElementGuid>983fddd5-a9a4-4902-919d-31e9af21161b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+      Code Tiers
+    </value>
+      <webElementGuid>3ddee352-4ce1-49f2-b93f-1e0d6c0a297c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;area2&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3&quot;]</value>
+      <webElementGuid>72407065-06e7-42dc-9d89-6c2048671fe6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='area2']/div/div/div[4]</value>
+      <webElementGuid>c3f9023b-5fc3-4a6e-abf5-e44e4fba0aa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Section'])[1]/following::div[1]</value>
+      <webElementGuid>b48f0b98-b43a-43b0-96cf-67aaeea93ad3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion'])[1]/following::div[5]</value>
+      <webElementGuid>6bb266ce-b667-4450-b7d1-bbcb2f8c8b7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nom'])[1]/preceding::div[4]</value>
+      <webElementGuid>bc6035a6-5f09-4bf7-aa17-a77c189760c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[4]</value>
+      <webElementGuid>23ffdecd-ae57-44c8-82a0-02bd869f4dc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+      Code Tiers
+    ' or . = '
+      Code Tiers
+    ')]</value>
+      <webElementGuid>42292e73-e5f3-4ff7-a19e-b1b5fe2b9a85</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

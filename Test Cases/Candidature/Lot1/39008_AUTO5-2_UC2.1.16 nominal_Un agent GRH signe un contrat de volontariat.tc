@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39008_AUTO5-2_UC2.1.16 nominal_Un agent GRH signe un contrat de volontariat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22efb336-63e3-4769-ba0c-00cd958cdbf3</testCaseGuid>
+</TestCaseEntity>

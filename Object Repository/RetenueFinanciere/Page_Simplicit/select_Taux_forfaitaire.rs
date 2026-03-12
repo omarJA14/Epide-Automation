@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Taux_forfaitaire</name>
+   <tag></tag>
+   <elementGuidId>f1ae24c6-6fa3-44a3-9eb6-0d41c131398f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#select2-field_namRetfinanceTauxForfaitaire-container > div.enum-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;field_namRetfinanceTauxForfaitaire&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;10€&quot;i >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>045d3ff2-f8e5-4866-8d55-e641653dbc6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>enum-item</value>
+      <webElementGuid>cd6b3c50-efae-41f8-a473-5d07542b8ac7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>10€</value>
+      <webElementGuid>c72b7f53-fa6e-4cea-9015-97d75b7672e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-field_namRetfinanceTauxForfaitaire-container&quot;)/div[@class=&quot;enum-item&quot;]</value>
+      <webElementGuid>ecc90065-fc67-45d4-b85a-985114a1f888</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='select2-field_namRetfinanceTauxForfaitaire-container']/div</value>
+      <webElementGuid>7b9ad10d-47cd-4c77-abc3-52d81e790a41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Taux forfaitaire'])[1]/following::div[1]</value>
+      <webElementGuid>79b7fd89-c9a4-4d29-9152-8e04cf21f649</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rang du volontaire accompagnant'])[1]/following::div[8]</value>
+      <webElementGuid>0226bf97-7f0b-477d-8d39-a9030bd5fb43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Montant échéancier 1'])[1]/preceding::div[4]</value>
+      <webElementGuid>4965deaa-5be7-4034-8946-ab3239a6404b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date échéancier 1'])[1]/preceding::div[8]</value>
+      <webElementGuid>c2de9293-6078-43b2-8631-52d77e896c1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/span/span/span/span/div</value>
+      <webElementGuid>8039cff7-e78f-4853-b552-c2c9ad2272b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '10€' or . = '10€')]</value>
+      <webElementGuid>f273f932-6ed7-4165-bd60-25055e75d942</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

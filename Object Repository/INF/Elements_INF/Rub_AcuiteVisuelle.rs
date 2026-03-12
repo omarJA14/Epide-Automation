@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>28063961-56a6-4e78-8d77-665bddb5cb04</webElementGuid>
+      <webElementGuid>4ac7f1cf-f66c-4aa1-a9ee-97ff7007227d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-header collapsed</value>
-      <webElementGuid>9406ee4a-5fc2-4d9d-ade4-342f38a6c6de</webElementGuid>
+      <webElementGuid>7bbb0bfc-db1e-4626-a203-cd020374cb0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>77c229ab-da10-4fb3-a064-a1e6e9f45d99</webElementGuid>
+      <webElementGuid>3161e980-d5df-4e1b-9e56-73744ec6bfc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#collapse_panel_work_21</value>
-      <webElementGuid>a25d5b57-0525-40f0-8457-a20ecf314b3a</webElementGuid>
+      <webElementGuid>edb2b4f2-4d50-4ff6-b4e5-d678b9ae4200</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Acuité visuelle</value>
-      <webElementGuid>a9125ec8-bb1e-4503-8e76-97ec1dfc623e</webElementGuid>
+      <webElementGuid>4cdc7523-f4b5-4d08-9292-fd4b738033a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;panel_work_21&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header collapsed&quot;]</value>
-      <webElementGuid>1aead196-5d91-4f65-a6ad-0256880702b7</webElementGuid>
+      <webElementGuid>e0fe8bf6-c323-4d63-b06d-c91895ad267e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='panel_work_21']/div/div</value>
-      <webElementGuid>9311efd8-00fb-4252-abb7-031c3b0a8dc5</webElementGuid>
+      <webElementGuid>ea1ce6ce-601b-4d21-b85f-334a5dd6c2cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pouls'])[1]/following::div[4]</value>
-      <webElementGuid>c26e315f-1bae-4511-9196-6c11c77ceaa9</webElementGuid>
+      <webElementGuid>d0473f8d-0d01-4292-8d8d-d17a78de093c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TA'])[1]/following::div[6]</value>
-      <webElementGuid>eb241b7a-ec2d-43db-969e-fcb984e99a7e</webElementGuid>
+      <webElementGuid>92e3bed3-083e-49e4-802f-d2165830563e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Portez-vous des lunettes ?'])[1]/preceding::div[1]</value>
-      <webElementGuid>00638ada-e6ff-469b-932f-2e26087b0b48</webElementGuid>
+      <webElementGuid>d1b70818-e155-40a0-a190-94d99b879c10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[16]/div/div/div</value>
-      <webElementGuid>c9406617-343b-42f2-b13c-d016ec9cd9f5</webElementGuid>
+      <webElementGuid>e90f3fcc-b621-49eb-af04-b1de14ba4030</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Acuité visuelle' or . = 'Acuité visuelle')]</value>
-      <webElementGuid>ff12aa8f-a2c3-48c7-870c-effd06563760</webElementGuid>
+      <webElementGuid>2bb500d6-0f0c-44af-8b76-2b3c7118dc4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

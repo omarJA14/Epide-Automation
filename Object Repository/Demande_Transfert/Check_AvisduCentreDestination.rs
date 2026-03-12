@@ -14,14 +14,14 @@
          <value>//span[@id='select2-field_namDtcEtatDemandeTransfert-container']/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:label=&quot;Avis du centre de destination&quot;i >> internal:text=&quot;Avis du centre de destination&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c296297e-61a1-4cf9-9ba5-fc27d54ebb77</webElementGuid>
+      <webElementGuid>34b44a75-89c7-4b62-bee9-fc136748358a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Avis du centre de destination</value>
-      <webElementGuid>e8d656e3-d23a-486d-aab6-9bc5a483ca9b</webElementGuid>
+      <webElementGuid>bee0242e-b025-46b3-a603-322c2a39a4bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select2-field_namDtcEtatDemandeTransfert-container&quot;)/div[@class=&quot;enum-item&quot;]/span[1]</value>
-      <webElementGuid>3e2511ed-509a-421d-8e14-e1f4e53a8c9b</webElementGuid>
+      <webElementGuid>23c17169-3f88-4923-a904-3ed6a1218e3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='select2-field_namDtcEtatDemandeTransfert-container']/div/span</value>
-      <webElementGuid>f447769a-1078-4b15-9f16-5a2265a9a4b6</webElementGuid>
+      <webElementGuid>2de77eeb-ba3e-4f0f-bf9b-d5037300c10a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Etat'])[1]/following::span[5]</value>
-      <webElementGuid>b5fa0ed1-a63b-415e-bf32-f5de868d57b4</webElementGuid>
+      <webElementGuid>90906845-cbb8-4245-aab7-331b725b507a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[1]/following::span[5]</value>
-      <webElementGuid>836b971f-6e8b-4d19-9087-703a3b8fcc0b</webElementGuid>
+      <webElementGuid>12b8c92f-2c9f-43d1-8077-409dc8a48d75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date de la demande'])[1]/preceding::span[3]</value>
-      <webElementGuid>b2117d98-e739-4c19-be99-c4d6e0efdc30</webElementGuid>
+      <webElementGuid>7ad4d790-f1de-4a62-8001-6d19f81b5165</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date décision'])[1]/preceding::span[3]</value>
-      <webElementGuid>833fe5c8-54c3-419e-9fc0-2562f43d1d8e</webElementGuid>
+      <webElementGuid>1467e8e5-d8bd-4f77-917a-2cbf7bf20135</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div/span</value>
-      <webElementGuid>e62ab9a3-4f15-45ef-8d61-7bc5bd6a6a05</webElementGuid>
+      <webElementGuid>dcb06a54-3fcd-4528-9965-143b16eecb86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Avis du centre de destination' or . = 'Avis du centre de destination')]</value>
-      <webElementGuid>3b7e7620-1a84-4b36-92c0-77d2ced81b98</webElementGuid>
+      <webElementGuid>e5c80a04-6c23-4373-9751-7327195cbe46</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

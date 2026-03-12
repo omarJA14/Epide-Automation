@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>44002_AUTO18_PréparationDelaiTransmettre_UC2.2.4 s alternatif 1_Le traitement de nuit modifie le type dabsence en absence injustifiée (AI)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>012f0d14-9f6b-4040-b69d-8eebc80a2e8e</testCaseGuid>
+</TestCaseEntity>

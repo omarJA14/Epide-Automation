@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>45003_AUTO31-2_UC2.3.4_s nominal_Un agent CSIO examine une retenue financière</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9ebaf5e-54c6-47f3-94c2-41b53dbbe6d5</testCaseGuid>
+</TestCaseEntity>

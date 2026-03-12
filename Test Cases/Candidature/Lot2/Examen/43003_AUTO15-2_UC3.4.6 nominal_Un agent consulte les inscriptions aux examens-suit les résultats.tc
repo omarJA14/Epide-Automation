@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>43003_AUTO15-2_UC3.4.6 nominal_Un agent consulte les inscriptions aux examens-suit les résultats</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b9f76b8-e4b2-4e6f-934c-bae3152dd656</testCaseGuid>
+</TestCaseEntity>

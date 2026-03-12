@@ -18,10 +18,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Admissibles&quot;i]</value>
+         <value>xpath=//a[normalize-space()='Admissibles']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>804c25cd-5ea3-464e-877e-c8a9e00df782</webElementGuid>
+      <webElementGuid>6e66f461-796b-43b4-ac6c-d7f42e09c420</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-obj</name>
       <type>Main</type>
       <value>NamAdmissible</value>
-      <webElementGuid>30c01212-4c54-40e7-91e1-8608d0af595a</webElementGuid>
+      <webElementGuid>0bb64205-5a01-4b30-a24f-a6469766d744</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-search</name>
       <type>Main</type>
       <value>column</value>
-      <webElementGuid>5bb01cd5-c47f-4155-8d5c-ce4a5784280e</webElementGuid>
+      <webElementGuid>76a494e6-023d-49e4-bcc2-ea0aedd0915d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu-sel</value>
-      <webElementGuid>0e7d1c91-ef95-4f18-8dd3-5f350ceb0268</webElementGuid>
+      <webElementGuid>fa120123-be29-4231-b62b-633cdf28fdb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Admissibles</value>
-      <webElementGuid>d28df4a3-04b9-4df0-be33-c3d06f5eb8ff</webElementGuid>
+      <webElementGuid>cbad70bb-dac9-4b3c-8553-d9f5a52cabce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu&quot;)/nav[@class=&quot;main-nav&quot;]/ul[@class=&quot;main-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[5]/a[@class=&quot;menu-sel&quot;]</value>
-      <webElementGuid>d53a4fb2-8712-41c0-99f8-bd8fc96bc5bf</webElementGuid>
+      <webElementGuid>d6683d56-7193-49d7-8c58-d0d7bacedeed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu']/nav/ul/li/ul/li[5]/a</value>
-      <webElementGuid>d4896381-874a-456b-ac12-457cef5112c2</webElementGuid>
+      <webElementGuid>6928be95-27b7-4eee-bc1e-3d718ee86ba8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions de recrutement'])[1]/following::a[1]</value>
-      <webElementGuid>b32a8b64-4f2a-49ba-ac51-541fd91a460f</webElementGuid>
+      <webElementGuid>9eb939da-ccd9-4e76-b0e6-8ac6aa165cb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidats'])[1]/following::a[2]</value>
-      <webElementGuid>9ea32f32-751f-4b24-826b-e49562abb084</webElementGuid>
+      <webElementGuid>b9647012-2d8d-4de8-bb62-2cce86d61d31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gestion des volontaires'])[1]/preceding::a[1]</value>
-      <webElementGuid>2fa57041-46ee-4340-888d-537c8f78ee48</webElementGuid>
+      <webElementGuid>26d6e28f-3c4f-4752-b697-d85a718b5338</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[13]</value>
-      <webElementGuid>f29d442a-7378-4034-9a61-dc80ac538505</webElementGuid>
+      <webElementGuid>996d965b-9e4a-4532-9576-265bb5ed8584</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/a</value>
-      <webElementGuid>4ced69f0-c874-4598-99c0-0ad06916beec</webElementGuid>
+      <webElementGuid>274952b9-d553-4a85-a825-df4929b80a1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = ' Admissibles' or . = ' Admissibles')]</value>
-      <webElementGuid>575dcead-e329-4391-906f-9dba7860a268</webElementGuid>
+      <webElementGuid>56c82d53-6342-47df-a9ad-5b87b6455c7b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

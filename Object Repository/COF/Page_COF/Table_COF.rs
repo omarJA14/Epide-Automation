@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Table_COF</name>
+   <tag></tag>
+   <elementGuidId>9e1f5cab-65c4-4cc5-9a13-493b15ba342d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamCof_the_ajax_NamCof&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamCof_the_ajax_NamCof div >> internal:has-text=&quot;VolontaireStatistiquesBilan de progressionSynthèse COF1Synthèse COF2Prolongation&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8f31e6af-d3e6-4fb5-9839-a5932fb6f3b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>b748c528-1eb9-46b5-b38c-b02eb65e0597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VolontaireStatistiquesBilan de progressionSynthèse COF1Synthèse COF2ProlongationSynthèse COF3Synthèse COF4Synthèse COF5Synthèse COF6Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDEDate du COFN° COF PromotionSectionNom PrénomRangDate de naissanceStatut du COFDepuis25 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd'hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiJusqu'à25 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd'hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiCOF1COF2COF3COF4COF5COF625 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd'hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiPréparationEn coursValidéBordeaux21/10/2025COF1202508Section 2ABDILina022/09/2005ValidéBordeaux13/01/2026COF2202508Section 2ABDILina022/09/2005PréparationBordeaux10/03/2026COF3202508Section 2ABDILina022/09/2005Préparation</value>
+      <webElementGuid>779aaa60-7758-4020-97f1-4fcfda3b5b70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamCof_the_ajax_NamCof&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>f291e239-1a82-4449-9d7d-f5e92a77dc84</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamCof_the_ajax_NamCof']/div/div[2]</value>
+      <webElementGuid>894d68f0-b47d-4912-8acd-f113e00f115e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>9b2502cd-3406-48e7-b57e-b529d351e15c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Changer date'])[2]/following::div[1]</value>
+      <webElementGuid>dfec5fff-4ac6-42ac-96d3-969765ce9c8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>f3d75b0c-bccb-4b8b-8712-2c5925506b40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;VolontaireStatistiquesBilan de progressionSynthèse COF1Synthèse COF2ProlongationSynthèse COF3Synthèse COF4Synthèse COF5Synthèse COF6Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDEDate du COFN° COF PromotionSectionNom PrénomRangDate de naissanceStatut du COFDepuis25 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd&quot; , &quot;'&quot; , &quot;hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à25 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd&quot; , &quot;'&quot; , &quot;hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiCOF1COF2COF3COF4COF5COF625 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd&quot; , &quot;'&quot; , &quot;hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiPréparationEn coursValidéBordeaux21/10/2025COF1202508Section 2ABDILina022/09/2005ValidéBordeaux13/01/2026COF2202508Section 2ABDILina022/09/2005PréparationBordeaux10/03/2026COF3202508Section 2ABDILina022/09/2005Préparation&quot;) or . = concat(&quot;VolontaireStatistiquesBilan de progressionSynthèse COF1Synthèse COF2ProlongationSynthèse COF3Synthèse COF4Synthèse COF5Synthèse COF6Tout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDEDate du COFN° COF PromotionSectionNom PrénomRangDate de naissanceStatut du COFDepuis25 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd&quot; , &quot;'&quot; , &quot;hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à25 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd&quot; , &quot;'&quot; , &quot;hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiCOF1COF2COF3COF4COF5COF625 Décembre 202516:0016:0516:1016:1516:2016:2516:3016:3516:4016:4516:5016:55Aujourd&quot; , &quot;'&quot; , &quot;hui25 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiPréparationEn coursValidéBordeaux21/10/2025COF1202508Section 2ABDILina022/09/2005ValidéBordeaux13/01/2026COF2202508Section 2ABDILina022/09/2005PréparationBordeaux10/03/2026COF3202508Section 2ABDILina022/09/2005Préparation&quot;))]</value>
+      <webElementGuid>309fb9ca-3c3a-4486-9366-c4a8719420a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

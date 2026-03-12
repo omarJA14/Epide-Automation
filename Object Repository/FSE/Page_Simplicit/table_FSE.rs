@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_FSE</name>
+   <tag></tag>
+   <elementGuidId>5cdf0e4b-b214-42d5-a452-240156f8dc49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;list_NamFse_the_ajax_NamFse&quot;]/div/div[2]/form/div/table</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#list_NamFse_the_ajax_NamFse div >> internal:has-text=&quot;RédacteurVolontaireEntretien CECValidation CSECiValidation de la convocation d'u&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b480d509-b070-40ed-92eb-9dd612b47d8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>c77cc740-9a81-4709-a8f9-b549342f4d62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RédacteurVolontaireEntretien CECValidation CSECiValidation de la convocation d'un conseil de discipline par D1Conseil de disciplineMembres du conseilValidation DGTout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDENuméro de FSEDate de l’événement Type de FSEStatut de FSEPromotionSectionNomPrénomRangDate de naissanceLes faitsDepuis26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd'hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiJusqu'à26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd'hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiObservationDétériorationProduits illicitesRetard/AbsenceTenue EPIDEInsubordinationAtteinte à autruiIncivilitéVolRefus de travaillerFSE positiveCréation FSEEntretien CECValidation CSECiValidation conseil D1Convocation conseil de disciplineConseil de disciplineValidation DGClosDepuis26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd'hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiJusqu'à26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd'hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd'huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd'hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd'hui2020-2029201920202021202220232024202520262027202820292030Aujourd'huiEditer PVBordeaux41 17919/12/2025DétériorationConseil de discipline202503Section 2SIDDICKHaydar001/01/2003TRA</value>
+      <webElementGuid>6b53fa68-5586-42b0-9c59-1e58302ed64b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamFse_the_ajax_NamFse&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>2100f794-8b95-4546-b2db-7c804b857169</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamFse_the_ajax_NamFse']/div/div[2]</value>
+      <webElementGuid>a644eb96-3119-4ec8-a4ba-7245987a8fbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::div[1]</value>
+      <webElementGuid>f1324eb1-e40b-4583-9499-f6d52f230a0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exporter'])[1]/following::div[1]</value>
+      <webElementGuid>84d22a9a-1e44-4ee2-8603-4ea56aa605a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>d5384598-904b-4857-bc0a-03ca8b9b52f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;RédacteurVolontaireEntretien CECValidation CSECiValidation de la convocation d&quot; , &quot;'&quot; , &quot;un conseil de discipline par D1Conseil de disciplineMembres du conseilValidation DGTout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDENuméro de FSEDate de l’événement Type de FSEStatut de FSEPromotionSectionNomPrénomRangDate de naissanceLes faitsDepuis26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiObservationDétériorationProduits illicitesRetard/AbsenceTenue EPIDEInsubordinationAtteinte à autruiIncivilitéVolRefus de travaillerFSE positiveCréation FSEEntretien CECValidation CSECiValidation conseil D1Convocation conseil de disciplineConseil de disciplineValidation DGClosDepuis26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiEditer PVBordeaux41 17919/12/2025DétériorationConseil de discipline202503Section 2SIDDICKHaydar001/01/2003TRA&quot;) or . = concat(&quot;RédacteurVolontaireEntretien CECValidation CSECiValidation de la convocation d&quot; , &quot;'&quot; , &quot;un conseil de discipline par D1Conseil de disciplineMembres du conseilValidation DGTout sélectionnerSélectionner cette pageTout désélectionnerCentre EPIDENuméro de FSEDate de l’événement Type de FSEStatut de FSEPromotionSectionNomPrénomRangDate de naissanceLes faitsDepuis26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiObservationDétériorationProduits illicitesRetard/AbsenceTenue EPIDEInsubordinationAtteinte à autruiIncivilitéVolRefus de travaillerFSE positiveCréation FSEEntretien CECValidation CSECiValidation conseil D1Convocation conseil de disciplineConseil de disciplineValidation DGClosDepuis26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiJusqu&quot; , &quot;'&quot; , &quot;à26 Décembre 202515:0015:0515:1015:1515:2015:2515:3015:3515:4015:4515:5015:55Aujourd&quot; , &quot;'&quot; , &quot;hui26 Décembre 20250:001:002:003:004:005:006:007:008:009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00Aujourd&quot; , &quot;'&quot; , &quot;huiDécembre 2025LMaMeJVSD24252627282930123456789101112131415161718192021222324252627282930311234Aujourd&quot; , &quot;'&quot; , &quot;hui2025JanFevMarAvrMaiJuiJulAouSepOctNovDecAujourd&quot; , &quot;'&quot; , &quot;hui2020-2029201920202021202220232024202520262027202820292030Aujourd&quot; , &quot;'&quot; , &quot;huiEditer PVBordeaux41 17919/12/2025DétériorationConseil de discipline202503Section 2SIDDICKHaydar001/01/2003TRA&quot;))]</value>
+      <webElementGuid>bf85b62a-ac5f-45e4-b4c5-93fe71ba4aea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

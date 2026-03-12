@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>page_Cof_Volontaire</name>
+   <tag></tag>
+   <elementGuidId>1aa6b0ad-6452-4ff1-898b-47b0fc1935ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(@class,'breadcrumb-item')]//a[@data-item='1']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Volontaire : &quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f27caa4f-63eb-476a-8e00-9b95c84dfc70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>a63ca70b-9b4b-4457-95fc-a7c44a995c8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Volontaire  : ABDALLAH El Anrif 12/07/2004</value>
+      <webElementGuid>24820b32-294c-4389-817a-fb54de1423ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;work&quot;)/div[@class=&quot;split&quot;]/div[@class=&quot;desk&quot;]/div[@class=&quot;nav d-none d-sm-block&quot;]/ol[@class=&quot;breadcrumb&quot;]/li[@class=&quot;breadcrumb-item&quot;]/a[1]</value>
+      <webElementGuid>743a80d9-31c6-4ff1-a770-386640e7df70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='work']/div/div/div/ol/li[2]/a</value>
+      <webElementGuid>f24eb0cf-b3c7-49ee-826b-f9181fada011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Volontaire  : ABDALLAH El Anrif 12/07/2004')]</value>
+      <webElementGuid>f6d10af8-51de-40b6-84bd-dee5b6efe307</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volontaire'])[1]/following::a[1]</value>
+      <webElementGuid>b3ab0fdd-ab0c-4b9a-88ac-0b04c32b2351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration des notifications'])[1]/following::a[2]</value>
+      <webElementGuid>cac5aee9-c341-4660-b2c9-b5247f3949c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COF : Bordeaux COF1 Section 4 ABDALLAH El Anrif 0 12/07/2004 202411'])[1]/preceding::a[1]</value>
+      <webElementGuid>8a12ec6b-e38b-47b2-904d-31c3ec2296fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COF : Bordeaux COF1 Section 4 ABDALLAH El Anrif 0 12/07/2004 202411'])[2]/preceding::a[2]</value>
+      <webElementGuid>61c80f41-7a70-4ea6-a5cf-f538ab33c417</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[42]</value>
+      <webElementGuid>774b3a16-ad56-404f-affd-7608c3831066</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol/li[2]/a</value>
+      <webElementGuid>ccfd5d12-b978-4cf2-9d98-01436be2b027</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Volontaire  : ABDALLAH El Anrif 12/07/2004' or . = 'Volontaire  : ABDALLAH El Anrif 12/07/2004')]</value>
+      <webElementGuid>f0f5b521-abc4-40c6-8b10-29fc27568202</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

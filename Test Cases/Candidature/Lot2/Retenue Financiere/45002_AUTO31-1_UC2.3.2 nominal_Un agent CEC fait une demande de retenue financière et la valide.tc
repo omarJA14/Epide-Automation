@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>45002_AUTO31-1_UC2.3.2 nominal_Un agent CEC fait une demande de retenue financière et la valide</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a2d2fb26-e329-40f1-a282-a31b95036450</testCaseGuid>
+</TestCaseEntity>

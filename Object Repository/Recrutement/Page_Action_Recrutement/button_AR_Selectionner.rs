@@ -6,12 +6,12 @@
    <elementGuidId>ba5a8ee9-e9c6-4e7d-b2e0-f8dd6eed3e96</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[19]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.action-not-xs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[19]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Sélectionner&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>11fc0adc-8951-4ae1-8986-3f296940bd6e</webElementGuid>
+      <webElementGuid>1812289f-3370-4062-a5e4-062374d35e4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>842f3366-0ddf-47da-8c7c-1816859526dc</webElementGuid>
+      <webElementGuid>7dc3bd4b-1db5-4140-bbb0-712604b544aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary action-not-xs</value>
-      <webElementGuid>d9e26287-8dc2-4418-8574-fdb68b8a42c8</webElementGuid>
+      <webElementGuid>f400e062-ea2b-4f7e-b5fe-05c1e924eba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>multiselect</value>
-      <webElementGuid>76b0d29c-a1da-4a49-8bb0-6a0c0d4ad24c</webElementGuid>
+      <webElementGuid>2d06ee32-15b0-4f75-b7cc-44c72b91fe0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sélectionner</value>
-      <webElementGuid>4f6fed20-8f1a-4301-a783-287f1120b410</webElementGuid>
+      <webElementGuid>3a4e234c-c1ca-4dfd-b088-cfd908f10ab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_NamJeune_ref_ajax_NamJeune&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;list-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-primary action-not-xs&quot;]</value>
-      <webElementGuid>7726f145-3872-40ee-b295-9ac7389bcf27</webElementGuid>
+      <webElementGuid>300be3fe-32fd-46c5-84f0-8171865a3acd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[19]</value>
-      <webElementGuid>b92c9785-d569-448b-9cbe-057083259625</webElementGuid>
+      <webElementGuid>19ed7dcb-4ecb-44c0-9c02-2db37a092a06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='list_NamJeune_ref_ajax_NamJeune']/div/div/div/div[3]/div/button[2]</value>
-      <webElementGuid>b7092999-01b2-480f-88b8-1c905203215e</webElementGuid>
+      <webElementGuid>412a7184-a2fc-48fb-9e5c-d014fd8bd68f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prénom: TratKatalonPrenom1'])[1]/following::button[2]</value>
-      <webElementGuid>81d70953-67dd-4870-8b64-b8746948f1b4</webElementGuid>
+      <webElementGuid>b0dd5d5c-df88-4508-bc64-c7d398204e03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 1'])[1]/following::button[2]</value>
-      <webElementGuid>a179b996-1ba7-4450-ad96-96181800a0b6</webElementGuid>
+      <webElementGuid>8354a654-b516-4598-9dd4-3f44e82d6032</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[3]/preceding::button[1]</value>
-      <webElementGuid>ca854216-40de-4f9c-aecc-7d4e67ebde50</webElementGuid>
+      <webElementGuid>7e4237ca-b3f2-4730-ba46-755534929966</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/div[3]/div/button[2]</value>
-      <webElementGuid>bbf216dc-f4b5-444a-8c5b-456732441223</webElementGuid>
+      <webElementGuid>72caef0a-b56e-4199-89ad-218d1a2f177b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Sélectionner' or . = 'Sélectionner')]</value>
-      <webElementGuid>32fddba9-7ccc-4b64-b256-a2ffc2488ffc</webElementGuid>
+      <webElementGuid>e54039ef-4aff-4b7e-869f-f6e8b265a69a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

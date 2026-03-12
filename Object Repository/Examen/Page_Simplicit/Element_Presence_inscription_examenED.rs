@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_Presence_inscription_examenED</name>
+   <tag></tag>
+   <elementGuidId>1a760e01-f4b7-44f5-bcc3-afcd6f6bbe84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(12) > div.text-left.enum</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@data-field='namInexPresence']//div&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Présent&quot;s] >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>39dcaa64-291e-4e72-a9f9-b472f6156bf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left enum</value>
+      <webElementGuid>5ab53af7-57ef-4e0c-bb18-e0de62de0b86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Présent</value>
+      <webElementGuid>841ad1f5-51f4-47c7-a2be-80f8deb47854</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamInscriptionExam_the_ajax_NamInscriptionExam&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-focusable js-resizable&quot;]/td[12]/div[@class=&quot;text-left enum&quot;]</value>
+      <webElementGuid>a2941e1d-c1c8-43c8-a065-026d6edb62e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamInscriptionExam_the_ajax_NamInscriptionExam']/div/div[2]/form/div/table/tbody/tr/td[12]/div</value>
+      <webElementGuid>bb516a47-831f-44e9-9332-05f25f9a1032</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ayan'])[1]/following::div[2]</value>
+      <webElementGuid>042d7743-6cdf-410f-8bb6-1877765bac09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALI'])[1]/following::div[3]</value>
+      <webElementGuid>dd0987a1-7396-4b63-a602-8631a77bb2cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oui'])[3]/preceding::div[1]</value>
+      <webElementGuid>8c9fc0b3-6e50-42b2-860f-89f2a8790f82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 1'])[2]/preceding::div[4]</value>
+      <webElementGuid>7a895c6b-f13e-4daa-a119-7edae6845d0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[12]/div</value>
+      <webElementGuid>dca87102-37b8-4747-9767-f577ee48371b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Présent' or . = 'Présent')]</value>
+      <webElementGuid>931cc4bb-ec54-4a9d-800a-7d4995d93a03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

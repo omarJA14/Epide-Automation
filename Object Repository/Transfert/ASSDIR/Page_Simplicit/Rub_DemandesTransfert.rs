@@ -18,10 +18,11 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Demandes de transfert&quot;i]</value>
+         <value>xpath=//a[normalize-space()='Demandes de transfert']&#xd;
+</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>433b340c-67d7-4bd5-af57-ecc6bdfa44b2</webElementGuid>
+      <webElementGuid>c8c99f3e-b707-4f46-b1b1-43ac60e6cd6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +38,7 @@
       <name>data-obj</name>
       <type>Main</type>
       <value>NamDemandeTransfertCentre</value>
-      <webElementGuid>f5e77a28-c2c9-4024-b5b1-38f263f32104</webElementGuid>
+      <webElementGuid>b8675287-14a3-40d7-b30c-4f2e4fc044a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,7 @@
       <name>data-search</name>
       <type>Main</type>
       <value>column</value>
-      <webElementGuid>d1b21675-aa8f-49da-8cea-fb2a6cf2a7e1</webElementGuid>
+      <webElementGuid>ce4392d8-566c-41ec-b2db-1760e9f6a561</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Demandes de transfert</value>
-      <webElementGuid>7f2bd82f-9b1b-4770-89f7-5d9b444b1996</webElementGuid>
+      <webElementGuid>07bd039c-b4c4-42ff-8d83-01fed0d8224a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu&quot;)/nav[@class=&quot;main-nav&quot;]/ul[@class=&quot;main-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[10]/a[1]</value>
-      <webElementGuid>a8295bb8-8fd3-40d4-9c2d-980c993977c5</webElementGuid>
+      <webElementGuid>3eb838bd-f3df-4a7b-a5cf-feb978b7c6a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu']/nav/ul/li/ul/li[5]/ul/li[10]/a</value>
-      <webElementGuid>2e5ea372-f7eb-4008-95cb-1e1cd93c54b1</webElementGuid>
+      <webElementGuid>7767c0c1-726c-45c5-8dd4-e059c86f7f63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FSE'])[1]/following::a[1]</value>
-      <webElementGuid>fdbbc67c-2e1a-44e4-b076-8cafeda3bd74</webElementGuid>
+      <webElementGuid>7d097f51-f7b3-4267-8bc3-13a53e051000</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sortie du volontaire'])[1]/preceding::a[1]</value>
-      <webElementGuid>a7c900fa-f57f-4849-a13f-e2f2db27ebfc</webElementGuid>
+      <webElementGuid>332b505c-95fd-4497-8a6d-5360e9902ac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[22]</value>
-      <webElementGuid>0bfa5560-7cc0-4e37-be62-f55d601b4c28</webElementGuid>
+      <webElementGuid>2245abac-3f65-40af-af55-5601eea523a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/ul/li[10]/a</value>
-      <webElementGuid>82d68380-b54f-4356-ae60-78dcba610716</webElementGuid>
+      <webElementGuid>8c06ce4b-fdec-4186-a27d-9fb802dc82fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Demandes de transfert' or . = 'Demandes de transfert')]</value>
-      <webElementGuid>5bac46ae-8e87-4372-a834-a9ab0c8e6505</webElementGuid>
+      <webElementGuid>86bf4895-cd2a-493f-89bc-14bd9b6a4918</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

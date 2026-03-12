@@ -11,17 +11,17 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='list_NamDemandeTransfertCentre_panel_ajax_NamDemandeTransfertCentre_namDtcJenId']/div/div[2]/form/div/table/tbody/tr/td[2]/div</value>
+         <value>//td[@data-field='namDtcEtatDemandeTransfert']//div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:role=cell[name=&quot;Avis du centre de destination&quot;i] >> div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e6ba118c-09cc-439e-813e-8b93802af3f6</webElementGuid>
+      <webElementGuid>118424b8-b2ff-4b3d-84f9-21da30892d5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-left enum</value>
-      <webElementGuid>e7d1a295-845f-49e8-bac5-00093aec54b7</webElementGuid>
+      <webElementGuid>d6904794-a3dc-40f4-9426-5c093c75b80f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Avis du centre de destination</value>
-      <webElementGuid>157f528b-4444-47d6-b9d8-896455f034a1</webElementGuid>
+      <webElementGuid>7649a2d3-c996-47f4-ac89-636e3a96df89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_NamDemandeTransfertCentre_panel_ajax_NamDemandeTransfertCentre_namDtcJenId&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[2]/div[@class=&quot;text-left enum&quot;]</value>
-      <webElementGuid>62dc34a5-555a-4dc1-a1d2-819b2ad046a2</webElementGuid>
+      <webElementGuid>b47bbe06-51de-4165-a84c-259d1e010deb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='list_NamDemandeTransfertCentre_panel_ajax_NamDemandeTransfertCentre_namDtcJenId']/div/div[2]/form/div/table/tbody/tr/td[2]/div</value>
-      <webElementGuid>049a05ca-3155-4e70-acc8-257a1c49883f</webElementGuid>
+      <webElementGuid>f0d07e10-1eac-4c57-8217-3e83edcf6c82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bordeaux'])[1]/preceding::div[2]</value>
-      <webElementGuid>675a96fa-57c9-4d06-b433-95d0d3140b21</webElementGuid>
+      <webElementGuid>dc444174-13bf-4c00-97fc-6d77227d032a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanrodec'])[1]/preceding::div[3]</value>
-      <webElementGuid>98a0ffc4-33ca-4e1d-8943-11b51ae32282</webElementGuid>
+      <webElementGuid>7b6e2899-ab7a-4e19-9d79-f03182f77735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/div/div[2]/form/div/table/tbody/tr/td[2]/div</value>
-      <webElementGuid>3809e070-e930-4a66-8a1a-8863fa967f85</webElementGuid>
+      <webElementGuid>91f261d9-a081-4edc-89ea-8dc886f5de17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Avis du centre de destination' or . = 'Avis du centre de destination')]</value>
-      <webElementGuid>492c18d0-d737-4661-87c4-ae76346e6a5c</webElementGuid>
+      <webElementGuid>1d9adf69-93bd-408d-a3cc-d53b74c600b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

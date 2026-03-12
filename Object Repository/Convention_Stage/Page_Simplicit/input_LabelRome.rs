@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_LabelRome</name>
+   <tag></tag>
+   <elementGuidId>7ff1f38f-136f-4c34-9acd-d9b697e8f2d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id = 'namNafromeLabelRome']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d068f1c9-a778-4e8b-ad42-d5ee8f1f9914</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control search-control</value>
+      <webElementGuid>23d793fe-6b6f-4a71-9237-0fb225d8c1fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>namNafromeLabelRome</value>
+      <webElementGuid>bfbdc095-f7c5-4890-8600-c3b923055a86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>50ed135c-dc1c-436f-aae9-665ebcfe3c9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@id=&quot;dlgmodal_selectRef_NamCodeRomeNaf_namConvstgNafromeId&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[1]/div[@id=&quot;selectRef_NamCodeRomeNaf_namConvstgNafromeId&quot;]/div[@id=&quot;list_NamCodeRomeNaf_ref_ajax_NamCodeRomeNaf&quot;]/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/thead[1]/tr[@class=&quot;search&quot;]/th[3]/div[@class=&quot;input-group searchby flex-nowrap&quot;]/input[@id=&quot;namNafromeLabelRome&quot;]</value>
+      <webElementGuid>79140b30-dcc7-471d-88dc-b289e8882e5b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'namNafromeLabelRome']</value>
+      <webElementGuid>4957c144-c696-4c3b-8f5e-4ba8d5ade2b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

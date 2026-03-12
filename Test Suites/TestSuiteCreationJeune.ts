@@ -15,7 +15,7 @@
       <guid>b666ddba-67c9-4264-9e65-e94ac351f797</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Candidature/39002_UC1.1.2 nominal_CreationJeune</testCaseId>
+      <testCaseId>Test Cases/Candidature/Lot1/39002_AUTO1_UC1.1.2 nominal_CreationJeune</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

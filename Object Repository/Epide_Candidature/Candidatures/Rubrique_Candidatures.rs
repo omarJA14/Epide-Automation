@@ -14,11 +14,11 @@
          <value>//div[@id='menu']/nav/ul/li/ul/li[4]/ul/li/a/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Candidatures&quot;i]</value>
+         <value>xpath=//a[normalize-space()='Candidatures']</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>af245b70-5537-456b-b0c9-0a6814f61784</webElementGuid>
+      <webElementGuid>2b6addfd-c449-495c-8043-d902abdcb3aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>884c72de-5b1e-46e7-a292-1edfa3c7db14</webElementGuid>
+      <webElementGuid>73962cc9-bf5c-4028-b34a-be9d2afac450</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Candidatures</value>
-      <webElementGuid>9b9745c5-d210-4ef5-85d9-be5eda284bd8</webElementGuid>
+      <webElementGuid>72626500-08c1-43f4-901f-18eb52f65b55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu&quot;)/nav[@class=&quot;main-nav&quot;]/ul[@class=&quot;main-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[1]/a[1]/span[@class=&quot;text&quot;]</value>
-      <webElementGuid>9a52693e-3d5d-4feb-ad0e-eba848dee4a3</webElementGuid>
+      <webElementGuid>d76af781-0d4f-4c61-8c89-afcb989b8ebe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu']/nav/ul/li/ul/li[4]/ul/li/a/span</value>
-      <webElementGuid>2c199d95-ef84-4ce0-9ba6-a15f70bb7a09</webElementGuid>
+      <webElementGuid>e8581e67-f1d9-4925-8ec9-3382580e1ef3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gestion des candidats'])[1]/following::span[1]</value>
-      <webElementGuid>d40b7a82-a05b-4c61-8b64-216446f8220a</webElementGuid>
+      <webElementGuid>85df0558-ebaf-479e-bbdf-4428478c5257</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jeunes'])[1]/following::span[2]</value>
-      <webElementGuid>6e32f37e-3e0a-4138-924e-313fb7054af0</webElementGuid>
+      <webElementGuid>da1aa1f2-048c-4cb3-b1e6-7b15738abd43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Imports de fichier BSN'])[1]/preceding::span[1]</value>
-      <webElementGuid>849eb02d-497f-447f-bf79-4b8d792159f5</webElementGuid>
+      <webElementGuid>82e90e5c-f5da-44d2-85ec-bc981760e5cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidats'])[1]/preceding::span[2]</value>
-      <webElementGuid>453e4fe1-2555-46c0-920f-cfc4c2a11986</webElementGuid>
+      <webElementGuid>ae9e8867-b2b1-4fc2-b499-81c4aab149c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Candidatures']/parent::*</value>
-      <webElementGuid>eccef7c8-80fa-489d-a0f6-d6673787574d</webElementGuid>
+      <webElementGuid>99cf88f5-e473-477c-ba48-468803a0acdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/ul/li/a/span</value>
-      <webElementGuid>e161c712-2b74-4ea5-a0fa-2781dd5a5a53</webElementGuid>
+      <webElementGuid>779fe6bf-faed-4bbe-8389-50491c92de43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Candidatures' or . = ' Candidatures')]</value>
-      <webElementGuid>b406393e-5dd5-4a37-8438-0684b6335f34</webElementGuid>
+      <webElementGuid>1a8a6807-94b6-4700-877c-7079a14e37a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

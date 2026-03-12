@@ -17,7 +17,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=tab[name=&quot;Situations contractuelles 1&quot;i]</value>
+         <value>//*[@role='tab'][contains(normalize-space(),'Situations contractuelles')]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>14319770-fabb-458e-96e4-8841ac492a13</webElementGuid>
+      <webElementGuid>abcbc3cf-6d9b-4bf5-9810-50f154a284f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#links_NamJeune_20</value>
-      <webElementGuid>2b82a14a-d88a-4c35-aaa2-8cc769fc7584</webElementGuid>
+      <webElementGuid>4c6512ce-8f8c-426b-8b43-30d50a5563ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>links_NamJeune_20</value>
-      <webElementGuid>302bdee1-bdbf-475f-a322-78c9004a6fc3</webElementGuid>
+      <webElementGuid>a4a36e53-d1a9-47eb-be9c-b89eda4998c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>0fcee6ad-77e8-4d39-8b57-788f27edb977</webElementGuid>
+      <webElementGuid>d1ed6fca-0c46-491c-a841-3a5b053b3f56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>348efe32-0863-4a50-b7ec-cfd0e71b98b6</webElementGuid>
+      <webElementGuid>4fde07d5-07bd-4fa3-bb72-393f7842a744</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>9613362c-5b57-4c6e-991c-2902b2b18e37</webElementGuid>
+      <webElementGuid>62e6b429-ba62-4a33-bca6-e2bb327d8266</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>data-tab</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>e0ccdf40-18b9-438a-9cf0-bf6254b92e7e</webElementGuid>
+      <webElementGuid>02849e0c-2b49-4558-9ccd-aa48794dc8d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>data-key</name>
       <type>Main</type>
       <value>NamSituationContractuelle_namSocJenId</value>
-      <webElementGuid>f099757d-b313-4bd6-9d70-981ed89cf73d</webElementGuid>
+      <webElementGuid>2b943ed0-3c38-45e0-a1af-4f1614b8daa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +92,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Situations contractuelles1</value>
-      <webElementGuid>5e8a1369-401c-4268-81ee-7026da035508</webElementGuid>
+      <webElementGuid>aa719b6f-f344-4f85-be6a-f6dee3f80ab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;links_NamJeune&quot;)/ul[@class=&quot;nav nav-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>596db355-2d80-4707-abac-15426c941774</webElementGuid>
+      <webElementGuid>2926f995-c48b-4bd3-be77-bb92b207be67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='links_NamJeune']/ul/li[21]/a</value>
-      <webElementGuid>742e3dc8-bbd8-43aa-8316-1c64d4d1c09d</webElementGuid>
+      <webElementGuid>78e10020-5bc9-4f7f-bab4-fbccca339fcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Retenues financières ()'])[1]/following::a[1]</value>
-      <webElementGuid>80538e64-5a05-4dfa-84bd-4d2002599f14</webElementGuid>
+      <webElementGuid>7663d2ee-fd4f-4939-8182-0d565ca80f30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Retenues financières'])[2]/following::a[2]</value>
-      <webElementGuid>666133c1-86b6-44f6-bb2b-bc6fb45621c1</webElementGuid>
+      <webElementGuid>3a8d8344-ddcb-4a77-9d33-d9caad3c571a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sortie du volontaire'])[2]/preceding::a[1]</value>
-      <webElementGuid>580dc4a6-3731-4150-806f-f289443f62c2</webElementGuid>
+      <webElementGuid>4390a2b5-a1c2-4705-8be0-ee1e2e7c97a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#links_NamJeune_20')]</value>
-      <webElementGuid>35a40eaa-753d-4e37-96f4-b10a8098af28</webElementGuid>
+      <webElementGuid>548c7a3d-9e29-43df-ad84-f428e7d97bf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[21]/a</value>
-      <webElementGuid>2bc78b2f-48ff-4c19-897b-cee4c30c7f68</webElementGuid>
+      <webElementGuid>8eba5152-c417-49b2-9d2e-11219f52c4ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -156,6 +156,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#links_NamJeune_20' and (text() = ' Situations contractuelles1' or . = ' Situations contractuelles1')]</value>
-      <webElementGuid>d3bd8d32-9e4e-43b2-a1e2-fa2ca57803ac</webElementGuid>
+      <webElementGuid>bf363d08-56ba-4253-ba7b-ad3b9b1c8c2c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

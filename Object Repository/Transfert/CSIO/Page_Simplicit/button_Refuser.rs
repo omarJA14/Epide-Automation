@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:role=button[name=&quot;Refuser&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e501ca0c-df88-4abf-b5ba-f14d12edd1fb</webElementGuid>
+      <webElementGuid>42da7697-ce63-40d3-abf5-a3da9d83b003</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e005ecc8-1c13-46f4-a1b7-b717939366bd</webElementGuid>
+      <webElementGuid>9abe2340-cbbe-41c5-b4e4-acc70d5048e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-action action-not-xs</value>
-      <webElementGuid>d845065c-70a2-4c18-9aab-58a98c12690c</webElementGuid>
+      <webElementGuid>fb0ad0e8-e66a-4cc8-a03b-d4a4816ee101</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>NAM_DTC_REFUSER</value>
-      <webElementGuid>19c79db2-6f78-4ff0-833f-bc3239a35715</webElementGuid>
+      <webElementGuid>c667eae1-0ace-471e-b267-972d8abfb10f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>data-rowid</name>
       <type>Main</type>
       <value>448</value>
-      <webElementGuid>6e5d3987-3a88-4404-b700-7dc8082f9ce3</webElementGuid>
+      <webElementGuid>801f977e-8c60-4940-81f2-9de87c5afc31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Refuser</value>
-      <webElementGuid>fede2038-3a09-4e0a-8d3c-fa38eccf507b</webElementGuid>
+      <webElementGuid>87b2b3d6-38d2-40f2-8806-b324ce346d52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre_448&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-action action-not-xs&quot;]</value>
-      <webElementGuid>6480f598-6ab7-4ac7-bff2-12140312d1df</webElementGuid>
+      <webElementGuid>672172cb-7e1b-4a4e-b58d-45e67290224b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>a8047af1-a97c-414f-941f-a457103cfa25</webElementGuid>
+      <webElementGuid>2400db7e-a284-441d-9703-a48f4de21759</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre_448']/div/div/div/div[2]/div/button[4]</value>
-      <webElementGuid>cb7dcc6d-d718-45fc-af78-5bad2b9a1fc3</webElementGuid>
+      <webElementGuid>5ab27d19-bcdb-482e-8ea4-6c3e82fc57be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepter'])[1]/following::button[1]</value>
-      <webElementGuid>4ac69f11-6f58-4730-962e-de85ae311cb7</webElementGuid>
+      <webElementGuid>fab20b0e-0250-4728-af0d-118433a8c667</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enregistrer &amp; Fermer'])[1]/following::button[2]</value>
-      <webElementGuid>86ed9e8d-a2c1-4f54-85a8-e9531e6a3fc9</webElementGuid>
+      <webElementGuid>b773e61e-7e8e-4bd1-8495-9a7661335c5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supprimer'])[1]/preceding::button[2]</value>
-      <webElementGuid>1816c2a9-ed83-47a8-8b37-6a7b273950db</webElementGuid>
+      <webElementGuid>8b54285b-6304-499e-88ad-3200266a1a12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +124,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[4]</value>
-      <webElementGuid>8bc36ade-7c40-4e34-8e5f-caa4d5759a09</webElementGuid>
+      <webElementGuid>61c3aeaf-ff55-4115-b2ef-3e11130f724d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +132,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Refuser' or . = 'Refuser')]</value>
-      <webElementGuid>9613454d-ecdc-441a-a243-475b30fbb31c</webElementGuid>
+      <webElementGuid>f186474d-a6c0-4466-9bb7-9c1e1d6602c2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

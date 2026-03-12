@@ -6,12 +6,12 @@
    <elementGuidId>78daed43-0323-47b5-a080-613fae3a4fbe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='list_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre']/div/div[2]/form/div/table/tbody/tr/td[2]/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.text-left.enum</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='list_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre']/div/div[2]/form/div/table/tbody/tr/td[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6e6c7b52-3db8-4bb1-9f4a-a342989f3204</webElementGuid>
+      <webElementGuid>3a50918a-b97f-4fb7-b483-3e443142f6b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-left enum</value>
-      <webElementGuid>049bc251-46c5-489d-8a56-f1206c8681be</webElementGuid>
+      <webElementGuid>b0d36d80-1df2-46ef-acce-e14bb2418ac6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Décision de la DG</value>
-      <webElementGuid>7498a2dc-2cc9-43cf-9d7a-5928f2dbfb72</webElementGuid>
+      <webElementGuid>c7252286-0a5c-4222-95cd-63cd2454f933</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;list_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[2]/div[@class=&quot;text-left enum&quot;]</value>
-      <webElementGuid>11917298-271d-4edd-b4c3-bebab2d76669</webElementGuid>
+      <webElementGuid>7484966f-0890-434e-acb1-ca89deb17a71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='list_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre']/div/div[2]/form/div/table/tbody/tr/td[2]/div</value>
-      <webElementGuid>d0dc74ee-9e3a-4570-9334-a84a0cf0d91f</webElementGuid>
+      <webElementGuid>7e7d77ca-4627-4382-b5ad-ca45d4ad78d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TRATKatalonNom10'])[1]/preceding::div[2]</value>
-      <webElementGuid>a48940d0-38f0-44ec-aefb-a7593246b459</webElementGuid>
+      <webElementGuid>174fe0df-111e-4828-9b31-521114f3b232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TRATKatalonPrenom10'])[1]/preceding::div[3]</value>
-      <webElementGuid>33d61992-2484-4e8c-9e38-bdae7881144f</webElementGuid>
+      <webElementGuid>4c74501a-5cc3-427d-9686-c6f0a733d883</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/div</value>
-      <webElementGuid>e9126556-e677-4c7a-bd6c-6d9e52e32e09</webElementGuid>
+      <webElementGuid>98e331a4-f010-4805-bcad-d21770443ffd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Décision de la DG' or . = 'Décision de la DG')]</value>
-      <webElementGuid>76b1bf40-b704-4c8f-8142-0869b20bb332</webElementGuid>
+      <webElementGuid>9f2f5d6b-0a7d-425c-b32e-982b8703593b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>51001_AUTO14-2_UC2.2.3 alternatifs 3_Conv Stage-Un GRH signe un avenant de convention de stage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ab8ccf0-bb82-431c-90a7-30f665e2ddfa</testCaseGuid>
+</TestCaseEntity>

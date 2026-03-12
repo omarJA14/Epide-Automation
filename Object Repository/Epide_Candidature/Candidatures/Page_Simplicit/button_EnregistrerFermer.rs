@@ -6,12 +6,12 @@
    <elementGuidId>da1509f0-bfc7-48e6-beba-f953bf74f682</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.btn-saveclose</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>#form_NamJeune_the_ajax_NamJeune_0 >> internal:role=button[name=&quot;Enregistrer &amp; Fermer&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b511e0d9-e454-4712-9848-a2b57bafffeb</webElementGuid>
+      <webElementGuid>5a307658-85ba-4206-a38a-e2c67abb77a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-saveclose</value>
-      <webElementGuid>4ecc4e9f-d6b8-4774-9f0d-012890a725f9</webElementGuid>
+      <webElementGuid>b5886d8a-ebf3-4855-9015-636fcee8edd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>09a31e3a-3700-4a96-81b8-8e021f5810be</webElementGuid>
+      <webElementGuid>24839d2e-ac89-4985-90a9-ad0f1c4388c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>saveclose</value>
-      <webElementGuid>30fabab8-e783-467b-acd2-8d0897526625</webElementGuid>
+      <webElementGuid>0365af62-f4ee-417d-9751-93ed3e73aa19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enregistrer &amp; Fermer</value>
-      <webElementGuid>8d817033-9fd1-43bf-a525-6be074b7f626</webElementGuid>
+      <webElementGuid>7951d38d-4563-4fbd-bc1f-c83fd0f79c2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamJeune_the_ajax_NamJeune_0&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-primary btn-saveclose&quot;]</value>
-      <webElementGuid>35886ac3-099f-49e7-8aaf-582aef3a211e</webElementGuid>
+      <webElementGuid>c351b219-771f-4140-8527-fc7c40697143</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>162abf69-9bf4-4c2d-95f3-a4d253c8d684</webElementGuid>
+      <webElementGuid>d394afc5-68c1-4de5-a823-abb0c4d0f17a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamJeune_the_ajax_NamJeune_0']/div/div/div/div[2]/div/button</value>
-      <webElementGuid>8945d676-a9b0-40a6-bddc-10d4b7182e3b</webElementGuid>
+      <webElementGuid>5f7a3c5c-e5e4-4475-bf21-43dcaf65b862</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Créer Jeune'])[1]/following::button[1]</value>
-      <webElementGuid>b37eb0bf-117e-4fb0-a752-bde8e637f90c</webElementGuid>
+      <webElementGuid>89d43652-e852-4b04-b6a7-0735c2b9bb16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[2]/following::button[1]</value>
-      <webElementGuid>37aad160-282a-41d6-b34c-1f2442ccafac</webElementGuid>
+      <webElementGuid>07ce95df-3a17-45b3-a4b8-2a36af98c75d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fermer'])[3]/preceding::button[1]</value>
-      <webElementGuid>e1a3edec-bfb1-48ec-aae0-e568c5800ab4</webElementGuid>
+      <webElementGuid>7f70351b-2c47-4858-a4a3-8cbc66e43c31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/div[2]/div/button</value>
-      <webElementGuid>9cb2c772-00cd-4751-a8b0-fb735b8f38e8</webElementGuid>
+      <webElementGuid>2fe31852-6195-462d-8356-28961950cfc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Enregistrer &amp; Fermer' or . = 'Enregistrer &amp; Fermer')]</value>
-      <webElementGuid>2e04bae4-fc19-4f10-b295-8f383ed4f7fa</webElementGuid>
+      <webElementGuid>6d236012-860b-4ce2-ac3a-84684f824b63</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

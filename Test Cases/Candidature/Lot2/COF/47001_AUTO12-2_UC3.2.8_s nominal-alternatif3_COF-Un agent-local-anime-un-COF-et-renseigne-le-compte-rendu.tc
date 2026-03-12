@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>47001_AUTO12-2_UC3.2.8_s nominal-alternatif3_COF-Un agent-local-anime-un-COF-et-renseigne-le-compte-rendu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d0249e24-8e56-451c-b406-4c52108aa2b1</testCaseGuid>
+</TestCaseEntity>

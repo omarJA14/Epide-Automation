@@ -18,10 +18,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Gestion des volontaires &quot;i]</value>
+         <value>xpath=//a[normalize-space()='Gestion des volontaires']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b4b96d01-14ff-4d2e-b7d4-52708b7316a3</webElementGuid>
+      <webElementGuid>3d83a2c4-ad05-4cc9-8823-996793a7ac50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-domain</name>
       <type>Main</type>
       <value>NamDomaineVolontaire</value>
-      <webElementGuid>20ec6020-fb1c-406b-99c3-51a4937f4d1e</webElementGuid>
+      <webElementGuid>09f51d91-31e6-4123-a015-3a9ba22e114b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>js-sub-menu-toggle</value>
-      <webElementGuid>bc0a5337-1d68-401b-9a83-d15452439782</webElementGuid>
+      <webElementGuid>1e38c2ac-8995-40d0-bd26-47d344a36c3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Gestion des volontaires</value>
-      <webElementGuid>501fbb4e-b8ec-4532-9e3f-cdd82720e4e9</webElementGuid>
+      <webElementGuid>193fa244-3f3e-410f-8657-172dd942c9cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu&quot;)/nav[@class=&quot;main-nav&quot;]/ul[@class=&quot;main-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;sub-menu&quot;]/li[5]/a[@class=&quot;js-sub-menu-toggle&quot;]</value>
-      <webElementGuid>bcd65662-ae3c-4941-b4f5-d36dc440ec10</webElementGuid>
+      <webElementGuid>d6b0f127-9203-487e-a87a-4132b1eabfa0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu']/nav/ul/li/ul/li[5]/a</value>
-      <webElementGuid>edc3cebb-84bd-43bd-8241-9f291be0cbaf</webElementGuid>
+      <webElementGuid>af4f1482-9033-4b70-9675-9fd3c7bfd883</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidats'])[1]/following::a[1]</value>
-      <webElementGuid>bb647ae8-986d-4560-92a6-d3bbd81f4c9d</webElementGuid>
+      <webElementGuid>18a75d6f-52fa-4ca4-9dc7-3e2b93d25383</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidatures'])[1]/following::a[2]</value>
-      <webElementGuid>7ea5b6bf-af28-4138-9d5f-ea814856f705</webElementGuid>
+      <webElementGuid>ebd6f916-81d6-4cef-b853-08aa2db4a80e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Volontaires'])[1]/preceding::a[1]</value>
-      <webElementGuid>11dec732-029d-4e4b-b6df-1c03fb7a1c9a</webElementGuid>
+      <webElementGuid>9dfe9945-ffb8-4851-88d0-546c630cae44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[12]</value>
-      <webElementGuid>81c27ada-7ab4-4a54-afdb-8768f7e50d9a</webElementGuid>
+      <webElementGuid>54d6c9d5-8475-425a-99e9-c08a08c9764f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/a</value>
-      <webElementGuid>f3ef60d5-9d95-4db0-aa3a-e1e6b89cbb13</webElementGuid>
+      <webElementGuid>ebdd6759-c214-4165-8069-f9834785f99d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Gestion des volontaires' or . = 'Gestion des volontaires')]</value>
-      <webElementGuid>70b08111-059f-4438-801c-f8da7421fddf</webElementGuid>
+      <webElementGuid>b51ae5a2-c0bf-4061-9e78-1aa57264e7ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

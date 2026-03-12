@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42009_AUTO13-6_UC3.3.8 nominal_FSE-Avis du conseil de discipline</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e70999bd-2152-49e7-857a-4fdce051e124</testCaseGuid>
+</TestCaseEntity>

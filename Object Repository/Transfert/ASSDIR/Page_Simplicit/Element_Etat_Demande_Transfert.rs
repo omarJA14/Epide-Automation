@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_Etat_Demande_Transfert</name>
+   <tag></tag>
+   <elementGuidId>29717818-7720-4cd1-bece-d442d15170b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-left.enum</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@data-field='namDtcEtatDemandeTransfert']//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Décision de la DG&quot;i] >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>67836d9a-045e-4e54-bf39-43a17d6f96e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left enum</value>
+      <webElementGuid>3afe7771-93e1-4aff-af01-b51356738e98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Décision de la DG</value>
+      <webElementGuid>2f94558c-880e-4da9-8fc9-de34f573d5da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[2]/div[@class=&quot;text-left enum&quot;]</value>
+      <webElementGuid>cb45b2ab-4bd2-4002-9dca-fe1bb61c3cfc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamDemandeTransfertCentre_the_ajax_NamDemandeTransfertCentre']/div/div[2]/form/div/table/tbody/tr/td[2]/div</value>
+      <webElementGuid>7ea6185e-333a-491a-bada-d4f11caa7ce0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRATKatalonNom'])[1]/preceding::div[2]</value>
+      <webElementGuid>4d818aec-e44b-4725-ba05-6db5c94f9123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRATKatalonPrenom'])[1]/preceding::div[3]</value>
+      <webElementGuid>1e12ad3e-5796-4a60-b5e8-d049c07584df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div</value>
+      <webElementGuid>43031db9-72e0-44aa-a244-6dd0e591f978</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Décision de la DG' or . = 'Décision de la DG')]</value>
+      <webElementGuid>15c799cf-4223-477e-ba82-5d3d70b1abac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

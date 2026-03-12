@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_FI_Trakatalonfiprenom_i</name>
+   <tag></tag>
+   <elementGuidId>76ca0484-2fc6-4110-8adb-4902ecedd34b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='list_NamJeune_the_ajax_NamJeune']/div/div[2]/form/div/table/tbody/tr/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.list-clickable.js-resizable > td:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name^=&quot;Trakatalonfiprenom&quot;i]&#xd;
+</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>c46a1970-d1e8-421e-8292-d45179056048</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-field</name>
+      <type>Main</type>
+      <value>namPrenom</value>
+      <webElementGuid>4a2e234a-8b28-4139-aa64-f052ceafa160</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Trakatalonfiprenom</value>
+      <webElementGuid>8bb8f0d5-a70d-449e-8928-fb4400198654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_NamJeune_the_ajax_NamJeune&quot;)/div[@class=&quot;card panel-list&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;container-table table-responsive&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[@class=&quot;list-clickable js-resizable&quot;]/td[3]</value>
+      <webElementGuid>e3346bdd-ea2a-41fe-8f5c-97dcb85d05f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list_NamJeune_the_ajax_NamJeune']/div/div[2]/form/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>43e343a0-cd6d-4ba7-98aa-1c5eb9ae9942</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trakatalonfinom'])[1]/following::td[1]</value>
+      <webElementGuid>4a614807-bfdc-4866-a45c-660c839d464b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='katalontest@email.com'])[1]/preceding::td[3]</value>
+      <webElementGuid>f9324d73-001a-4dc0-bdbc-0a6ac8ba2f6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table/tbody/tr/td[3]</value>
+      <webElementGuid>5049109e-5e72-4d99-8fa4-588c1c3e0bce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Trakatalonfiprenom' or . = 'Trakatalonfiprenom')]</value>
+      <webElementGuid>11f19ade-1b02-4448-8f0e-986b2b7dff8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

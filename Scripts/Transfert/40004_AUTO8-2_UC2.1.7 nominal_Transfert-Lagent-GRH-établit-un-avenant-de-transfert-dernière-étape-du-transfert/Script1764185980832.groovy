@@ -38,11 +38,7 @@ for (int i = 1; i <= totalRows; i++) {
 	String centre_origine = data_signeravenant.getValue("Centre Epide Origine", i)
 	String centre_destination = data_signeravenant.getValue("Centre Epide Souhaité", i)
 		
-	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndClick'(findTestObject('Object Repository/Transfert/Centre_GRH/Page_Simplicit/Rub_GestionVolontaires'))
-	
-	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndClick'(findTestObject('Object Repository/Transfert/Centre_GRH/Page_Simplicit/Rub_Volontaires'))
-	
-	CustomKeywords.'Keywords.commun.UtilsEpide.searchJeuneInRubAndClick'(prenom)
+	CustomKeywords.'Keywords.commun.UtilsEpide.searchVolontaireAndClick'(prenom)
 	
 	CustomKeywords.'Keywords.commun.UtilsEpide.waitAndClick'(findTestObject('Object Repository/Transfert/Centre_GRH/Page_Simplicit/Rub_SituationsContractuelles'))
 	

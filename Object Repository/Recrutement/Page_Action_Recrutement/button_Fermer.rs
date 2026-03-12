@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Fermer&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>06ad4908-ff33-43c7-b629-4a424d18e5bc</webElementGuid>
+      <webElementGuid>a0d7c3db-456e-4059-b1fb-0fd73a36a28a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary btn-close</value>
-      <webElementGuid>b45cf91a-bd33-4ce6-8451-cf21657a5185</webElementGuid>
+      <webElementGuid>77740b88-7eda-4c61-9edf-93086f6a4947</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1f7465ca-f544-40d9-8fc9-47131f1d328e</webElementGuid>
+      <webElementGuid>b78a78d9-61f9-4773-b8ed-8604fcd16d64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>close</value>
-      <webElementGuid>c84e3bea-f437-454f-9eb6-cfd6b0e22698</webElementGuid>
+      <webElementGuid>50d57377-43dd-4132-9f8a-6db26575f084</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Fermer</value>
-      <webElementGuid>249efe7f-9baf-44b5-9aa1-f07af92298c6</webElementGuid>
+      <webElementGuid>c46d58b1-f635-43a2-a469-781ca0b05ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_NamAvisCandidat_the_ajax_NamAvisCandidat_48785&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;head&quot;]/div[@class=&quot;form-actionbar&quot;]/div[@class=&quot;actions pull-right&quot;]/button[@class=&quot;btn btn-secondary btn-close&quot;]</value>
-      <webElementGuid>18ed57ee-ae46-4604-8406-cad833556e9b</webElementGuid>
+      <webElementGuid>69b4157a-87a6-4d12-a45b-eb0031d9aec3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>e3b5bffe-2584-4071-add8-39417afa68f0</webElementGuid>
+      <webElementGuid>3bb1d443-8dd0-41e7-b88e-30cffaba3ec0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_NamAvisCandidat_the_ajax_NamAvisCandidat_48785']/div/div/div/div[2]/div/button[3]</value>
-      <webElementGuid>eecd8e63-12cf-4056-bb52-709353806ad8</webElementGuid>
+      <webElementGuid>2f6e5760-2b78-41ac-a8d5-43f1b60a8041</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copier le lien'])[1]/following::button[1]</value>
-      <webElementGuid>19483b3b-cd36-4ccb-962a-99b0b727e024</webElementGuid>
+      <webElementGuid>d936c7b3-0dad-4fd5-88cb-64bf5019080b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supprimer'])[1]/following::button[1]</value>
-      <webElementGuid>db95378f-8329-44c9-8ded-6c31c48e91ca</webElementGuid>
+      <webElementGuid>109108ab-3141-47e2-ab3b-b7a765f7d598</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>b1301201-373a-4e49-a373-bd0f36e19347</webElementGuid>
+      <webElementGuid>8e6ef012-21bd-4008-93f2-d5e1fc701515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Fermer' or . = 'Fermer')]</value>
-      <webElementGuid>a4f98395-891f-4f69-ab1b-9a1e265d6fc2</webElementGuid>
+      <webElementGuid>29cdf98c-cbd9-4a14-8e35-6fbe1d1b48d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
